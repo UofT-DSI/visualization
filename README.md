@@ -51,8 +51,6 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 ## Policies
 The course is a live-coding class. Students are expected to follow along with the coding. Students should be active participants while coding and are encouraged to ask questions throughout. Although slides will be available for students to reference, they should be referenced before or after class, as during class will be dedicated to coding with the instructor.
 
-**How to submit assignments, late policy, academic integrity.**
-
 ## Folder Structure
 Below are the folders contained in this repo with a description of what they contain and information on how to use them.
 
