@@ -36,7 +36,7 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 * Thursday 30 March, 6pm-8pm: Mapping data; interactive data visualization
 * Saturday 1 April, 9am-noon: Visualization: Review and Practice
 
-##Tutorials
+### Tutorials
 * Mondays: On Monday, March 13 (first day of the course), tutorial will take place at 5:00 PM - 6:00 PM (before class). Other Monday tutorials will take place after class (8:00 PM - 9:00 PM)
 * Thursdays: On Thursdays, tutorials will take place at 5:00 PM - 6:00 PM (before class).
 * Saturdays: On Saturdays, tutorials will take place before class (8:30 AM - 9:00 AM) and after class (12:00 PM - 12:30 PM)
