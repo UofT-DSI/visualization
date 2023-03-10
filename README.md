@@ -56,14 +56,11 @@ The course is a live-coding class. Students are expected to follow along with th
 ## Folder Structure
 Below are the folders contained in this repo with a description of what they contain and information on how to use them.
 
-### 1. *Assignments*:
+### *Assignments*:
 This folder contains the assignments for the workshop. Students are expected to complete them one week after the content has been delivered.
 
-### 2. *Lessons*:
+### *Lessons*:
 This folder contains the pdf version of the slides. They contain all information that was discussed in class and are a great resource in the future if students need to reassess their knowledge.
-
-### 3. *Post-course*:
-This folder contains the exit surveys for students to complete. It holds both the md and docx versions of the survey.
 
 ## Acknowledgements and Contributions
 ## Achnowledgements
