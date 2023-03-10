@@ -1,14 +1,5 @@
 # DSI Course for Data Visualization
 
-## Contents:
-1. [Description](https://github.com/rachaellam/dsi-workshop#description)
-2. [Learning Outcomes](https://github.com/rachaellam/dsi-workshop#learning-outcomes)
-3. [Logistics](https://github.com/rachaellam/dsi-workshop#logistics)
-4. [Marking Scheme](https://github.com/rachaellam/dsi-workshop#marking-scheme)
-5. [Policies](https://github.com/rachaellam/dsi-workshop#policies)
-6. [Folder Structure](https://github.com/rachaellam/dsi-workshop#folder-structure)
-7. [Acknowledgements and Contributions](https://github.com/rachaellam/dsi-workshop#acknowledgements-and-contributions)
-
 ## Description:
 Regardless of the quality of your analyses and data-related findings, if you cannot effectively communicate them, their impact will be severely limited. Technical skills in this module will focus on a step-by-step walk through the process of choosing, creating, and modifying data visualizations in R using ggplot (following ‘Data Visualization: A Practical Introduction’ by Healy (2018)). Discussions will include general design principles applicable to other data visualization software used in industry and academia (eg. Python, Tableau, PowerBI). Case studies and ‘real world’ examples are incorporated throughout. Ethics components include incorporating reproducibility with data visualization, building awareness of the decision making that goes into sharing data visually, and addressing inequity in data visualization by focusing on accessible design.
 
@@ -45,7 +36,7 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 * Thursday 30 March, 6pm-8pm: Mapping data; interactive data visualization
 * Saturday 1 April, 9am-noon: Visualization: Review and Practice
 
-###Tutorials
+##Tutorials
 * Mondays: On Monday, March 13 (first day of the course), tutorial will take place at 5:00 PM - 6:00 PM (before class). Other Monday tutorials will take place after class (8:00 PM - 9:00 PM)
 * Thursdays: On Thursdays, tutorials will take place at 5:00 PM - 6:00 PM (before class).
 * Saturdays: On Saturdays, tutorials will take place before class (8:30 AM - 9:00 AM) and after class (12:00 PM - 12:30 PM)
