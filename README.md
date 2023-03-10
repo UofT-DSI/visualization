@@ -27,14 +27,12 @@ Students will...
 * Instructor: **Ciara Zogheib** (She/Her).
   * To contact me, please email me at ciara.zogheib@mail.utoronto.ca, and include 'DSI Data Visualization' in the subject line!
   * I'll do my best to respond promptly, but please be patient!
-* TA: TBD
 
 ### Delivery instructions
 The workshop will be held over three weeks, three days a week. Two of the three days will be 2-hours long and the last day of each will be 3-hours. Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
 
 ### Technology Requirements
 * Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
-
 
 ### Lesson Schedule
 * Monday 13 March, 6pm-8pm: Overview and introduction, setting up ggplot in R
@@ -47,6 +45,10 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 * Thursday 30 March, 6pm-8pm: Mapping data; interactive data visualization
 * Saturday 1 April, 9am-noon: Visualization: Review and Practice
 
+###Tutorials
+* Mondays: On Monday, March 13 (first day of the course), tutorial will take place at 5:00 PM - 6:00 PM (before class). Other Monday tutorials will take place after class (8:00 PM - 9:00 PM)
+* Thursdays: On Thursdays, tutorials will take place at 5:00 PM - 6:00 PM (before class).
+* Saturdays: On Saturdays, tutorials will take place before class (8:30 AM - 9:00 AM) and after class (12:00 PM - 12:30 PM)
 
 ## Policies
 The course is a live-coding class. Students are expected to follow along with the coding. Students should be active participants while coding and are encouraged to ask questions throughout. Although slides will be available for students to reference, they should be referenced before or after class, as during class will be dedicated to coding with the instructor.
@@ -54,18 +56,15 @@ The course is a live-coding class. Students are expected to follow along with th
 ## Folder Structure
 Below are the folders contained in this repo with a description of what they contain and information on how to use them.
 
-### 1 *assignments*:
+### 1. *Assignments*:
 This folder contains the assignments for the workshop. Students are expected to complete them one week after the content has been delivered.
 
-### 2. *lessons*:
+### 2. *Lessons*:
 This folder contains the pdf version of the slides. They contain all information that was discussed in class and are a great resource in the future if students need to reassess their knowledge.
 
-### 3. *post-course*:
+### 3. *Post-course*:
 This folder contains the exit surveys for students to complete. It holds both the md and docx versions of the survey.
 
 ## Acknowledgements and Contributions
 ## Achnowledgements
 * We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
-### Contributions 
-* `bash-git-github` welcomes issues, enhancement requests, and other contributions. To submit an issue, use the [GitHub
-issues](https://github.com/anjalisilva/bash-git-github/issues).
