@@ -1,0 +1,31 @@
+---
+title: "Class1_20231013_DataVisualization_Apichat"
+author: "Apichat Photi-A"
+date: "13/03/2023"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(socviz)
+library(ggplot2)
+library(tidyverse)
+#install.packages("gapminder")
+library(gapminder)
+
+#attach the data
+gapminder
+
+#plot the graph
+p <- ggplot(data = gapminder,
+       mapping = aes(x=gdpPercap, y = lifeExp))
+p + geom_point()
+```
+Criticize the graph
+_**Answer**_ We need a unit for each axis and we can't get much information from this plot, just trend!!!
