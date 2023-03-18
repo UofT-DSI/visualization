@@ -1,0 +1,327 @@
+---
+title: "Class3_20231018_DataVisualization_Apichat"
+author: "Apichat Photi-A"
+date: "18/03/2023"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#attach the libraries
+library(socviz)
+library(ggplot2)
+library(tidyverse)
+#install.packages("gapminder")
+library(gapminder)
+
+#attach the data
+gapminder
+```
+
+```{r}
+#plot the graph of life expectancy over GDPperCap (from last class)
+p <- ggplot(data = gapminder,
+       mapping = aes(x=gdpPercap, y = lifeExp, 
+                     color = continent))
+
+p + geom_point(alpha = 0.3) + geom_smooth(method = 'lm') + scale_x_log10(labels = scales::dollar)
+```
+
+```{r}
+#plot the graph of GDP over time per country
+p <- ggplot(data = gapminder,
+       mapping = aes(x= year, y = gdpPercap, 
+                     color = continent))
+p + geom_line(aes(group = country))
+
+```
+
+```{r}
+#add the facet_wrap to break up the data into pieces too make a small multiple plot
+p <- ggplot(data = gapminder,
+       mapping = aes(x= year, y = gdpPercap, 
+                     color = continent))
+p + geom_line(aes(group = country)) + facet_wrap(~continent)
+
+```
+
+**Improving our plot**
+aesthetic, substantive, and perceptual characteristics of our plot:
+1. Make country trends light grey colour
+2. Add a trend line
+3. Make y axis logarithmic and show that values are in dollars
+4. Try to fit all five facets on a single row (5 columns)
+5. Add axis labels and graph title
+
+```{r}
+#add the facet_wrap to break up the data into pieces too make a small multiple plot
+p <- ggplot(data = gapminder,
+       mapping = aes(x= year, y = gdpPercap, 
+                     color = continent))
+p + geom_line(color = "gray70", aes(group = country)) + 
+  geom_smooth(size=1.1, method="loess", se = FALSE) + 
+  scale_y_log10(labels = scales::dollar) + 
+  facet_wrap(~continent, ncol = 5) + 
+  labs(x = "Year",
+       y = "GDP per capita",
+       Title = "GDP per capita on Five Continents")
+
+```
+```{r}
+#attach new dataset
+attach(gss_sm) 
+#A dataset containing an extract from the 2016 General Social Survey. 
+#See http://gss.norc.org/Get-Documentation for full documentation of the variables.
+
+#Using facet_grid()
+p <- ggplot(data=gss_sm, mapping = aes(x=age, y=childs))
+p + geom_point(alpha=0.2) + geom_smooth() + facet_grid(sex~race)
+```
+
+let's try stat_functions
+```{r}
+p <- ggplot(data=gss_sm, mapping = aes(x = bigregion))
+p+ geom_bar()
+```
+
+```{r}
+#show the relative frequencies rather than counts, we can use the prop (proportion)
+p <- ggplot(data=gss_sm, mapping = aes(x = bigregion))
+p+ geom_bar(mapping = aes(y=..prop..))
+```
+```{r}
+#We create a ‘dummy group’ with group = 1 to tell ggplot to use the whole dataset when establishing the denominator for..prop.. calculations
+p <- ggplot(data=gss_sm, mapping = aes(x = bigregion))
+p+ geom_bar(mapping = aes(y=..prop.., group  = 1))
+```
+
+```{r}
+#The variable religion is a categorical variable about participants’ religious affiliation
+# We can plot religious affiliation by census region as a bar chart, and colour the bars differently for each religion:
+p <- ggplot(data=gss_sm, mapping = aes(x = bigregion, fill = religion))
+p+ geom_bar()
+```
+```{r}
+#Now we can compare proportions across groups
+# BUT we cannot see the relative size of each cut with respect to the overall total
+# Our frequency chart can benefit from faceting!
+p <- ggplot(data=gss_sm, mapping = aes(x = bigregion, fill = religion))
+p+ geom_bar(position = "fill")
+```
+
+```{r}
+#Now we can compare proportions across groups
+# BUT we cannot see the relative size of each cut with respect to the overall total
+# Our frequency chart can benefit from faceting!
+p <- ggplot(data=gss_sm, mapping = aes(x = bigregion, fill = religion))
+p+ geom_bar(position = "dodge", mapping = aes(y = ..prop.., group = bigregion) + 
+              facet_wrap(~bigregion, ncol = 1))
+```
+Histograms - Choosing bins
+```{r}
+attach(midwest)
+p <- ggplot(data=midwest, mapping = aes(x = area))
+p + geom_histogram(bins = 20)
+```
+
+```{r}
+# comparing histograms
+oh_wi <- c("OH", "WI")
+
+p <- ggplot(data = subset(midwest, subset = state %in% oh_wi),
+            mapping = aes(x = percollege, fill = state))
+p + geom_histogram(alpha = 0.4, bins = 20)
+```
+
+```{r}
+midwest
+
+#Density plot
+p <- ggplot(data =  midwest, mapping = aes(x = area))
+p+ geom_density()
+
+#create a subset
+oh_wi <- c("OH", "WI")
+p <- ggplot(data =  subset(midwest, subset = state %in% oh_wi), 
+mapping = aes(x = area, fill = state, color = state))
+p+ geom_density(alpha = 0.3)
+```
+
+_**Part2**_
+
+
+![Resource picture](/Users/apichatphoti-a/Desktop/Data Science Course/5_Data visualization/07-visualization-main/Class3_picture1.png)
+
+- What information can we learn from this visualization?
+
+**Answer**
+Relationship between the stolen guns and the people killed
+# people killed, # of projected years cut short; not objective as projected years are speculative (assuming based on statistical likelihood)
+
+- Is this an example of objective, neutral data visualization? Why or why not?
+
+**Answer**
+It shows only the numbers. 
+
+What we want our data viz to do?
+
+**Intended purpose**
+- Persuading
+- Comparison
+- Evaluation
+- Exploring
+
+**Intended audience**
+- Age
+- Education
+- Expertise
+- Accessibility
+
+**Intended medium**
+- Print
+- Web 
+- Poster
+- Presentation
+
+How is our data visualization perceived? 
+
+![Gestalt#1](/Users/apichatphoti-a/Desktop/Data Science Course/5_Data visualization/07-visualization-main/Class3_picture2_Gestalt.png)
+
+![Gestalt#2](/Users/apichatphoti-a/Desktop/Data Science Course/5_Data visualization/07-visualization-main/Class3_picture3_Gestalt.png)
+
+![Gestalt#3](/Users/apichatphoti-a/Desktop/Data Science Course/5_Data visualization/07-visualization-main/Class3_picture4_Gestalt.png)
+
+_**Cognitive load**_ can be divided into:
+Intrinsic (the intrinsic complexity of the new
+Germane (the audience’s familiarity with the
+Extraneous (complexity from how the information is presented)
+
+![Cognitive load](/Users/apichatphoti-a/Desktop/Data Science Course/5_Data visualization/07-visualization-main/Class3_picture5_Cognitive load.png)
+
+To find the useful dataviz catalogue, visit the [DataViz catalogue](https://datavizcatalogue.com/search.html) 
+
+[Interactive version](https://community.powerbi.com/t5/Data-Stories-Gallery/FT-Visual-Vocabulary-Power-BI-Edition/td-p/584460) 
+
+[Stationary version](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/poster.png)
+
+_**Part3**_
+```{r}
+organdata
+#A dataset containing data on rates of organ donation for seventeen OECD countries between 1991 and 2002. 
+```
+```{r}
+organdata |>select(1:6) |>sample_n(size = 10)
+#select from col 1 to 6 
+#random sample for 10 rows
+```
+
+```{r}
+#continuous variables by group or category
+p <- ggplot(data = organdata, mapping = aes(x = year, y = donors))
+
+p + geom_line(aes(group = country)) + facet_wrap(~country)
+```
+```{r}
+#create the geom_boxplot()
+p <- ggplot(data = organdata, mapping = aes(x = country, y = donors))
+
+p + geom_boxplot()
+```
+```{r}
+#improving the boxplot by adding coord_flip()
+p <- ggplot(data = organdata, mapping = aes(x = country, y = donors))
+
+p + geom_boxplot() + coord_flip()
+```
+
+```{r}
+#improving the boxplot by reordering
+p <- ggplot(data = organdata, mapping = aes(x = reorder(country, donors, na.rm = TRUE), y = donors))
+
+p + geom_boxplot() + coord_flip()
+```
+```{r}
+#improving the boxplot by reordering alphabettically
+p <- ggplot(data = organdata, mapping = aes(x = reorder(country, country, na.rm = TRUE), y = donors))
+
+p + geom_boxplot() + coord_flip()
+```
+
+```{r}
+#improving the boxplot by coloring the world variable
+p <- ggplot(data = organdata, mapping = aes(x = reorder(country, donors, na.rm = TRUE), y = donors, color = world))
+
+p + geom_boxplot() + coord_flip()
+```
+
+```{r}
+#improving the boxplot by changing into a point plot
+p <- ggplot(data = organdata, mapping = aes(x = reorder(country, donors, na.rm = TRUE), y = donors, color = world))
+
+p + geom_point() + coord_flip()
+```
+```{r}
+#improving the boxplot by changing into a point plot and remove coord_flip()
+p <- ggplot(data = organdata, mapping = aes(x = reorder(country, donors, na.rm = TRUE), y = donors, color = world))
+
+p + geom_point()
+```
+
+Summarizing the data
+```{r}
+by_country <- organdata |> group_by(consent_law, country) |> summarize_if(is.numeric, funs(mean, sd), na.rm = TRUE) |> ungroup()
+#if our col is a numeric, it will calculate the mean and SD
+#exclude NA data by using na.rm = TRUE
+```
+
+**Categorical variables with a single point**
+Now that we have summarized our data, we can make our Cleveland dotplot using geom_point()
+We will also
+- Colour our results by the consent law for each country
+- Move our legend to the top of our plot
+
+```{r}
+p <- ggplot(data = by_country, mapping = aes(x = donors_mean, y = reorder(country, donors_mean), color = consent_law))
+
+p + geom_point(size = 3) + 
+  labs(x = "Donor Precurement Rate", 
+       y = "", color = "Consent Law") + 
+  theme(legend.position = "top") 
+
+```
+
+##Adding text labels to data points
+```{r}
+p <- ggplot(data = by_country, mapping = aes(x = roads_mean, y = donors_mean))
+
+p + geom_point(size = 1) + geom_text(mapping = aes(label = country), hjust = 0)
+```
+
+#load the library ggrepel
+```{r}
+library(ggrepel)
+
+elections_historic
+
+```
+```{r}
+p <- ggplot(elections_historic, aes(x = popular_pct, y = ec_pct, label = winner_label))
+
+p + geom_hline(yintercept = 0.5, size = 1.4, color = "gray80") + 
+  #We add reference lines so we can see the 50% threshold of votes on each axis.by geom_hline
+  geom_vline(xintercept = 0.5, size = 1.4, color = "gray80") + 
+  geom_point() + 
+  #geom_text_repel() will ensure that our data labels do not overlap.
+  geom_text_repel() + 
+  #Vote shares are stored as proportions rather than percents, so we adjust the labels of the scales.
+  scale_x_continuous(labels = scales::percent) + 
+  scale_y_continuous(labels = scales::percent) + 
+  labs(x = "Winner's share of Popular Vote", y = "Winner;s share of Electroral College Votes", title ="Presidential Elections: Popular & Electoral College Margins", subtitle = "1824 - 2016")
+```
+
+[Reference](https://support.posit.co/hc/en-us/articles/219949047-Installing-older-versions-of-packages) 

@@ -1,0 +1,146 @@
+---
+title: "Class2_20231016_DataVisualization_Apichat"
+author: "Apichat Photi-A"
+date: "16/03/2023"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#attach the libraries
+library(socviz)
+library(ggplot2)
+library(tidyverse)
+#install.packages("gapminder")
+library(gapminder)
+
+#attach the data
+gapminder
+```
+[Recommended website]: https://www.r-graph-gallery.com/all-graphs.html
+
+Making a picture with a ample dataset
+```{r}
+#plot the graph
+p <- ggplot(data = gapminder,
+       mapping = aes(x=gdpPercap, y = lifeExp))
+p + geom_point()
+
+#make it smooth 
+p + geom_smooth()
+```
+```{r}
+#make the graph in to a linear line 
+p + geom_smooth(method = 'lm')
+```
+
+```{r}
+#mix both plot and line grapg together
+p + geom_point() + geom_smooth(method = 'lm')
+```
+```{r}
+#make it prettier by using x_log10()
+p + geom_point() + geom_smooth(method = 'lm') + scale_x_log10()
+```
+```{r}
+#add the labels on X axis(dollars)
+p + geom_point() + geom_smooth(method = 'lm') + scale_x_log10(labels = scales::dollar)
+```
+
+References:
+[Recommended website]: http://www.sthda.com/english/wiki/ggplot2-axis-scales-and-transformations#use-scale_xx-functions
+[Recommended website]: https://ggplot2-book.org/scale-position.html
+[Recommended website]: https://www.r-graph-gallery.com/all-graphs.html
+
+```{r}
+#plot the graph
+p <- ggplot(data = gapminder,
+       mapping = aes(x=gdpPercap, y = lifeExp, 
+                     color = continent))
+
+p + geom_point() + geom_smooth(method = 'lm') + scale_x_log10(labels = scales::dollar)
+```
+
+```{r}
+#plot the graph
+p <- ggplot(data = gapminder,
+       mapping = aes(x=gdpPercap, y = lifeExp, 
+                     color = continent))
+
+p + geom_point(alpha = 0.3) + geom_smooth(method = 'lm') + scale_x_log10(labels = scales::dollar)
+```
+
+```{r}
+#plot the graph
+p <- ggplot(data = gapminder,
+       mapping = aes(x=gdpPercap, y = lifeExp))
+
+p + geom_point(alpha = 0.3) + geom_smooth(method = 'lm') + scale_x_log10(labels = scales::dollar)
+```
+
+Saving our plots 
+```{r}
+#save the plot
+ggsave(filename = "sampleimage.png")
+ggsave(filename = "sampleimage.pdf")
+ggsave(filename = "sampleimage.png", height = 8, width = 10, units = "in")
+
+```
+
+https://www.r-graph-gallery.com/all-graphs.html
+
+# ```{r}
+# install.packages("rgl")
+# library(rgl)
+# install.packages("magick")
+# library(magick)
+# install.packages("plot3D")
+# library(plot3D)
+# 
+# # Let's use the iris dataset
+# attach(iris)
+# 
+# # This is ugly
+# colors <- c("royalblue1", "darkcyan", "oldlace")
+# iris$color <- colors[ as.numeric( as.factor(iris$Species) ) ]
+# 
+# # Static chart
+# plot3D(iris[,1], iris[,2], iris[,3], col = iris$color, type = "s", radius = .2)
+# 
+# # We can indicate the axis and the rotation velocity
+# play3D( spin3d( axis = c(0, 0, 1), rpm = 20), duration = 10 )
+# 
+# # Save like gif
+# movie3d(
+#   movie="3dAnimatedScatterplot", 
+#   spin3d( axis = c(0, 0, 1), rpm = 7),
+#   duration = 10, 
+#   dir = "~/Desktop",
+#   type = "gif", 
+#   clean = TRUE
+# )
+# 
+# ```
+
+```{r}
+
+#attach the libraries
+library(ggplot2)
+library(dplyr)
+
+#load the dataset
+data <- gapminder
+  #read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/1_OneNum.csv", header=TRUE)
+
+#make the histogram
+# data %>%
+#   filter( gapminder$infant_mortality<50 ) %>%
+#   ggplot( aes(x=year)) +
+#     geom_density(fill="#69b3a2", color="#e9ecef", alpha=0.8)
+```
+
