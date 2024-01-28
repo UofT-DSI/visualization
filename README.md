@@ -17,9 +17,13 @@ By the end of this module, you will be able to:
 * Instructor: **Ciara Zogheib** (She/Her).
   * To contact me, please email me at ciara.zogheib@mail.utoronto.ca, and include 'DSI Data Visualization' in the subject line!
   * I'll do my best to respond promptly, but please be patient!
+* TA: **Amanda Ng**
+  * To contact, please email waiyuamanda.ng@mail.utoronto.ca, and include 'DSI' Data Visualization' in the subject line
 
 ### Delivery instructions
 The workshop will be held over two weeks, four days a week.  Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
+
+Office hours with the TA will be held for half an hour before and after class on Mondays and Tuesdays (5:30-6:00 and 8:30-9:00), and for an hour after class on Wednesdays and Thursdays (8:30-9:30). Use office hours to discuss assignments with the TA or to ask about activities from class.
 
 ### Technology Requirements
 * Camera is optional although highly encouraged. I understand that not everyone may have the space at home to have the camera on.
