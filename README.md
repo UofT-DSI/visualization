@@ -85,7 +85,7 @@ Feel free to use the following as resources:
 - [MatPlotLib Playlist](https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_)
 
 ### How to get help
-![image](/Steps%20to%20ask%20for%20help.png)
+![image](/steps-to-ask-for-help.png)
 
 <hr>
 
