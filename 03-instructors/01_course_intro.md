@@ -358,11 +358,9 @@ of the Day’:
 
 --- 
 
-# Learning Objectives of this Course
+# Learning Outcomes of this Course
 
-1. Develop ability to **create and customize data visualizations** start to finish in Python
-
-2. Build an understanding of general design principles for creating **accessible and equitable** data visualizations in Python and other software
-
-3. Build an understanding of **data visualization as purposeful/telling a story** (and the ethical/professional implications thereof )
+1. Create and customize data visualizations start to finish in Python
+2. Use general design principles for creating accessible and equitable data visualizations in Python and other software
+3. Use data visualization to purposely tell a story
 
