@@ -68,10 +68,7 @@ Learners are encouraged to be active participants while coding and are encourage
 * TBD: Exploring matplotlib, reproducible data visualization
 * TBD: Customizing our plots
 * TBD: Choosing the right visualization 
-* TBD: Subplots and combining visualizations
-* TBD: Accessible data visualization
-* TBD: Data visualization as advocacy, beyond matplotlib
-* TBD: Industry guest speaker, course review
+* TBD: Subplots and combining visualizations + Accessible data visualization
 
 ## Resources
 Feel free to use the following as resources:

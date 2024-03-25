@@ -14,11 +14,14 @@ The `/02-assignments` directory is the second directory containing the assignmen
 
 ### Week 1
 
-TBD
+* TBD: Intro and overview, getting started with matplotlib
+* TBD: Exploring matplotlib, reproducible data visualization
+* TBD: Customizing our plots
 
 ### Week 2
 
-TBD
+* TBD: Choosing the right visualization 
+* TBD: Subplots and combining visualizations + Accessible data visualization
 
 ## How do you assign assignments?
 Assignments are given and assigned at the start of each week at the end of the first lecture. The instructor will announce to the learners what the assignment is about, and how everything they will learn within the week will equip them to work on the assignment.
