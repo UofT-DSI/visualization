@@ -4,7 +4,7 @@
 * [Description](#description)
 * [Learning Outcomes](#learning-outcomes)
 * [Logistics](#logistics)
-  + [Course Contacts](#course-contacts)
+  + [Module Contacts](#module-contacts)
   + [Delivery of module](#delivery-of-module)
   + [How the Instructor will deliver](#how-the-instructor-will-deliver)
   + [Expectations](#expectations)
@@ -21,7 +21,7 @@
 ## Description
 Regardless of the quality of your analyses and data-related findings, if you cannot effectively communicate them, their impact will be severely limited. Technical skills in this module will focus on a step-by-step walk through the process of choosing, creating, and modifying data visualizations in Python. Discussions will include general design principles applicable to other data visualization software used in industry and academia (eg. R, Tableau, PowerBI). Case studies and ‘real world’ examples are incorporated throughout. Ethics components include incorporating reproducibility with data visualization, building awareness of the decision making that goes into sharing data visually, and addressing inequity in data visualization by focusing on accessible design.
 
-This course is designed for those who have a degree in something other than Computer Science/Statistics who are looking to enhance their data science and data visualization skills for their career.
+This Module is designed for those who have a degree in something other than Computer Science/Statistics who are looking to enhance their data science and data visualization skills for their career.
 
 ## Learning Outcomes
 By the end of this module, you will be able to:
@@ -32,7 +32,7 @@ By the end of this module, you will be able to:
 
 ## Logistics
 
-### Course Contacts
+### Module Contacts
 **Questions can be submitted to the #questions channel on Slack**
 
 * Instructor: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
@@ -48,8 +48,8 @@ The instructors will introduce the concepts through a collaborative live coding 
 Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
 
 ## Policies
-* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this course more accessible to you, please let us know.
-* **Course communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Visualization" or similar in the subject line, e.g. "DSI-Visualization: Visualization question"
+* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this Module more accessible to you, please let us know.
+* **Module communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Visualization" or similar in the subject line, e.g. "DSI-Visualization: Visualization question"
 * **Camera:** Keeping your camera on is optional.
 * **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
 * **Assessment:** There will be homework which **is not** graded, but highly recommended, and there will be two assignments which **are** graded.
@@ -95,7 +95,7 @@ Feel free to use the following as resources:
 |-- .gitignore
 ```
 
-* **slides:** Course slides as powerpoint slides (.pptx)
+* **slides:** Module slides as powerpoint slides (.pptx)
 * **assignments:** Graded assignments
 * **instructors:** Instructions for the Instructor on what to teach
 * README: This file!
