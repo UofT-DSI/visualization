@@ -82,7 +82,7 @@ Feel free to use the following as resources:
 - [MatPlotLib Playlist](https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_)
 
 ### How to get help
-![image](/steps-to-ask-for-help.png)
+![image](/steps_to_ask_for_help.png)
 
 <hr>
 
@@ -95,7 +95,7 @@ Feel free to use the following as resources:
 ├── 03-instructors
 ├── LICENSE
 ├── README.md
-└── steps-to-ask-for-help.png
+└── steps_to_ask_for_help.png
 ```
 
 * **slides:** Module slides as powerpoint slides (.pptx)
