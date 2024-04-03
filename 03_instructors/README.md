@@ -1,16 +1,16 @@
 # Technical Facilitator Playbook
 
 ## How do you interact with the repo?
-The Technical Facilitator will teach using the content provided in the `/01-slides` directory. You are allowed to live code with them during your lecture. Just make sure you upload the live-coding files to a new directory called `/live-coding` under `/01-slides` to this repository using a new branch and open up a pull request for it to be merge.
+The Technical Facilitator will teach using the content provided in the `/01_slides` directory. You are allowed to live code with them during your lecture. Just make sure you upload the live_coding files to a new directory called `/live_coding` under `/01_slides` to this repository using a new branch and open up a pull request for it to be merge.
 
 ## How does the module flow?
 The module is organized into 3 main directories:
 1. Slides
 2. Assignments
 
-The `/01-slides` directory would be the first directory anyone would see, and contains the lecture slides, learning outcomes, and anything related to the learning outcomes such as live-coding files.
+The `/01_slides` directory would be the first directory anyone would see, and contains the lecture slides, learning outcomes, and anything related to the learning outcomes such as live_coding files.
 
-The `/02-assignments` directory is the second directory containing the assignments that would be marked as a `pass` or `fail`.
+The `/02_assignments` directory is the second directory containing the assignments that would be marked as a `pass` or `fail`.
 
 ### Week 1
 

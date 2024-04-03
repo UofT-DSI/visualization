@@ -42,7 +42,7 @@ By the end of this module, you will be able to:
 The module will run sychronously up three times a week on Zoom. The first three days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last day is used for as optional, asychronous work period. The work periods will also last for up to 3 hours. During these days, an Technical Facilitator or TA will be present on Zoom to assist learners reach the intended learning outcomes.
 
 ### How the Technical Facilitator will deliver
-The Technical Facilitators will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01-slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `/live-code`.
+The Technical Facilitators will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01_slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `/live_code`.
  
 ### Expectations
 Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
@@ -90,9 +90,9 @@ Feel free to use the following as resources:
 
 ```markdown
 .
-├── 01-slides
-├── 02-assignments
-├── 03-instructors
+├── 01_slides
+├── 02_assignments
+├── 03_instructors
 ├── LICENSE
 ├── README.md
 └── steps_to_ask_for_help.png

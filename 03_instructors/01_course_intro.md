@@ -227,7 +227,7 @@ But data visualization is not always so straightforward...
 
 # Tableau, Tableau Public
 
-![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization-4.png)
+![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization_4.png)
 
 | | |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -251,7 +251,7 @@ of the Day’:
 
 # Microsoft Power BI
 
-![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization-6.png)
+![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization_6.png)
 
 |                              |                                                                                                                |
 |------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -273,7 +273,7 @@ of the Day’:
 
 # R
 
-![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization-5.png)
+![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization_5.png)
 
 |                              |                                                                                                                |
 |------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -292,7 +292,7 @@ of the Day’:
 
 # Python
 
-![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization-7.png)
+![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization_7.png)
 
 |                              |                                                                                                                |
 |------------------------------|----------------------------------------------------------------------------------------------------------------|
