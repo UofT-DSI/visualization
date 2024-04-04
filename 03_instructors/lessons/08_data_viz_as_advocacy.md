@@ -301,7 +301,7 @@ REFERENCES
 
 # Representation: What data are we seeing?
 
-- Data, defined broadly, can include “[words or stories, colors or sounds, or any type of information that is systematically collected, organised and analysed](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)”
+- Data, defined broadly, can include “[words or stories, colors or sounds, or any type of information that is systematically collected, organized and analyzed](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)”
 
 - While visualizing data, we should question the ways in which our work incorporates or excludes less conventional kinds of data, including stories, artwork, and testimonials of lived experience; and the ways that these exclusions can enforce existing power structures
 
