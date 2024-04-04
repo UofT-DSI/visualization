@@ -42,14 +42,14 @@ I wish to acknowledge this land on which the University of Toronto operates. For
 
 - This visualization is [often cited](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/something-in-the-water-the-mythology-of-snows-map-of-cholera/) as one of the early origins of the field of epidemiology.
 
-![bg left:50% w:600](./images/location_of_cholera_deaths.png)
+![bg left:50% w:600](./images/01_location_of_cholera_deaths.png)
 
 
 --- 
 
 - This 1858 visualization by Florence Nightingale shows soldiers’ deaths due to wounds in battle (pink), other causes (black), and disease (blue) and was [used to advocate](https://wellcomecollection.org/works/jxwtskzc/items?canvas=7) for prioritizing nutrition, ventilation, and shelter, revolutionizing army medicine.
 
-![bg left:50% w:500](./images/diagram_of_the_causes_of_mortality.png)
+![bg left:50% w:500](./images/01_diagram_of_the_causes_of_mortality.png)
 
 --- 
 
@@ -71,7 +71,7 @@ But data visualization is not always so straightforward...
 
 - In 1997, Edward Tufte famously published a visualization showing the relationship between temperature during launches of test shuttle flights (pre-*Challenger*) and incidents of damage to O-rings (image: Tufte, 1997 👇)
 
-![](./images/tufte_1997.png)
+![](./images/01_tufte_1997.png)
 
 --- 
 
@@ -80,7 +80,7 @@ But data visualization is not always so straightforward...
 - Tufte’s graph seems to show that as launch temperatures decreased, O-ring incident rate increased; thus, by launching at temperatures lower than those tested, NASA unnecessarily endangered _Challenger_ (image: Tufte, 1997 👇)
 
 
-![](./images/tufte_1997_arrow.png)
+![](./images/01_tufte_1997_arrow.png)
 
 --- 
 
@@ -99,7 +99,7 @@ But data visualization is not always so straightforward...
 - The accuracy of Tufte’s visualization has [been](https://link.springer.com/content/pdf/10.1007/978-3-319-45193-0_12.pdf) [debated](https://link.springer.com/content/pdf/10.1007/s11948-002-0033-2.pdf), with Robison identifying several errors in Tufte’s use of data.
 - Robison suggests that only one test launch had actually produced relevant O-ring temperature data, producing this visual instead: (image: Robison, 1997, 2002 👇)
 
-![](./images/robinson_1997_2002.png)
+![](./images/01_robinson_1997_2002.png)
 
 --- 
 
@@ -135,25 +135,25 @@ But data visualization is not always so straightforward...
 
 --- 
 
-![bg w:800](./images/healy_2018.png)
+![bg w:800](./images/01_healy_2018.png)
 
 --- 
 
-![bg w:700](./images/healy_2018_2.png)
+![bg w:700](./images/01_healy_2018_2.png)
 
 --- 
 
-![](./images/healy_2018_3.png)
+![](./images/01_healy_2018_3.png)
 (The same data presented with two different aspect ratios)
 
 --- 
 
-![bg w:700](./images/2012_presidential_run.png)
+![bg w:700](./images/01_2012_presidential_run.png)
 
 --- 
 
 
-[![w:900](./images/wind_map.png)](http://hint.fm/wind/)
+[![w:900](./images/01_wind_map.png)](http://hint.fm/wind/)
 (Click image to view interactive visualization)
 
 --- 
@@ -200,13 +200,13 @@ But data visualization is not always so straightforward...
 # Tools for Data Visualization 
 
 <!-- each png file can be found in the tools_for_data_visualization directory -->
-![](./images/tools_for_data_visualization.png)
+![](./images/01_tools_for_data_visualization.png)
 
 --- 
 
 # Microsoft Excel (LibreOffice Calc, Google Sheets, etc)
 
-![bg left:30% w:300](./images/tools_for_data_visualization_2.png)
+![bg left:30% w:300](./images/01_tools_for_data_visualization_2.png)
 
 | | |
 |-----------------------------|---------------------------------------------------------------------------------|
@@ -221,13 +221,13 @@ But data visualization is not always so straightforward...
 
 # Microsoft Excel (LibreOffice Calc, Google Sheets, etc)
 
-![w:800](./images/excel.png)
+![w:800](./images/01_excel.png)
 
 ---
 
 # Tableau, Tableau Public
 
-![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization_4.png)
+![bg left:30% w:300](./images/01_tool_for_data_visualization/tool_for_data_visualization_4.png)
 
 | | |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -245,13 +245,13 @@ Click each link to view and interact with public visualizations chosen as Tablea
 
 of the Day’:
 [🔗 left](https://public.tableau.com/app/profile/rahul7922/viz/Dinosaur2_16228076369930/Dinosaur), [🔗 middle](https://public.tableau.com/app/profile/arshad.ejaz/viz/Entry-leveljobsrequire3yearsofexperience_16304835725570/Dashboard), [🔗 right](https://public.tableau.com/app/profile/kasia.gasiewska.holc/viz/DwightSchrutesSurveillanceSystem/SurveillanceSystem)
-![w:1000](./images/tableau_demos.png)
+![w:1000](./images/01_tableau_demos.png)
 
 --- 
 
 # Microsoft Power BI
 
-![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization_6.png)
+![bg left:30% w:300](./images/01_tool_for_data_visualization/tool_for_data_visualization_6.png)
 
 |                              |                                                                                                                |
 |------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -265,7 +265,7 @@ of the Day’:
 
 # Microsoft Power BI
 
-![w:900](./images/microsoft_power_bi.png)
+![w:900](./images/01_microsoft_power_bi.png)
 
 
 
@@ -273,7 +273,7 @@ of the Day’:
 
 # R
 
-![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization_5.png)
+![bg left:30% w:300](./images/01_tool_for_data_visualization/tool_for_data_visualization_5.png)
 
 |                              |                                                                                                                |
 |------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -286,13 +286,13 @@ of the Day’:
 --- 
 
 # R
-![](./images/R_demo.png)
+![](./images/01_R_demo.png)
 
 --- 
 
 # Python
 
-![bg left:30% w:300](./images/tool_for_data_visualization/tool_for_data_visualization_7.png)
+![bg left:30% w:300](./images/01_tool_for_data_visualization/tool_for_data_visualization_7.png)
 
 |                              |                                                                                                                |
 |------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -307,7 +307,7 @@ of the Day’:
 
 # Python
 
-![w:700](./images/python_demo.png)
+![w:700](./images/01_python_demo.png)
 
 --- 
 

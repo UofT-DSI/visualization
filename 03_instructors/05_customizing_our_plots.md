@@ -47,7 +47,7 @@ $ echo "Data Science Institute"
 # Activity: Recall
 
 - Using what we learned in lesson 2, can you make a line plot with both of our y variables on the same axes?
-![](./images/a_line_plot_with_both_y_variables.png)
+![](./images/05_a_line_plot_with_both_y_variables.png)
 
 ---
 # Activity: Recall
@@ -145,7 +145,7 @@ $ echo "Data Science Institute"
 - Just now, we located our text annotation using the coordinates of data points
 - If we want our annotation linked to a fixed spot, we can locate it at a specific location on our _axes_ or the _figure_ itself (recall our matplotlib terminology)
 
-    ![w:350](./images/anatomy_of_a_figure.png)
+    ![w:350](./images/05_anatomy_of_a_figure.png)
 
 ---
 # Positioning text annotations
@@ -165,7 +165,7 @@ $ echo "Data Science Institute"
 ---
 # Positioning text annotations
 
-![](./images/positioning_text_annotations.png)
+![](./images/05_positioning_text_annotations.png)
 
 ```
 ax.text(1, 5, ". Data: (1, 5)",           transform=ax.transData    )

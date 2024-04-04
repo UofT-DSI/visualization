@@ -55,7 +55,7 @@ In small groups or as a class
 ---
 
 # Visualization #1: US Gun Killings in 2018
-![](./images/us_gun_killings_in_2018.png)
+![](./images/04_us_gun_killings_in_2018.png)
 
 [🔗 source](https://guns.periscopic.com/)
 
@@ -69,7 +69,7 @@ https://guns.periscopic.com/
 ---
 
 # Visualization #2: Washington Post Active Shooters graphic
-![](./images/the_era_of_active_shooters.png)
+![](./images/04_the_era_of_active_shooters.png)
 
 <!--
 The source of the underlying data is shown underneath the graph
@@ -78,7 +78,7 @@ The source of the underlying data is shown underneath the graph
 ---
 
 # Visualization #1: US Gun Killings in 2018
-![w:400](./images/us_gun_killings_in_2018.png)
+![w:400](./images/04_us_gun_killings_in_2018.png)
 
 - Periscopic’s animated visualization shows the expected years of life lost to gun violence in the United States in 2018
 - It emphasizes an emotion: a sense of loss
@@ -92,7 +92,7 @@ For after discussion
 ---
 
 # Visualization #2: Washington Post Active Shooters graphic
-![w:400](./images/the_era_of_active_shooters.png)
+![w:400](./images/04_the_era_of_active_shooters.png)
 
 - The next visualization shows a related dataset (about gun violence in the United States)
 
@@ -106,7 +106,7 @@ For after discussion
 
 # A blank page
 
-![bg right:50% w:500](./images/unemployment_rate_1.png)
+![bg right:50% w:500](./images/04_unemployment_rate_1.png)
 
 - Some of the same design elements from our ‘blank page’ Visualization #2 can be seen in this New York Times visualization of the September 2012 Jobs Report
 
@@ -119,7 +119,7 @@ For after discussion
 
 - The Jobs Report graphic was published alongside another image:
 
-![](./images/jobs_report_graphic_vs.png)
+![](./images/04_jobs_report_graphic_vs.png)
 
 ---
 
@@ -129,7 +129,7 @@ For after discussion
 - Image A emphasizes the unemployment rate staying above 8%, while Image B emphasizes the rate’s decline
 - **Neither is technically dishonest!**
 
-![bg right:50% w:500](./images/jobs_report_graphic_vs_vertical.png)
+![bg right:50% w:500](./images/04_jobs_report_graphic_vs_vertical.png)
 
 ---
 
@@ -139,7 +139,7 @@ For after discussion
 - This visualization is not neutral, and conveys an emotional narrative to the audience…
 - **…But this visualization is not dishonest either!**
 
-![bg right:50% w:500](./images/us_gun_killings_in_2018.png)
+![bg right:50% w:500](./images/04_us_gun_killings_in_2018.png)
 
 ---
 
@@ -221,7 +221,7 @@ To do this, firstly, we need to develop an understanding of the situation
 
 # Intended purpose
 
-![](./images/intended_purpose.png)
+![](./images/04_intended_purpose.png)
 
 <!--
 Our first step is to clearly articulate (even to ourselves!) what the intended purpose of our data visualization is
@@ -236,7 +236,7 @@ Exploring -> attempting to make sense of complex or poorly understood datasets
 
 # Intended audience
 
-![](./images/intended_audience.png)
+![](./images/04_intended_audience.png)
 
 <!--
 Age
@@ -249,7 +249,7 @@ Accessibility needs (colours, contrast, font size - more on accessible design in
 
 # Intended medium
 
-![](./images/intended_medium.png)
+![](./images/04_intended_medium.png)
 
 <!--
 Will the visual need to stand alone, or will there be accompanying text? Will you be there to explain it to everyone who sees it?
@@ -264,7 +264,7 @@ Presentation (slide show? In person or pandemic-Zoom call style?)
 
 # Different purpose, different results
 
-![](./images/different_purpose_different_results.png)
+![](./images/04_different_purpose_different_results.png)
 
 
 <!--
@@ -299,7 +299,7 @@ Wong, B. (2010). Gestalt principles (Part 1). Nature Methods, 7(11), 863–863. 
 
 # Gestalt principles
 
-![](./images/gestalt_principles.png)
+![](./images/04_gestalt_principles.png)
 
 <!-- 
 REFERENCES:
@@ -309,7 +309,7 @@ Images from https://www.interaction-design.org/literature/book/the-encyclopedia-
 ---
 # Gestalt principles
 
-![](./images/gestalt_principles_2.png)
+![](./images/04_gestalt_principles_2.png)
 
 <!-- 
 REFERENCES:
@@ -320,7 +320,7 @@ Images from https://www.interaction-design.org/literature/book/the-encyclopedia-
 
 # Gestalt principles
 
-![](./images/gestalt_principles_3.png)
+![](./images/04_gestalt_principles_3.png)
 
 <!-- 
 REFERENCES:
@@ -402,7 +402,7 @@ REFERENCES:
 ---
 
 # The Data Visualization Catalogue
-![](./images/the_data_visualisation_catalogue.png)
+![](./images/04_the_data_visualisation_catalogue.png)
 
 <!--
 For example, the data visualization catalogue by Severino Ribecca (http://www.severinoribecca.one/) offers a non-code based, point-and-click interface for exploring different kinds of graphs based on intended purpose
@@ -429,7 +429,7 @@ Stationary version https://github.com/Financial-Times/chart-doctor/blob/main/vis
 
 # Financial Times Visual Vocabulary
 
-![](./images/visual_vocabulary.png)
+![](./images/04_visual_vocabulary.png)
 
 <!-- 
 REFERENCES:

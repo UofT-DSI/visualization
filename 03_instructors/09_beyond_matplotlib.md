@@ -127,7 +127,7 @@ $ echo "Data Science Institute"
 
 # Modify aesthetic elements
 
-![](./images/tips_vs_total_bill.png)
+![](./images/09_tips_vs_total_bill.png)
 
 ---
 
@@ -154,7 +154,7 @@ $ echo "Data Science Institute"
 
 # Add multiple variables
 
-![](./images/tips_vs_total_bill_2.png)
+![](./images/09_tips_vs_total_bill_2.png)
 
 ---
 
@@ -168,7 +168,7 @@ sns.pairplot(
       hue = 'day')
 ```
 
-![bg left:50% w:500](./images/pairplot.png)
+![bg left:50% w:500](./images/09_pairplot.png)
 
 ---
 
@@ -188,7 +188,7 @@ sns.pairplot(
     ```
 - **Activity**: Comment this snippet of code and describe what each new element is doing
 
-![bg left:50% w:500](./images/replot.png)
+![bg left:50% w:500](./images/09_replot.png)
 
 ---
 
@@ -229,7 +229,7 @@ MacNell, L., Driscoll, A., & Hunt, A. N. (2015). What’s in a Name: Exposing Ge
 
 # Mean of Student Ratings by Actual and Perceived Instructor Gender (MacNell et al., 2015)
 
-![w:800](./images/mean_of_student_ratings_by_actual_and_percieved_instructor_gender.png)
+![w:800](./images/09_mean_of_student_ratings_by_actual_and_percieved_instructor_gender.png)
 
 <!--
 NOTES: 
@@ -246,7 +246,7 @@ MacNell, L., Driscoll, A., & Hunt, A. N. (2015). What’s in a Name: Exposing Ge
 
 # Gendered Language in Teacher Reviews (Schmidt, 2015)
 
-![w:800](./images/gendered_language_in_teacher_reviews.png)
+![w:800](./images/09_gendered_language_in_teacher_reviews.png)
 
 [🔗 source](http://benschmidt.org/profGender/#%7B%22database%22%3A%22RMP%22%2C%22plotType%22%3A%22pointchart%22%2C%22method%22%3A%22return_json%22%2C%22search_limits%22%3A%7B%22word%22%3A%5B%22professor%22%5D%2C%22department__id%22%3A%7B%22%24lte%22%3A25%7D%7D%2C%22aesthetic%22%3A%7B%22x%22%3A%22WordsPerMillion%22%2C%22y%22%3A%22department%22%2C%22color%22%3A%22gender%22%7D%2C%22counttype%22%3A%5B%22WordsPerMillion%22%5D%2C%22groups%22%3A%5B%22department%22%2C%22gender%22%5D%2C%22testGroup%22%3A%22D%22%7D)
 
@@ -265,7 +265,7 @@ For more background on the viz and inclusions/exclusions, see: http://benschmidt
 
 # Activity: Comparing data visualizations
 
-![](./images/comparing_data_visualization.png)
+![](./images/09_comparing_data_visualization.png)
 
 - **Let’s discuss the two examples.**
     - How are they different? What does each visualization ‘do’?
@@ -403,7 +403,7 @@ Cottam, J. A., Lumsdaine, A., & Weaver, C. (2012). Watch this: A taxonomy for dy
 - Which spatial and retinal elements stay constant? Which change?
 - If you were redesigning this viz, would you choose to make different changes? Why or why not?
 
-![bg right:40% w:500](./images/gendered_language_in_teacher_reviews.png)
+![bg right:40% w:500](./images/09_gendered_language_in_teacher_reviews.png)
 
 <!-- 
 NOTES: 
@@ -544,7 +544,7 @@ graph.update_layout(
 ---
 
 # Making wordclouds
-![w:800](./images/word_cloud.png)
+![w:800](./images/09_word_cloud.png)
 
 ---
 
@@ -578,7 +578,7 @@ graph.update_layout(
 
 # Making venn diagrams
 
-![bg left:50% w:500](./images/fruits_pies.png)
+![bg left:50% w:500](./images/09_fruits_pies.png)
 
 - By default, our output will only show counts of how many items are in each set
 
@@ -586,7 +586,7 @@ graph.update_layout(
 
 # Modifying venn diagrams
 
-![bg left:50% w:500](./images/fruits_pies_2.png)
+![bg left:50% w:500](./images/09_fruits_pies_2.png)
 
 ```
 diagram.get_label_by_id("10")

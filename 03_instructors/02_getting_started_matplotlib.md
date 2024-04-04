@@ -63,17 +63,17 @@ You have installed the numpy, matplotlib, pandas, scipy, PIL, and requests libra
 
 ---
 
-![w:500](./images/matplot_demo.png)
+![w:500](./images/02_matplot_demo.png)
 
 ---
 
-![w:900](./images/this_entire_thing_is_a_figure.png)
+![w:900](./images/02_this_entire_thing_is_a_figure.png)
 
 [🔗source](https://matplotlib.org/stable/_images/anatomy.png)
 
 ---
 
-![w:1000](./images/our_axes.png)
+![w:1000](./images/02_our_axes.png)
 
 [🔗source](https://matplotlib.org/stable/_images/anatomy.png)
 
@@ -140,7 +140,7 @@ You have installed the numpy, matplotlib, pandas, scipy, PIL, and requests libra
 
 Can you modify our existing code to produce a histogram?
 
-![](./images/activity_graph.png)
+![](./images/02_activity_graph.png)
 
 Hint: try ‘hist’ for our axis type
 
@@ -150,7 +150,7 @@ Hint: try ‘hist’ for our axis type
 
 Let’s try modifying our graph
 
-![](./images/activity_graph.png)
+![](./images/02_activity_graph.png)
 
 ```
 fig, ax = plt.subplots(figsize=(5, 3))

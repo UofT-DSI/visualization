@@ -28,7 +28,7 @@ $ echo "Data Science Institute"
 
 ---
 
-![](./images/comp_1.png)
+![](./images/08_comp_1.png)
 
 <!--
 NOTES:
@@ -42,7 +42,7 @@ REFERENCES:
 ---
 
 
-![w:900](./images/us_gun_killings_in_2018.png)
+![w:900](./images/08_us_gun_killings_in_2018.png)
 [🔗 source](https://guns.periscopic.com/)
 
 
@@ -97,7 +97,7 @@ REFERENCES:
 
 - This diagram of the ship _Brooks_ was presented as testimony in the British Parliament to demonstrate the inhumane conditions aboard ships used by the transatlantic slave trade
 
-![bg right:50% w:500](./images/stowage_of_the_british_slave_ship_brookes_under_the_regulated_slave_trade.png)
+![bg right:50% w:500](./images/08_stowage_of_the_british_slave_ship_brookes_under_the_regulated_slave_trade.png)
 
 <!--
 REFERENCES: 
@@ -110,7 +110,7 @@ REFERENCES:
 
 - The diagram, showing the conditions under which people were kept crowded in cargo holds for months at a time, “seemed to make an instantaneous impression of horror upon all who saw it”, supporting demands for abolition
 
-![bg right:50% w:500](./images/stowage_of_the_british_slave_ship_brookes_under_the_regulated_slave_trade.png)
+![bg right:50% w:500](./images/08_stowage_of_the_british_slave_ship_brookes_under_the_regulated_slave_trade.png)
 
 <!--
 REFERENCES: 
@@ -125,7 +125,7 @@ REFERENCES:
 
 - (Larger image [here](https://upload.wikimedia.org/wikipedia/commons/8/82/Slaveshipposter.jpg))
 
-![bg right:50% w:500](./images/stowage_of_the_british_slave_ship_brookes_under_the_regulated_slave_trade.png)
+![bg right:50% w:500](./images/08_stowage_of_the_british_slave_ship_brookes_under_the_regulated_slave_trade.png)
 
 
 <!--
@@ -141,7 +141,7 @@ REFERENCES:
 
 - Rather than sharing facts, these objects were intended to provoke outrage and action in solidarity
 
-![bg right:50% w:500](./images/different_visual_same_message.png)
+![bg right:50% w:500](./images/08_different_visual_same_message.png)
 
 <!--
 NOTES: 
@@ -208,7 +208,7 @@ NOTES
 
 # _Pulse_ (2012) by Jon McTaggert and Christian Ferrera
 
-![w:500](./images/pulse_2012.png)
+![w:500](./images/08_pulse_2012.png)
 
 (🔗 [The Video](https://vimeo.com/45980795?embedded=true&source=vimeo_logo&owner=12584834))
 
@@ -226,7 +226,7 @@ REFERENCES:
 
 # _Watermarks_ (2009) by Chris Bodle
 
-![w:500](./images/future_high_water_level_to_here.png)
+![w:500](./images/08_future_high_water_level_to_here.png)
 
 🔗 [source](http://aprb.co.uk/projects/all-projects/2009/watermarks)
 
@@ -247,7 +247,7 @@ REFERENCES
 
 # _“Untitled” (Ross)_ (1991) by Felix Gonzalez-Torres
 
-![w:500](./images/untitled_ross_1991.png)
+![w:500](./images/08_untitled_ross_1991.png)
 [🔗 source](https://www.davidzwirner.com/exhibitions/2017/felix-gonzalez-torres#/checklist/Untitled%22%22-(Ross)---artwork-ADED7A57-C921-4B8C-97D3-64F230459259/Artwork)
 
 <!--
@@ -320,7 +320,7 @@ REFERENCES
 
 - The Diverse Economies Iceberg ([2017](https://www.communityeconomies.org/resources/diverse-economies-iceberg); click to view larger image) displays the idea of ‘**underwater labour**’, or the idea of work such as caregiving or domestic labour as essential to wage labour, but often unacknowledged
 
-![bg right:50% w:400](./images/data_visualization_as_the_tip_of_the_iceberg.png)
+![bg right:50% w:400](./images/08_data_visualization_as_the_tip_of_the_iceberg.png)
 <!--
 NOTES
  

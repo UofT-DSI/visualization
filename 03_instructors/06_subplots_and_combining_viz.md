@@ -96,7 +96,7 @@ $ echo "Data Science Institute"
 - Think about adding titles or annotations, or modifying colour, marker type, and fonts – differently for each subplot
 - **Share your resulting images in the chat!**
 
-![w:300](./images/review_time.git)
+![w:300](./images/06_review_time.git)
 
 ---
 
@@ -119,7 +119,7 @@ $ echo "Data Science Institute"
 
 # Subplots without a grid arrangement?
 
-![w:400](./images/subplots_without_a_grid_arrangement.png)
+![w:400](./images/06_subplots_without_a_grid_arrangement.png)
 
 ```
 fig, someaxes = plt.subplot_mosaic([['ax1', 'ax3'],
@@ -178,7 +178,7 @@ ax.text(0.5, 0.5, f'This is {label!r}',
 
 # Layouts
 
-![bg left:50% w:500](./images/layouts.png)
+![bg left:50% w:500](./images/06_layouts.png)
 
 - The axis title for our scatter plot doesn’t appear, and the axis title for our line plot is cut off! 
 
@@ -217,7 +217,7 @@ ax.text(0.5, 0.5, f'This is {label!r}',
 
 # Layouts Comparison
 
-![](./images/layout_comparison.png)
+![](./images/06_layout_comparison.png)
 
 ---
 
@@ -249,7 +249,7 @@ ax.text(0.5, 0.5, f'This is {label!r}',
 
 # Multiple viz on one axes object
 
-![](./images/multiple_viz_on_one_axes_object.png)
+![](./images/06_multiple_viz_on_one_axes_object.png)
 
 **Annotations, shapes, etc. can be added as usual!**
 
@@ -325,7 +325,7 @@ ax.errorbar(x,
 
 ---
 
-![bg w:900](./images/this_is_too_much.gif)
+![bg w:900](./images/06_this_is_too_much.gif)
 
 <!-- 
 You know enough at this point to do this! It’s not ~necessary~ but it’s a nice thing to know and can be a nice touch when we’re doing data viz in public communications settings. 
@@ -389,13 +389,13 @@ You know enough at this point to do this! It’s not ~necessary~ but it’s a ni
 
 # Adding images to our plots
 
-![](./images/adding_images_to_our_plots.png)
+![](./images/06_adding_images_to_our_plots.png)
 
 ---
 
 # What can we make?
 
-![](./images/power_levels_of_pirate_crew.png)
+![](./images/06_power_levels_of_pirate_crew.png)
 
 ---
 

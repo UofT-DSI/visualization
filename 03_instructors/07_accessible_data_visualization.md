@@ -29,7 +29,7 @@ $ echo "Data Science Institute"
 
 # ‘The Daily Routines of Famous Creative People’ Visualization
 
-![w:700](./images/the_daily_routines_of_famous_creative_people.png)
+![w:700](./images/07_the_daily_routines_of_famous_creative_people.png)
 
 [🔗 source](https://podio.com/site/creative-routines)
 
@@ -46,7 +46,7 @@ Currey, M. (2013). The Daily Routines of Famous Creative People—Citrix Podio. 
 - The ‘Daily Routines’ plot is often used as an example of ‘good’ data visualization
 - It includes its data source (substantive qualities), uses an appropriate plot type for comparison (perceptual qualities), and limits its colour scheme (aesthetic qualities)
 
-![bg right:50% w:500](./images/the_daily_routines_of_famous_creative_people.png)
+![bg right:50% w:500](./images/07_the_daily_routines_of_famous_creative_people.png)
 
 <!--
 REFERENCES:
@@ -61,7 +61,7 @@ Currey, M. (2013). The Daily Routines of Famous Creative People—Citrix Podio. 
 
 - Sarah L. Fossheim, a developer and designer,  [was curious](https://fossheim.io/writing/posts/accessible-dataviz-design/)  about how the visualization would be perceived by people with  deuteranopia  (a type of red-green colourblindness) and  achromatopsia  (partial or total lack of colour vision)
 
-![bg right:50% w:500](./images/the_daily_routines_of_famous_creative_people.png)
+![bg right:50% w:500](./images/07_the_daily_routines_of_famous_creative_people.png)
 
 <!--
 REFERENCES:
@@ -74,7 +74,7 @@ Fossheim, S. L. (2020, January). An intro to designing accessible data visualiza
 
 # A different picture
 
-![w:900](./images/creative_routines.png)
+![w:900](./images/07_creative_routines.png)
 
 <!-- 
 NOTES: 
@@ -93,7 +93,7 @@ Fossheim, S. L. (2020, January). An intro to designing accessible data visualiza
 - Some of the colours end up looking similar or the same, and the lack of specific labels on the plot makes it impossible for individuals with either form of colourblindness to make sense of the data the creator was trying to present
 - This data visualization is **not accessible** to certain people
 
-![bg right:50% w:500](./images/creative_routines.png)
+![bg right:50% w:500](./images/07_creative_routines.png)
 
 <!--
 REFERENCES:
@@ -115,7 +115,7 @@ REFERENCES:
 
 # ‘Flattening the Curve’
 
-![w:900](./images/lower_and_delay_the_epidemic_peak.png)
+![w:900](./images/07_lower_and_delay_the_epidemic_peak.png)
 
 <!-- 
 NOTES: 
@@ -131,7 +131,7 @@ Lundgard, A., & Satyanarayan, A. (2022). Accessible Visualization via Natural La
 - Data visualizations such as this one are an efficient and effective form of communicating public health information, but not to everyone
 - **Activity:** In what ways is this data visualization inaccessible, and to whom? Let’s discuss!
 
-![bg right:50% w:500](./images/lower_and_delay_the_epidemic_peak.png)
+![bg right:50% w:500](./images/07_lower_and_delay_the_epidemic_peak.png)
 
 <!-- 
 NOTES: 
@@ -213,7 +213,7 @@ Treasury Board of Canada. (2020, October 23). Making communications accessible i
 
 - The [Colour Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/) allows you to upload an image and apply various filters to check how its colours would be perceived by people with various types of colourblindness
 
-![w:500](./images/colour_blindness_simulator.png)
+![w:500](./images/07_colour_blindness_simulator.png)
 
 ---
 
@@ -223,7 +223,7 @@ Treasury Board of Canada. (2020, October 23). Making communications accessible i
 - **Contrast**  is the ratio between the brightness of two different colours
 - A higher contrast generally makes colours and objects in our data visualizations easier to tell apart
 
-![w:500](./images/low_high_contracts.png)
+![w:500](./images/07_low_high_contracts.png)
 
 <!--
 REFERENCES: 
@@ -245,7 +245,7 @@ Fossheim, S. L. (2020, January). An intro to designing accessible data visualiza
 
 # Check Contrast
 
-![w:900](./images/check_contrast.png)
+![w:900](./images/07_check_contrast.png)
 
 <!-- 
 NOTES: 
@@ -269,7 +269,7 @@ Rudis, B., Ross, N., & Garnier, S. (2021). Viridis color maps [R]. https://cran.
 
 # Viridis package - Example
 
-![w:800](./images/viridis_package_example.png)
+![w:800](./images/07_viridis_package_example.png)
 
 <!--
 REFERENCES:
@@ -284,10 +284,10 @@ Rudis, B., Ross, N., & Garnier, S. (2021). Viridis color maps [R]. https://cran.
 
 |                   | ggplot Default Colour Palettes        | viridis Default Colour       |
 |-------------------|---------------------------------------|--------------------------------------|
-| Base              | ![](./images/ggplot_default_colour_palettes_1.png) | ![](./images/viridis_default_colour_pallete_1.png)  |
-| Green-Blind (Deuteranopia) | ![](./images/ggplot_default_colour_palettes_2.png) | ![](./images/viridis_default_colour_pallete_2.png) |
-| Red-Blind (Protanopia) | ![](./images/ggplot_default_colour_palettes_3.png) | ![](./images/viridis_default_colour_pallete_3.png) |
-| Desaturated       | ![](./images/ggplot_default_colour_palettes_4.png) | ![](./images/viridis_default_colour_pallete_4.png) |
+| Base              | ![](./images/07_ggplot_default_colour_palettes_1.png) | ![](./images/07_viridis_default_colour_pallete_1.png)  |
+| Green-Blind (Deuteranopia) | ![](./images/07_ggplot_default_colour_palettes_2.png) | ![](./images/07_viridis_default_colour_pallete_2.png) |
+| Red-Blind (Protanopia) | ![](./images07_ggplot_default_colour_palettes_3.png) | ![](./images/07_viridis_default_colour_pallete_3.png) |
+| Desaturated       | ![](./images07_ggplot_default_colour_palettes_4.png) | ![](./images/07_viridis_default_colour_pallete_4.png) |
 
 <!-- 
 NOTES: 
@@ -305,7 +305,7 @@ Rudis, B., Ross, N., & Garnier, S. (2021). Viridis color maps [R]. https://cran.
 - Even when we make use of best practice for accessible use of colour in our data visualization, **we should  avoid relying only on colour, where possible**
 - Think back to our ‘Daily Habits’ example - use of patterns or textures in addition to colour on our bars could have made the visualization more accessible to people with visual impairments, even with the current colour scheme
 
-![w:500](./images/the_daily_routines_of_famous_creative_people.png)
+![w:500](./images/07_the_daily_routines_of_famous_creative_people.png)
 
 ---
 
@@ -363,7 +363,7 @@ WebAIM. (2020, October 27). WebAIM: Typefaces and Fonts. WebAIM. https://webaim.
 - Spacing also affects the readability of text on our visualizations
     - **Monospaced**  text (each character takes the same amount of space) is more widely accessible than  **proportionally spaced**  text (each character only takes the space it needs)
 
-![](./images/font_size_and_spacing.png)
+![](./images/07_font_size_and_spacing.png)
 
 <!--
 REFERENCES:
@@ -398,7 +398,7 @@ REFERENCES:
 
 # Activity: Alt-text
 
-![bg right:50% w:500](./images/DSI_DataViz_7_AccessibleDataVisualization21.png)
+![bg right:50% w:500](./images/07_DSI_DataViz_7_AccessibleDataVisualization21.png)
 
 What would be suitable alt-text for this image?
 
@@ -415,7 +415,7 @@ University of Toronto. (2021). Accessible Images and Multimedia | Information & 
     - **If the focus is on specific individuals**:  “From left-to-right: Eugenia Duodu and Patrick Gunning”
     - **If the focus is on the actual events or contents of an image**:  “Professor Patrick Gunning and doctoral student Eugenia Duodo talking by a chemistry fume hood”
 
-    ![w:300](./images/DSI_DataViz_7_AccessibleDataVisualization21.png)
+    ![w:300](./images/07_DSI_DataViz_7_AccessibleDataVisualization21.png)
 
 <!--
 REFERENCES:
@@ -459,7 +459,7 @@ Lundgard, A., & Satyanarayan, A. (2022). Accessible Visualization via Natural La
 
 - Describe the data visualization on this slide according to each of the four types of descriptive content (click to visit website).
 
-![w:800](./images/the_daily_routines_of_famous_creative_people.png)
+![w:800](./images/07_the_daily_routines_of_famous_creative_people.png)
 
 <!--
 REFERENCES:
