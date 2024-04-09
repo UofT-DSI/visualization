@@ -15,13 +15,13 @@ By the end of this module, you will be able to:
 
 ### Course Contacts
 * Instructor: **Ciara Zogheib** (She/Her).
-  * To contact me, please email me at ciara.zogheib@mail.utoronto.ca, and include 'DSI Data Visualization' in the subject line!
+  * To contact me, please message me on the course Slack channel or email me at ciara.zogheib@mail.utoronto.ca, and include 'DSI Data Visualization' in the subject line!
   * I'll do my best to respond promptly, but please be patient!
-* TA: **Amanda Ng**
-  * To contact, please email waiyuamanda.ng@mail.utoronto.ca, and include 'DSI' Data Visualization' in the subject line
+* Teaching Assistant: **Alex Yu**
+  * Please message Alex on the course Slack channel!
 
 ### Delivery instructions
-The workshop will be held over two weeks, four days a week.  Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
+The workshop will be held four days a week.  Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
 
 Office hours with the TA will be held for half an hour before and after class on Mondays and Tuesdays (5:30-6:00 and 8:30-9:00), and for an hour after class on Wednesdays and Thursdays (8:30-9:30). Use office hours to discuss assignments with the TA or to ask about activities from class.
 
@@ -29,14 +29,17 @@ Office hours with the TA will be held for half an hour before and after class on
 * Camera is optional although highly encouraged. I understand that not everyone may have the space at home to have the camera on.
 
 ### Lesson Schedule
-* Monday 29 January, 6pm-8:30pm: Intro and overview, getting started with matplotlib
-* Tuesday 30 January, 6pm-8:30pm: Exploring matplotlib, reproducible data visualization
-* Wednesday 31 January, 6pm-8:30pm: Customizing our plots
-* Thursday 1 February, 6pm-8:30pm: Choosing the right visualization 
-* Monday 5 February, 6pm-8:30pm: Subplots and combining visualizations
-* Tuesday 6 February, 6pm-8:30pm: Accessible data visualization
-* Wednesday 7 February, 6pm-8:30pm: Data visualization as advocacy, beyond matplotlib
-* Thursday 8 February, 6pm-8:30pm: Industry guest speaker, course review
+* Tuesday April 9th, 6pm-8:30pm: Intro and overview
+* Thursday April 11th, 6pm-8:30pm: Intro to matplotlib
+* Saturday April 13th, 9am-11:30am: Exploring matplotlib
+* Tuesday April 16th, 6pm-8:30pm: Exploring matplotlib cont., reproducible data Visualization
+* Wednesday April 17th, 6pm-8:30pm: Customizing our plots 
+* Thursday April 18th, 6pm-8:30pm: Choosing the right visualizations
+* Saturday April 20th, 9am-11:30am: Subplots and combining visualizations
+* Tuesday April 23rd, 6pm-8:30pm: Accessible data visualization
+* Wednesday April 24th, 6pm-8:30pm: Data visualizations as advocacy, beyond matplotlib
+* Thursday April 25th, 6pm-8:30pm: Beyond matplotlib (cont.)
+* Saturday April 27th, 9am-11:30am: Course review
 
 
 ## Policies
