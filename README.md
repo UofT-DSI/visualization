@@ -3,6 +3,7 @@
 ## Contents
 * [Description](#description)
 * [Learning Outcomes](#learning-outcomes)
+* [Assignments](#assignments)
 * [Logistics](#logistics)
   + [Module Contacts](#module-contacts)
   + [Delivery of module](#delivery-of-module)
@@ -28,6 +29,13 @@ By the end of this module, you will be able to:
 1.	Create and customize data visualizations from start to finish in Python
 2.	Use general design principles for creating accessible and equitable data visualizations in Python and other software
 3.	Use data visualization to purposely tell a story
+
+## Assignments 
+
+1. [Assignment 1](https://github.com/UofT-DSI/visualization/blob/restructure-repo/02_assignments/assignment_1.md)
+2. [Assignment 2](https://github.com/UofT-DSI/visualization/blob/restructure-repo/02_assignments/assignment_2.md)
+3. [Assignment 3](https://github.com/UofT-DSI/visualization/blob/restructure-repo/02_assignments/assignment_3.md)
+4. [Assignment 4](https://github.com/UofT-DSI/visualization/blob/restructure-repo/02_assignments/assignment_4.md)
 
 ## Logistics
 
