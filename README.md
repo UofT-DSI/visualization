@@ -16,7 +16,7 @@
   + [Videos](#videos)
   + [How to get help](#how-to-get-help)
 * [Folder Structure](#folder-structure)
-* [Acknowledgements and Contributions](#acknowledgements-and-contributions)
+* [Acknowledgements](#acknowledgement)
 
 ## Description
 Regardless of the quality of your analyses and data-related findings, if you cannot effectively communicate them, their impact will be severely limited. Technical skills in this module will focus on a step-by-step walk through the process of choosing, creating, and modifying data visualizations in Python. Discussions will include general design principles applicable to other data visualization software used in industry and academia (eg. R, Tableau, PowerBI). Case studies and ‘real world’ examples are incorporated throughout. Ethics components include incorporating reproducibility with data visualization, building awareness of the decision-making that goes into sharing data visually and addressing inequity in data visualization by focusing on accessible design.
@@ -60,7 +60,7 @@ Learners are encouraged to be active participants while coding and are encourage
 * Learners must have a computer and an internet connection to participate in online activities.
 * Learners are expected to follow along with the coding.
 * Learners must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
 * Using a webcam is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
 
 ### Lesson Schedule
@@ -82,7 +82,7 @@ Feel free to use the following as resources:
 - [MatPlotLib Playlist](https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_)
 
 ### How to get help
-![image](/steps_to_ask_for_help.png)
+![image](./steps_to_ask_for_help.png)
 
 <hr>
 
@@ -92,7 +92,7 @@ Feel free to use the following as resources:
 .
 ├── 01_slides
 ├── 02_assignments
-├── 03_instructors
+├── 03_instructional_team
 ├── LICENSE
 ├── README.md
 └── steps_to_ask_for_help.png
@@ -104,5 +104,6 @@ Feel free to use the following as resources:
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
-## Acknowledgements and Contributions
-* I wish to acknowledge this land on which the University of Toronto operates. For thousands of years, it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
+## Acknowledgement
+
+We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
