@@ -46,7 +46,7 @@ learning outcomes 1, 2, and 3:
 
 ## Submission Information
 
-🚨**Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)**🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
+🚨 **Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)** 🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
 
 ### Submission Parameters:
 * Submission Due Date: `HH:MM AM/PM - DD/MM/YYYY`
