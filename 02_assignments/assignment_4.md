@@ -29,20 +29,19 @@
 - Total word count should not exceed **(as a maximum) 1000 words** 
  
 ### Why am I doing this assignment?:  
-- This ongoing assignment ensures active participation in the course, and assesses 
-learning outcomes 1, 2, and 3:   
-    1. Create and customize data visualizations start to finish in Python 
-    2. Use general design principles for creating accessible and equitable data visualizations in Python and other software 
-    3. Understand data visualization as purposeful/telling a story (and the ethical/professional implications thereof)   
+- This ongoing assignment ensures active participation in the course, and assesses the learning outcomes: 
+* Create and customize data visualizations from start to finish in Python
+* Apply general design principles to create accessible and equitable data visualizations
+* Use data visualization to tell a story  
 - This would be a great project to include in your GitHub Portfolio – put in the effort to make it something worthy of showing prospective employers!
 
 ### Rubric:
 
 | Component         | Scoring  | Requirement                                                                 |
 |-------------------|----------|-----------------------------------------------------------------------------|
-| Data Visualizations | Pass/Fail | - Data visualizations are distinct from each other<br>- Data visualizations are clearly identified<br>- Different sources/rationales (text with two images of data, if visualizations are labeled)<br>- High-quality visuals (high resolution and clear data)<br>- Data visualizations follow best practices of accessibility |
-| Written Explanations | Pass/Fail | - All questions from assignment description are answered for each visualization<br>- Explanations are supported by course content or scholarly sources, where needed |
-| Code              | Pass/Fail | - All code is included as an appendix with your final submissions<br>- Code is clearly commented and reproducible |
+| Data Visualizations | Complete/Incomplete | - Data visualizations are distinct from each other<br>- Data visualizations are clearly identified<br>- Different sources/rationales (text with two images of data, if visualizations are labeled)<br>- High-quality visuals (high resolution and clear data)<br>- Data visualizations follow best practices of accessibility |
+| Written Explanations | Complete/Incomplete | - All questions from assignment description are answered for each visualization<br>- Explanations are supported by course content or scholarly sources, where needed |
+| Code              | Complete/Incomplete | - All code is included as an appendix with your final submissions<br>- Code is clearly commented and reproducible |
 
 ## Submission Information
 
