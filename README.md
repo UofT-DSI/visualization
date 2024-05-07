@@ -1,16 +1,14 @@
-# Data Visualization
+# Visualization
 
-## Contents
+## Content
+
 * [Description](#description)
 * [Learning Outcomes](#learning-outcomes)
 * [Assignments](#assignments)
-* [Logistics](#logistics)
-  + [Module Contacts](#module-contacts)
-  + [Delivery of module](#delivery-of-module)
-  + [How the Technical Facilitator will deliver](#how-the-technical-facilitator-will-deliver)
-  + [Expectations](#expectations)
+* [Contacts](#contacts)
+* [Delivery of the Learning Module](#delivery-of-the-learning-module)
+* [Schedule](#schedule)
 * [Requirements](#requirements)
-  + [Lesson Schedule](#lesson-schedule)
 * [Resources](#resources)
   + [Documents](#documents)
   + [Videos](#videos)
@@ -19,16 +17,14 @@
 * [Acknowledgements](#acknowledgement)
 
 ## Description
-Regardless of the quality of your analyses and data-related findings, if you cannot effectively communicate them, their impact will be severely limited. Technical skills in this module will focus on a step-by-step walk through the process of choosing, creating, and modifying data visualizations in Python. Discussions will include general design principles applicable to other data visualization software used in industry and academia (eg. R, Tableau, PowerBI). Case studies and ‘real world’ examples are incorporated throughout. Ethics components include incorporating reproducibility with data visualization, building awareness of the decision-making that goes into sharing data visually and addressing inequity in data visualization by focusing on accessible design.
-
-This Module is designed for those who have a degree in something other than Computer Science/Statistics and are looking to enhance their data science and data visualization skills for their career.
+Regardless of the quality of your analyses and data-related findings, if you cannot effectively communicate them, their impact will be severely limited. Technical skills in this module will focus on a step-by-step walk through of the process of choosing, creating, and modifying data visualizations in Python. Discussions will include general design principles applicable to other data visualization software used in industry and academia (eg. R, Tableau, PowerBI). Case studies and ‘real world’ examples are incorporated throughout. Ethics components include incorporating reproducibility with data visualization, building awareness of the decision-making that goes into sharing data visually and addressing inequity in data visualization by focusing on accessible design.
 
 ## Learning Outcomes
 By the end of this module, you will be able to:
 
-1.	Create and customize data visualizations from start to finish in Python
-2.	Use general design principles for creating accessible and equitable data visualizations in Python and other software
-3.	Use data visualization to purposely tell a story
+*	Create and customize data visualizations from start to finish in Python
+*	Apply general design principles to create accessible and equitable data visualizations
+* Use data visualization to tell a story
 
 ## Assignments 
 
@@ -37,38 +33,36 @@ By the end of this module, you will be able to:
 3. [Assignment 3](https://github.com/UofT-DSI/visualization/blob/restructure-repo/02_assignments/assignment_3.md)
 4. [Assignment 4](https://github.com/UofT-DSI/visualization/blob/restructure-repo/02_assignments/assignment_4.md)
 
-## Logistics
-
-### Module Contacts
+## Contacts
 **Questions can be submitted to the #questions channel on Slack**
 
-* Technical Facilitator: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
-* Learning Support Staff: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
+* Technical Facilitator: 
+  * name and pronouns: `<Name>`, `<Pronouns>` 
+  * email: `<first_name.last_name@mail.ca>`
+* Learning Support Staff: 
+  * name and pronouns: `<Name>`, `<Pronouns>` 
+  * email: `<first_name.last_name@mail.ca>`
 
-### Delivery of module
-The module will run synchronously three times a week on Zoom. The first three days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last day is used for an optional, asynchronous work period. The work periods will also last for up to 3 hours. During these days, a Technical Facilitator or TA will be present on Zoom to assist learners reach the intended learning outcomes.
-
-### How the Technical Facilitator will deliver
-The Technical Facilitators will introduce the concepts through a collaborative live coding session using the Python notebooks found under `/01_slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `./04_cohort_three/live_code`.
+## Delivery of the Learning Module
+This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
  
-### Expectations
-Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
- 
-## Requirements
-* Learners are not expected to have any coding experience, we designed the learning content for beginners.
-* Learners are encouraged to ask questions and collaborate with others to enhance learning.
-* Learners must have a computer and an internet connection to participate in online activities.
-* Learners are expected to follow along with the coding.
-* Learners must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
-* Using a webcam is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
+Participants are encouraged to engage actively during the learning module. They key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify. 
 
-### Lesson Schedule
+## Schedule
 * TBD: Intro and overview, getting started with matplotlib
 * TBD: Exploring matplotlib, reproducible data visualization
 * TBD: Customizing our plots
 * TBD: Choosing the right visualization 
 * TBD: Subplots and combining visualizations + Accessible data visualization
+
+## Requirements
+* Participants are not expected to have any coding experience; the learning content has been designed for beginners.
+* Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
+* Participants must have a computer and an internet connection to participate in online activities.
+* Participants are expected to follow along with live coding.
+* Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
+* We expect participants to have completed the steps in the [onboarding repo](https://github.com/UofT-DSI/onboarding/).
+* We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 
 ## Resources
 Feel free to use the following as resources:
@@ -98,8 +92,8 @@ Feel free to use the following as resources:
 └── steps_to_ask_for_help.png
 ```
 
-* **slides:** Module slides as PowerPoint slides (.pptx)
-* **assignments:** Graded assignments
+* **slides:**  Module slides as PDF files.
+* **assignments:** Assignments.
 * **instructors:** Instructions for the Technical Facilitator on what to teach
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
