@@ -13,17 +13,17 @@
 
 ### Why am I doing this assignment?:
 
-- This ongoing assignment ensures active participation in the course, and assesses learning outcomes 1, 2, and 3:
-    - 1 - Create and customize data visualizations start to finish in Python
-    - 2 - Use general design principles for creating accessible and equitable data visualizations in Python and other software
-    - 3 - Understand data visualization as purposeful/telling a story (and the ethical/professional implications thereof)
+- This ongoing assignment ensures active participation in the course, and assesses the learning outcomes:
+*	Create and customize data visualizations from start to finish in Python
+*	Apply general design principles to create accessible and equitable data visualizations
+* Use data visualization to tell a story
 
 ### Rubric:
 
 | Component          | Scoring                 | Requirement                                              |
 |--------------------|-------------------------|----------------------------------------------------------|
-| Completion         | Pass/Fail for each class| - All required work from a given class is included in the file |
-| Markdown file format | Pass/Fail for each class| - File is readable and contains functional code, when needed |
+| Completion         | Complete/Incomplete for each class| - All required work from a given class is included in the file |
+| Markdown file format | Complete/Incomplete for each class| - File is readable and contains functional code, when needed |
 
 ## Submission Information
 
