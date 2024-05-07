@@ -24,14 +24,14 @@
 
 ### Why am I doing this assignment?:
 - This ongoing assignment ensures active participation in the course, and assesses learning outcomes 2 and 3:  
-    - 2 - Use general design principles for creating accessible and equitable data visualizations in Python and other software 
-    - 3 - Understand data visualization as purposeful/telling a story (and the ethical/professional implications thereof)
+* Apply general design principles to create accessible and equitable data visualizations
+* Use data visualization to tell a story
 
 ### Rubric:
 | Component               | Scoring   | Requirement                                                 |
 |-------------------------|-----------|-------------------------------------------------------------|
-| Data viz classification and justification | Pass/Fail | - Data viz are clearly classified as good or bad<br />- At least three reasons for each classification are provided<br />- Reasoning is supported by course content or scholarly sources |
-| Suggested improvements  | Pass/Fail | - At least two suggestions for improvement<br />- Suggestions are supported by course content or scholarly sources |
+| Data viz classification and justification | Complete/Incomplete | - Data viz are clearly classified as good or bad<br />- At least three reasons for each classification are provided<br />- Reasoning is supported by course content or scholarly sources |
+| Suggested improvements  | Complete/Incomplete | - At least two suggestions for improvement<br />- Suggestions are supported by course content or scholarly sources |
 
 ## Submission Information
 
