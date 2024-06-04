@@ -28,10 +28,11 @@ By the end of this module, you will be able to:
 
 ## Assignments 
 
-1. [Assignment 1](https://github.com/UofT-DSI/visualization/blob/restructure-repo/02_assignments/assignment_1.md)
-2. [Assignment 2](https://github.com/UofT-DSI/visualization/blob/restructure-repo/02_assignments/assignment_2.md)
-3. [Assignment 3](https://github.com/UofT-DSI/visualization/blob/restructure-repo/02_assignments/assignment_3.md)
-4. [Assignment 4](https://github.com/UofT-DSI/visualization/blob/restructure-repo/02_assignments/assignment_4.md)
+[](./02_activities/assignments/assignment_1.md)
+1. [Assignment 1](./02_activities/assignments/assignment_1.md)
+2. [Assignment 2](./02_activities/assignments/assignment_2.md)
+3. [Assignment 3](./02_activities/assignments/assignment_3.md)
+4. [Assignment 4](./02_activities/assignments/assignment_4.md)
 
 ## Contacts
 **Questions can be submitted to the #questions channel on Slack**
@@ -84,19 +85,26 @@ Feel free to use the following as resources:
 
 ```markdown
 .
-├── 01_slides
-├── 02_assignments
+├── .github
+├── 01_materials
+├── 02_activities
 ├── 03_instructional_team
+├── 04_cohort_three
+├── .gitignore
 ├── LICENSE
 ├── README.md
 └── steps_to_ask_for_help.png
 ```
 
-* **slides:**  Module slides as PDF files.
-* **assignments:** Assignments.
-* **instructors:** Instructions for the Technical Facilitator on what to teach
-* README: This file!
-* .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
+* **.github**: Contains issue templates and pull request templates for the repository.
+* **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
+* **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
+* **instructional_team**: Resources for the instructional team.
+* **cohort_three**: Additional materials and resources for cohort three.
+* **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
+* **LICENSE**: The license for this repository.
+* **README.md**: This file.
+* **steps_to_ask_for_help.png**: Guide on how to ask for help.
 
 ## Acknowledgement
 
