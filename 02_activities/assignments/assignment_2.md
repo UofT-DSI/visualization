@@ -11,6 +11,9 @@
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
       Your answer...
+      Visualization 1:
+      - Active presensation to convey a message
+      - Use of stolen years to compel a viewer into emotion.
 
 
 
@@ -21,7 +24,18 @@
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      Your answer... Assuming we want to try to limit bias...
+      
+      Visualization 1: 
+      - Remove datapoints which offer flair "explanation of each event"
+      - Remove stolen years as a metric because it obvouscates the data.
+      - Simplify the graph to just the people killed metric and would allow for relative comparison.
+
+
+      Visualization 2
+      - Scope is unclear when provided in this context, but likely solved in an article
+      - Partner with data such as # of calls, # of shootings to change an "intermediary metric" into a relevant point of comparison. 
+        Intermediary metric = a metric that doesn't provide information on it's own without an anchor metric. Ex. Active shootings increase = Higher rate of reporting or higher # of shooters? These are basically opposite results.
 
 
 
