@@ -312,6 +312,192 @@ ax.errorbar(x,
             capthick = 4,
             errorevery = 2)
 
+
+##July 30th 
+
+#import libaries
+import numpy as np
+import matplotlib.pyplot as plt 
+import pandas as pd 
+from PIL import Image
+import requests
+from io import BytesIO
+
+#load image from the web
+response = requests.get('https://upload.wikimedia.org/wikipedia/en/c/cb/Monkey_D_Luffy.png')
+image_file = BytesIO(response.content)
+image = Image.open(image_file)
+
+#generate dummy data
+x = np.array(["Luffy","Zoro","Nami","Usopp","Sanji"])
+y2 = np.array([170,100,90,120,50])
+
+#create 7x3 red line plot
+fig, ax = plt.subplots(figsize=(7,3))
+ax.plot(x,y2, color = "red")
+
+#add axes as image frame
+ax_image = fig.add_axes([0.1, #xcor
+                         0.11,#ycor
+                         0.15,#width
+                         0.35]) #height
+
+#add image and turn off axis for image frame
+ax_image.imshow(image)
+ax_image.axis('off')
+
+##July 31st
+#Import required libraries
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import scipy
+import PIL
+import requests
+
+#Load "tips" dataset
+tips = sns.load_dataset("tips") 
+print(tips)
+
+#Use white layout style
+sns.set_style('white')
+#Create 10 x 3 linegraph on Seaborn, total bill as X-axis and tip on Y-axis. 
+
+sns.lineplot(data = tips,
+             x='total_bill',
+             y = 'tip')
+
+#Create 10 x 3 Scatterplot on Seaborn, total bill and tip on axis. Set color, linestyle, linewidth, marker shape and color
+fig= plt.subplots(figsize=(10,3))
+
+tipgraph = sns.lineplot(data = tips,
+                        x='total_bill',
+                        y = 'tip',
+                        color ='hotpink',
+                        linestyle= '--',
+                        linewidth = 3,
+                        marker = 'o',
+                        markerfacecolor = 'indigo')
+#Add title and Axis Titles
+tipgraph.set(title = 'Tips vs Total Bill',
+             xlabel = 'Total Bill ($)',
+             ylabel = 'Tip Amount ($)')
+
+#Create Scatterplot on Seaborn, total bill and tip on axis, with plots broken up by time & Day. Set color palette for Day breakout.
+tipgraph = sns.scatterplot(data = tips,
+                           x = 'total_bill',
+                           y = 'tip',
+                           style = 'time',
+                           hue = 'day',
+                           palette = ['purple',
+                                        'hotpink',
+                                        'deepskyblue',
+                                        'yellowgreen'])
+
+#Add title and Axis Titles
+tipgraph.set(title = 'Tips vs Total Bill',
+             xlabel = 'Total Bill ($)',
+             ylabel = 'Tips ($)')
+
+#Create Pairplot breaking up data by day
+sns.pairplot(data = tips,
+             hue = 'day')
+
+#Create relplot for each day, Bill & tip amounts on the axis, broken up by Sex
+sns.relplot(data = tips,
+            x = 'total_bill',
+            y = 'tip',
+            hue = 'sex',
+            col = 'day',
+            kind = 'scatter',
+            col_wrap = 2)
+
+#Import Plotly
+import plotly.graph_objects as go
+#Create Dummy Dataset
+x1 = np.array(["Luffy", "Zoro", "Nami", "Usopp", "Sanji"])
+y1 = np.array([110, 180, 240,99,220])
+#Use Plotly
+graph = go.Figure()
+#Create Bar Graph using dummy data
+graph.add_trace(go.Bar(x=x1,y=y1))
+
+#Use Plotly
+graph = go.Figure()
+
+#Create Bar Graph
+graph.add_trace(go.Bar(x=x1,y=y1))
+
+#Set Titles and Axis Titles
+graph.update_layout(title = "Pirate Scores",
+                    xaxis_title = 'Pirates',
+                    yaxis_title = 'Score')
+
+#Use Plotly
+graph = go.Figure()
+
+#Generate scatterplot with markers being a certain, size, colour, opacity
+graph.add_trace(go.Scatter(
+    x = x1,
+    y = y1,
+    mode = 'markers',
+    marker = dict(
+        size = 15,
+        color = 'hotpink',
+        opacity = 1,
+        line = dict(width = 5, color = 'purple')
+    )
+))
+#Adding Title, Axis titles, setting graph display size
+graph.update_layout(
+        title = 'Interactive Pirate Plot',
+        xaxis_title = 'Pirates',
+        yaxis_title = 'Scores',
+        width = 500,
+        height = 500
+)
+
+#!pip install wordcloud
+#Installing wordcloud
+from wordcloud import WordCloud
+
+#read csv dataset from the link, skipping error and blank lines
+df = pd.read.csv('https://raw.githubusercontent.com/prasertcbs/basic-dataset/master/movie_quotes.csv',
+                 on_bad_lines = 'skip')
+
+#Join all words into a dataset
+text = " ".join(each for each in df.quote)
+#set up a wordcloud
+wordcloud = WordCloud(backgorund_color = 'white',
+                      colormap = 'inferno').generate(text)
+
+#generate a 7x3 wordgraph with borders removed 
+fig, ax = plt.subplots(figsize = (7,3))
+ax.imshow(wordcloud,
+          interpolaton = "bilinear")
+ax.axis('off')
+
+#import matplotlib_venn
+from matplotlib_venn import venn2, venn2_circles, venn2unweighted
+
+#Create dummy Dataset
+A = set(['apple','banana','watermelon'])
+B= set(['pumpkin','bluebrry','apple','key lime'])
+
+#Create Venn diagram, set titles for A & B group, set colours and 
+diagram = venn2([A,B],
+                set_labels = ('fruits','pies'),
+                set_colors = ("blue",'red')
+                alpha = 0.5
+                )
+
+#add data as text within venn diagram
+diagram.getlabel_by_id('10').set_text('\n',join(A-B))
+diagram.getlabel_by_id('11').set_text('\n',join(A & B))
+diagram.getlabel_by_id('01').set_text('\n',join(B-A))
+
+
 ### Why am I doing this assignment?:
 
 - This ongoing assignment ensures active participation in the course, and assesses the learning outcomes:
