@@ -10,10 +10,18 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
-      Visualization 1:
-      - Active presensation to convey a message
-      - Use of stolen years to compel a viewer into emotion.
+Your answer...
+Visualization 1: https://public.tableau.com/app/profile/grow.with.google/viz/WorldHappiness_16003108197090/12_YearlyHappinessScoreChanges
+- Overall good. Presents information well at a glance.
+- Heat Map allows understanding of information at a quick glance and suggests patterns based on location of the country correlating with happiness.
+- Happiness Difference is Clear and Ranked from highest to lowest change is easy to read, decipher, compare.
+
+Visualization 2: https://public.tableau.com/app/profile/pradeepkumar.g/viz/SampleSuperstore-SalesPerformance/viz_
+- Overall the visualization is appealing, has good information but focuses on the highlighting less relevant metrics.
+- Specifically this is a great showcase of creator expertise, but I believe very poor to use in an actual business setting.
+- Export to PDF is good function for Field Ops, but informaton is not targeted to Field Ops as interaction with Tooltips is required to give accurate information
+- A lot of metrics don't explain what is happening... Ex. is this number YTD, what is this % based against?
+- Title format is appealing but is actually distracting because the report lacks structure and direction + at a glance it looks like something.
 
 
 
@@ -24,23 +32,30 @@
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer... Assuming we want to try to limit bias...
-      
-      Visualization 1: 
-      - Remove datapoints which offer flair "explanation of each event"
-      - Remove stolen years as a metric because it obvouscates the data.
-      - Simplify the graph to just the people killed metric and would allow for relative comparison.
+  Your answer...
+
+Visualization 1: https://public.tableau.com/app/profile/grow.with.google/viz/WorldHappiness_16003108197090/12_YearlyHappinessScoreChanges
+- I would lock the map given data is only available for Europe
+- I would default the year on the Happiness Map to 2017, given the Score change is calculating difference between 2015 and 2017
+- Happiness Score Change would benefit from Data Labels for legibility, colour gradiant would make it look more appealing.
+- Country Flags on the X axis data markers would help visibility.
+
+Visualization 2: https://public.tableau.com/app/profile/pradeepkumar.g/viz/SampleSuperstore-SalesPerformance/viz_
+- Let the user select year by year, but not select all of them together. 
+  - This causes a major break in the scope consistency across the report. 
+  - Then all the benchmarks are vs. Last Year to Date and completely solves this problem.
+  - In my experience, there is rarely a need to bunch multiple years together unless it's a rolling timeframe which is not possible here anyway.
+- In the Sales by State map, I would choose color only, having size bubble too makes it seem like there are 2 different metrics calculated and there isn't. There are also too many states to make reasonable comparisons on any other metric across 50 states using a size bubble unless you're catching major outliers.
+- If this wasn't a portfolio showcase and actually a business report, I would only use one type of graph to display the same thing (choosing the simplist and non-flashy option), else it's harder to read than necessary. 
+    - Sales by subcategory by month is actually near unreadable because tracking by colour depth obscures accuracy.
+- I would add an option to flip all datasets to tables to get numbers easier if the user wanted to. Will show more data than top $ weights and allow for searching opportunites outside of top categories/states. 
+- If 1st Manufacturer is "Other", better data quality is required but most likely wouldn't be the data visualizer's problem.
 
 
-      Visualization 2
-      - Scope is unclear when provided in this context, but likely solved in an article
-      - Partner with data such as # of calls, # of shootings to change an "intermediary metric" into a relevant point of comparison. 
-        Intermediary metric = a metric that doesn't provide information on it's own without an anchor metric. Ex. Active shootings increase = Higher rate of reporting or higher # of shooters? These are basically opposite results.
+Citation: 
+Google Career Certificates. (n.d.). World Happiness. Public.tableau.com. https://public.tableau.com/app/profile/grow.with.google/viz/WorldHappiness_16003108197090/12_YearlyHappinessScoreChanges 
 
-
-
-
-
+Kumar G, P. (n.d.). Sample Superstore - Sales Performance | VOTD. Public.tableau.com. https://public.tableau.com/app/profile/pradeepkumar.g/viz/SampleSuperstore-SalesPerformance/viz_ 
 
       
       ```
