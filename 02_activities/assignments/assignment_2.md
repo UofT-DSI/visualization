@@ -11,7 +11,7 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Good Visualization: 
+      Good Visualization:
 Annual CO₂ emissions (Our World in Data)
 Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
 - The visualization provides a clear and straightforward representation of global CO2 emissions over time. It uses a line chart with a well-defined y-axis and x-axis, making it easy to understand trends and compare data points.
