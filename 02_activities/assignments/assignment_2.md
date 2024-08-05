@@ -29,7 +29,7 @@ Lack of Context: The visualization does not provide sufficient context or explan
 
 ```
 
-    - How could this data visualization have been improved?  
+- How could this data visualization have been improved?  
     
 ```
       Good Visualization: 
