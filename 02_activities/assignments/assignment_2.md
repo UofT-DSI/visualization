@@ -28,8 +28,10 @@ Lack of Context: The visualization does not provide sufficient context or explan
 - The visualization does not provide sufficient context or explanations for the data, leaving users confused about what the numbers represent.
 
 ```
+
     - How could this data visualization have been improved?  
-      ```
+    
+```
       Good Visualization: 
 Annual CO₂ emissions (Our World in Data)
 Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
@@ -43,7 +45,7 @@ Link: https://www.usdebtclock.org
 - Reducing the number of displayed metrics and organizing them in a more structured layout would make the data easier to understand.
 - Using static data points instead of rapidly changing numbers would improve readability.
 - Including brief explanations or tooltips for each metric would help users understand the significance of the data.
-      ```
+```
   
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
