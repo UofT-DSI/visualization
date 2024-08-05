@@ -9,7 +9,8 @@
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
-      ```
+
+       ```
    Good Visualization: 
 Annual CO₂ emissions (Our World in Data)
 Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
@@ -25,10 +26,12 @@ Link: https://www.usdebtclock.org
 - The use of rapidly changing numbers and a cluttered layout makes it hard to interpret the data accurately.
 Lack of Context: The visualization does not provide sufficient context or explanations for the data, leaving users confused about what the numbers represent.
 - The visualization does not provide sufficient context or explanations for the data, leaving users confused about what the numbers represent.
-      ```
+
+    ```
     - How could this data visualization have been improved?  
       ```
-         Good Visualization: 
+
+          Good Visualization: 
 Annual CO₂ emissions (Our World in Data)
 Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
 - Including annotations or key events on the timeline could help users understand significant changes in CO2 emissions. For example, highlighting major international climate agreements or economic crises could add context.
@@ -41,7 +44,9 @@ Link: https://www.usdebtclock.org
 - Reducing the number of displayed metrics and organizing them in a more structured layout would make the data easier to understand.
 - Using static data points instead of rapidly changing numbers would improve readability.
 - Including brief explanations or tooltips for each metric would help users understand the significance of the data.
+
       ```
+
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
