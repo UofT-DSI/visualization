@@ -26,7 +26,8 @@ Link: https://www.usdebtclock.org
 - The use of rapidly changing numbers and a cluttered layout makes it hard to interpret the data accurately.
 Lack of Context: The visualization does not provide sufficient context or explanations for the data, leaving users confused about what the numbers represent.
 - The visualization does not provide sufficient context or explanations for the data, leaving users confused about what the numbers represent.
-      ```
+
+  ```
     - How could this data visualization have been improved?  
       ```
       Good Visualization: 
@@ -43,6 +44,7 @@ Link: https://www.usdebtclock.org
 - Using static data points instead of rapidly changing numbers would improve readability.
 - Including brief explanations or tooltips for each metric would help users understand the significance of the data.
       ```
+  
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
