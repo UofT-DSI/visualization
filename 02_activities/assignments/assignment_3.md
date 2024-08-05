@@ -8,6 +8,30 @@
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) whether or not you think this data visualization is accessible, reproducible, and equitable. 
         ```
         Your answer...
+      https://public.tableau.com/app/profile/naresh.suglani/viz/LondoninNumbers/LondonDemographics
+
+      I think this dashboard is good in accessibility, reproduciblility and equity. It provides a very clear instruction for the users how to use this dashboard effectively. All the layouts, color, formatting, numbers are easy to access. And it provided the data source so the users have a chance to validate the data or create a customerized dashboard themselves.
+
+
+
+
+      https://public.tableau.com/app/profile/sherzodbek.ibragimov/viz/DifferentMethodstoIdentifyOutliers/Dashboard
+
+      1. Accessibility
+      This dashbaord didn't use high-contrst colors to ensure readability for people with visual impairments, including color blindness. It doesn't provide alternative text descriptions to assit users who relying on screen readers. And it doesn't fully navigable using a keyboard to accommodate users with motor impairments. 
+
+      2. Reproducibility
+      The data sources are not clearly mentioned and acessible. Users are not be able to understnad where the data comes from and how it has been processed.
+      The methods are not clearly outlined in the dashboard, including the statistic methonds etc. It should also indicate the version so it can be easier to be updated and tracked, which can ensure all the modifications can be traced from the versions.
+
+      3. Equity
+      The equitable can ensure the visualization is fair so it can provide a fair opportunity to all the users.
+      It should consider the various users background to ensure all the users can understand the data when they use this dashboard. The data to be used should also be represented and non biased. It should also provide a feedback field to help with identifying all the issues.
+
+
+
+
+
 
 
 
@@ -15,6 +39,24 @@
     - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?  
         ```
         Your answer...
+    https://public.tableau.com/app/profile/sherzodbek.ibragimov/viz/DifferentMethodstoIdentifyOutliers/Dashboard
+    
+    1. Accessibility
+
+    To improve this dashboard, the owner should use high-contrast colors to ensure readability for users with visual impairments, including color blindness. Provide color-blind firnedly paletters, such as those recommended by ColorBrewer. Add descriptive text for all visual elements and charts. This ensures that screenreaders can convey meaningful information to users with visual impairments.
+
+    2. Reproducibility
+    Clearly document and provide access to the data sources used in the dashboard. Include links or references to where users can find the original data. Provide detailed explanations of the methods and calculations used to identify outliers. This should include any statistical techniques, algorithms, thresholds applied.
+
+    3. Equity
+    Design the dashboard considering diverse user backgrounds. Ensure that no group is disadvataged in accessing or interpreting the data.
+    Use representative and unbiased data. Avoid reinforcing stereotypes or excluding certain groups. 
+    Implement a feedback form option to the dashboard, inviting users to share their experiences and suggesstions for improvement.
+
+
+
+
+
 
 
 
