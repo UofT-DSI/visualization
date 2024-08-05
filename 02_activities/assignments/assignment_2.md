@@ -10,25 +10,37 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+   Good Visualization: 
+Annual CO₂ emissions (Our World in Data)
+Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
+- The visualization provides a clear and straightforward representation of global CO2 emissions over time. It uses a line chart with a well-defined y-axis and x-axis, making it easy to understand trends and compare data points.
+- Different colors are used to differentiate between countries, which helps in visual distinction. The color scheme is not overwhelming and enhances comprehension.
+- The interactive features allow users to explore data for specific countries and time periods, providing additional context and detail. This interactivity supports deeper analysis and engagement.
 
 
-
-
-
-
-
+   Bad Visualization:
+U.S. Debt Clock
+Link: https://www.usdebtclock.org
+- The visualization displays too many real-time counters and statistics simultaneously, making it difficult to focus on any single piece of information.
+- The use of rapidly changing numbers and a cluttered layout makes it hard to interpret the data accurately.
+Lack of Context: The visualization does not provide sufficient context or explanations for the data, leaving users confused about what the numbers represent.
+- The visualization does not provide sufficient context or explanations for the data, leaving users confused about what the numbers represent.
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+         Good Visualization: 
+Annual CO₂ emissions (Our World in Data)
+Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
+- Including annotations or key events on the timeline could help users understand significant changes in CO2 emissions. For example, highlighting major international climate agreements or economic crises could add context.
+- Incorporating data on CO2 emissions per capita or economic indicators could provide a more nuanced view of the emissions data, making it easier to assess performance relative to economic activity.
 
 
-
-
-
-
-      
+   Bad Visualization:
+U.S. Debt Clock
+Link: https://www.usdebtclock.org
+- Reducing the number of displayed metrics and organizing them in a more structured layout would make the data easier to understand.
+- Using static data points instead of rapidly changing numbers would improve readability.
+- Including brief explanations or tooltips for each metric would help users understand the significance of the data.
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
@@ -59,9 +71,9 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-2`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] Create a branch called `assignment-2`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-3-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
