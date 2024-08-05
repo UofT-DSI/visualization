@@ -10,7 +10,7 @@
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
-      ```
+```
       Good Visualization:
 Annual CO₂ emissions (Our World in Data)
 Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
@@ -27,7 +27,7 @@ Link: https://www.usdebtclock.org
 Lack of Context: The visualization does not provide sufficient context or explanations for the data, leaving users confused about what the numbers represent.
 - The visualization does not provide sufficient context or explanations for the data, leaving users confused about what the numbers represent.
 
-  ```
+```
     - How could this data visualization have been improved?  
       ```
       Good Visualization: 
