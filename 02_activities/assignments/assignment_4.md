@@ -6,24 +6,32 @@
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
+
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
-
+      Python/Power BI
     > Who is your intended audience? 
-    
+      Residents in Ontario, Universities, Researchers.
     > What information or message are you trying to convey with your visualization? 
-    
+      Culvert BCI over years / Average of current BCI for Bridge and Culvert
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
-    
+      Python: The visualization should accurately represent the data without any distortion. The scatter plot accurately plots the BCI values gainst the years, ensuring the data is presented as is. No data manipulation was performed that could alter the integrity of the information.
+      In the power BI one, it's easy to read and understand. The users can filter different category to check the inforamtion.
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+      Python: The entire process of creating the scatter plot was done using a script in Python with libraries like pandas and matplotlib, this means eanyone with the script and data can reproduce the exact same visulation. 
+      Power BI: People can check the query and the filters, they should be able to create a customerized one.
+
     > How did you ensure that your data visualization is accessible?  
-    
+      Color,, contrast, text, descriptive elements are clear.
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+      Residents in Ontario, Universities, Researchers.
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+      I choose scatter plotting in the Python one because there are so many data; I chosse the column graphs because I want to show the difference between different regions.
+
     > What ‘underwater labour’ contributed to your final data visualization product?
+      Data cleanup and preparation, data transformation, tool selection, design considerations, etc.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
