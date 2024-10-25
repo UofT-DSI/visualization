@@ -57,7 +57,7 @@ Participants are encouraged to engage actively during the learning module. They 
 * TBD: Subplots and combining visualizations + Accessible data visualization
 
 ## Requirements
-* Participants are not expected to have any coding experience; the learning content has been designed for beginners.
+* Participants are expected to have completed Shell, Git, and Python learning modules.
 * Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants are expected to follow along with live coding.
