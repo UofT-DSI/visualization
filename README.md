@@ -14,7 +14,6 @@
   + [Videos](#videos)
   + [How to get help](#how-to-get-help)
 * [Folder Structure](#folder-structure)
-* [Acknowledgements](#acknowledgement)
 
 ## Description
 Regardless of the quality of your analyses and data-related findings, if you cannot effectively communicate them, their impact will be severely limited. Technical skills in this module will focus on a step-by-step walk through of the process of choosing, creating, and modifying data visualizations in Python. Discussions will include general design principles applicable to other data visualization software used in industry and academia (eg. R, Tableau, PowerBI). Case studies and ‘real world’ examples are incorporated throughout. Ethics components include incorporating reproducibility with data visualization, building awareness of the decision-making that goes into sharing data visually and addressing inequity in data visualization by focusing on accessible design.
