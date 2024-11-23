@@ -10,25 +10,89 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+    Good one: https://public.tableau.com/app/profile/chimdi.nwosu/viz/MakeoverMondayWk43-TheMostReliableCarBrandsintheUS/Dashboard1
 
+    This visualization was classified as good because it adheres to several principles of effective data visualization, as outlined by experts like Edward Tufte and Stephen Few.
 
+    1. Clarity:
 
+    - The visualization organizes data into distinct sections by country and brand, using headings, color coding, and a hierarchical layout. This aligns with Few's recommendation to simplify data displays and prioritize readability.
+    - The bubble chart visually encodes data effectively, showing problems per 100 vehicles (PP100) along the x-axis, with larger bubbles for higher problem counts. 
+  
+    2. Accessibility:
 
+    The use of color to distinguish performance categories (e.g., "Above Average," "Average," "Below Average") is intuitive and aligns with Tufte’s principle of making visual distinctions clear without unnecessary embellishments.
+    
+    3. Contextual Information:
 
+    - Summary metrics (e.g., PP100 by country) and distance-from-average charts provide both high-level and granular views of the data, aiding in comprehension and context.
+    - Legends and labels are provided for all visual elements.
+  
+   4. Design and Engagement:
 
+   - The layout is visually appealing, with consistent use of colors and formatting. 
+  
+   Scholarly References
+   - Edward Tufte’s "The Visual Display of Quantitative Information" emphasizes clarity and avoiding "chartjunk".
+   - Stephen Few's "Information Dashboard Design" highlights the importance of simplicity, clear context, and actionable insights in data displays.
+  
+    Bad one: https://www.pinterest.com/pin/47639708534134635/
 
+    Reason:
+    1. Misleading Representation:
+
+    - The use of 3D distorts the relative size of the pie slices, making it difficult to accurately compare proportions. This directly contradicts Few’s guideline that visualizations should "not distort what the data have to say."
+    - Proportions are further skewed because slices in the foreground appear larger than those in the background, which is a known issue with 3D pie charts.
+
+    2. Clutter and Overcomplication:
+
+    The use of patterns (dots, lines, solid fills) instead of simple colors adds unnecessary complexity, violating Tufte’s principle of reducing "non-data ink."
+
+    3. Lack of Context:
+
+    - Percentages or proportions for each slice are missing from the chart. 
+    - No explanation of the time frame or source of the data is provided, further limiting the visualization's utility.
+
+    4. Accessibility Issues:
+
+    The small size of text and overlapping slices make the chart difficult to read.
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+    Improvement measures of the good one:
+    1. Proportional Scaling of Bubble Sizes:
 
+    Currently, the bubbles for brands may not be proportional to the number of problems per 100 vehicles (PP100). Ensuring bubble size accurately represents data would improve interpretability.
+    
+    2. Gridlines for Easier Comparison:
 
+    Adding light vertical gridlines in the bubble chart would help viewers compare brand positions more precisely along the x-axis.
 
+    3. Interactive Features:
 
+    If published online, hover-over tooltips could display additional information about each brand, such as specific PP100 values, or details about what contributes to their ranking.
 
+    4. Color Accessibility:
 
-      
+    Ensure that the color palette is optimized for color-blind users by using patterns or alternative shades with distinct luminance levels.
+
+    Improvement measures of the bad one:
+    1. Replace 3D with 2D:
+
+    A simple 2D pie chart would eliminate the distortion caused by perspective, ensuring accurate representation of proportions.
+
+    2. Consider an Alternative Chart Type:
+
+    Pie charts are not ideal for comparing multiple categories, especially with small differences. A bar chart or stacked bar chart would better represent the data and allow for easier comparison.
+    
+    3. Add Numeric Labels:
+
+    Clearly label each segment with exact percentages or values to help viewers understand the distribution of traffic sources.
+
+   4.Improve Visual Encoding:
+
+   Replace patterns (dots, lines) with solid colors. Use a clean, color-blind-friendly palette to distinguish between categories.
+
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
