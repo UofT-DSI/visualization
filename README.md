@@ -12,7 +12,7 @@
 * [Resources](#resources)
   + [Documents](#documents)
   + [Videos](#videos)
-  + [How to get help](#how-to-get-help)
+  + [How to Get Help](#how-to-get-help)
 * [Folder Structure](#folder-structure)
 
 ## Description
@@ -80,10 +80,28 @@ Feel free to use the following as resources:
 - [FreeCodeCamp's Tutorial](https://www.youtube.com/watch?v=3Xc3CA655Y4)
 - [MatPlotLib Playlist](https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_)
 
-### How to get help
-![image](./steps_to_ask_for_help.png)
+### How to Get Help
+#### 1. Gather information about your problem
+- Copy and paste your error message
+- Copy and paste the code that caused the error, and the last few commands leading up to the error
+- Write down what you are trying to accomplish with your code. Include both the specific action, and the bigger picture and context
+- (optional) Take a screenshot of your entire workspace
 
-<hr>
+#### 2. Try searching the web for your error message
+- Sometimes, the error has common solutions that can be easy to find!
+   - This will be faster than waiting for an answer
+- If none of the solutions apply, consider asking a Generative AI tool
+   - Paste your code, the error message, and a description of your overall goals
+
+#### 3. Try asking in your cohort's Slack help channel
+- Since we're all working through the same material, there's a good chance one of your peers has encountered the same error, or has already solved it
+- Try searching in the DSI Certificates Slack help channel for whether a similar query has been posted
+- If the question has not yet been answered, post your question!
+   - Describe your the overall goals, the context, and the specific details of what you were trying to accomplish
+   - Make sure to **copy and paste** your code, your error message
+   - Copying and pasting helps:
+      1. your peers and teaching team quickly try out your code
+      1. others to find your question in the future
 
 ## Folder Structure
 
