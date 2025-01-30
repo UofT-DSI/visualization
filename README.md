@@ -114,8 +114,7 @@ Feel free to use the following as resources:
 ├── 04_cohort_three
 ├── .gitignore
 ├── LICENSE
-├── README.md
-└── steps_to_ask_for_help.png
+└── README.md
 ```
 
 * **.github**: Contains issue templates and pull request templates for the repository.
@@ -126,5 +125,5 @@ Feel free to use the following as resources:
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
 * **LICENSE**: The license for this repository.
 * **README.md**: This file.
-* **steps_to_ask_for_help.png**: Guide on how to ask for help.
+
 
