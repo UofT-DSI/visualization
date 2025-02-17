@@ -27,11 +27,9 @@ By the end of this module, you will be able to:
 
 ## Assignments 
 
-[](./02_activities/assignments/assignment_1.md)
 1. [Assignment 1](./02_activities/assignments/assignment_1.md)
 2. [Assignment 2](./02_activities/assignments/assignment_2.md)
 3. [Assignment 3](./02_activities/assignments/assignment_3.md)
-4. [Assignment 4](./02_activities/assignments/assignment_4.md)
 
 ## Contacts
 **Questions can be submitted to the #questions channel on Slack**
@@ -44,8 +42,8 @@ By the end of this module, you will be able to:
   * email: `waiyuamanda.ng@mail.utoronto.ca`
   * name and pronouns: `Kasra`, 
   * email: `k.vakiloroayaei@utoronto.ca`
-  * name and pronouns: `Taneea`, 
-  * email: `taneea@cs.toronto.edu`
+  * name and pronouns: `Namra`, 
+  * email: `namraarif@live.com`
 
 ## Delivery of the Learning Module
 This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 

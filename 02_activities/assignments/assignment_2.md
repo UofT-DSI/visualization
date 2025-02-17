@@ -51,7 +51,7 @@
 🚨 **Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)** 🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
 
 ### Submission Parameters:
-* Submission Due Date: `HH:MM AM/PM - DD/MM/YYYY`
+* Submission Due Date: `23:59 - 02/03/2025`
 * The branch name for your repo should be: `assignment-2`
 * What to submit for this assignment:
     * This markdown file (assignment_2.md) should be populated and should be the only change in your pull request.
@@ -64,4 +64,4 @@ Checklist:
 - [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
 - [ ] Verify that the link is accessible in a private browser window.
 
-If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-3-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
+If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
