@@ -2,6 +2,12 @@
 
 ## Assignment 1: Participation (Ongoing)
 
+# Day 1(Feb 25 2025)
+# New file assignment_1_Feb-25_2025 created with lice code form class 1 and  assigmend task
+
+
+
+
 ### Requirements:
 
 - During every class, follow along with sample code from the slides. All code that you should be running in Python is formatted as follows:
