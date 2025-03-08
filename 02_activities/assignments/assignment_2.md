@@ -99,7 +99,6 @@ By switching to a bar chart, improving labels and colors, and removing 3D distor
 300 words for your good example and 500 for your bad example)
 
 ### Why am I doing this assignment?:
-
 - This assignment ensures active participation in the course, and assesses the learning outcomes
 * Apply general design principles to create accessible and equitable data visualizations
 * Use data visualization to tell a story
