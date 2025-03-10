@@ -17,6 +17,8 @@
 *	Create and customize data visualizations from start to finish in Python
 *	Apply general design principles to create accessible and equitable data visualizations
 * Use data visualization to tell a story
+# Reza Tehrani
+# session-1 done 26/02/2025
 
 ### Rubric:
 
