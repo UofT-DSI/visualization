@@ -48,6 +48,9 @@ This data representation significantly impacts various educational communities. 
 The visualization effectively communicates the complex relationships between subject areas, grade levels, and course types in Ontario's online learning system. It shows that while some subjects maintain consistent enrollment across grades, others show distinct patterns at specific grade levels. The dominance of certain course types (Academic, University) suggests a strong college-preparatory focus in online learning. Additionally, the varying enrollment patterns across subjects provide valuable insights for curriculum planning and resource allocation. This comprehensive view helps stakeholders make informed decisions about online education delivery while highlighting areas that might need additional attention or resources.
 
 ![Tableau Visualization of Course Enrollments by Grade Level and Type](/home/troni/visualization/02_activities/assignments/tableau.png)
+
+[View the interactive Tableau visualization on Tableau Public](https://public.tableau.com/views/PublichighschoolonlinecourseenrollmentsbydeliverytypeinOntario/Sheet3?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
  
