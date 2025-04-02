@@ -35,15 +35,14 @@ By the end of this module, you will be able to:
 **Questions can be submitted to the #questions channel on Slack**
 
 * Technical Facilitator: 
-  * name and pronouns: `Ciara`, `She/Her` 
-  * email: `ciara.zogheib@mail.utoronto.ca`
+  * name and pronouns: `Eshta`, `She/Her` 
+  * email: `eshta.bhardwaj@mail.utoronto.ca`
+  * (Please reach out over email rather than Slack, if possible.)
 * Learning Support Staff: 
-  * name: `Amanda`
-  * email: `waiyuamanda.ng@mail.utoronto.ca`
+  * name: `Fan`
+  * email: `fw2400@cumc.columbia.edu`
   * name and pronouns: `Kasra`, 
   * email: `k.vakiloroayaei@utoronto.ca`
-  * name and pronouns: `Namra`, 
-  * email: `namraarif@live.com`
 
 ## Delivery of the Learning Module
 This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
@@ -52,11 +51,10 @@ Participants are encouraged to engage actively during the learning module. They 
 
 ## Schedule
 * Class 1: Intro and overview, getting started with matplotlib
-* Class 2: Exploring matplotlib, reproducible data visualization
-* Class 3: Customizing our plots
-* Class 4: Choosing the right visualization 
-* Class 5: Subplots and combining visualizations + Accessible data visualization
-* Class 6: Case Study
+* Class 2: Reproducible data visualization, customizing our plots
+* Class 3: Choosing the right visualization, subplots and combining visualizations
+* Class 4: (continue) Subplots and combining visualizations, Accessible data visualization
+* Class 5: Data viz as advocacy, Beyond matplotlib
 
 ## Requirements
 * Participants are expected to have completed Shell, Git, and Python learning modules.
