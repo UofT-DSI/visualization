@@ -19,12 +19,33 @@ We wish to acknowledge this land on which the University of Toronto operates. Fo
 
 ---
 
+# Welcome! 
+
+Introductions:
+- TF: Eshta Bhardwaj (she/her) eshta.bhardwaj@mail.utoronto.ca
+- LS: Fan fw2400@cumc.columbia.edu
+- LS: Kasra k.vakiloroayaei@utoronto.ca
+
+---
+
+# Your introductions?
+
+---
+
 # Today, we will...
+
+- Go through slide deck #1: intro and overview 
+- Admin / housekeeping
+- Discuss assignment 1 
+- Go through slide deck #2: getting started with matplotlib
+
+---
+
+# Overview of this slide deck
 
 - Explore why we should care about data visualization
 - Question what makes ‘good’ data visualization
 - Introduce a range of software and tools that are used for data visualization
-- Go through an overview of what to expect in the rest of this course
 
 ---
 
@@ -32,11 +53,27 @@ We wish to acknowledge this land on which the University of Toronto operates. Fo
 
 ---
 
+<!--Tamara Munzner. 2014. Chapter 1.5: Why Depend on Vision? In Visualization Analysis and Design. CRC Press.-->
+- Vision is a powerful communication channel
+- Vision can easily pick up interesting patterns
+    - Pre-attentive processing is faster than eye movement
+- Just the data is not always enough 
+    - And summaries lose information
+
+---
+
+## Anscombe's Quartet 
+
+<!--Images from: Rohan Alexander. 2023. Chapter 5: Static communication. In Telling stories with data: with applications in R. CRC Press.-->
+![align-bottom-centered](./images/01_anscombe.png)
+
+---
+
 - No matter how good or groundbreaking our data science work is, if we can’t communicate it, its impact will be severely limited.
 - Often, the best way to communicate insights from data is in visual format.
 - We can see examples of this idea throughout history.
 
---- 
+---
 
 - By plotting black bars at the locations of each cholera death, Dr. John Snow was able to provide evidence [tracing an 1854 outbreak](https://www.ph.ucla.edu/epi/snow/snowmap1_1854.html) to a specific water pump.
 
@@ -51,7 +88,22 @@ We wish to acknowledge this land on which the University of Toronto operates. Fo
 
 ![bg left:50% w:500](./images/01_diagram_of_the_causes_of_mortality.png)
 
---- 
+---
+
+- Minard, in 1869, visualized: "Figurative Map of the successive losses in men of the French Army in the Russian campaign 1812–1813."
+
+![align-bottom-centered w:950](./images/01_minard_napolean_campaign.jpg)
+
+---
+
+# So why visualize information?
+
+- These historical examples gave us different reasons
+    - Cholera outbreak → Allows us to see data in context 
+    - Nightingale's rose diagram → Presents an argument and advocates
+    - Napoleon's Russian Campaign → An example of story telling
+
+---
 
 But data visualization is not always so straightforward...
 
@@ -71,7 +123,7 @@ But data visualization is not always so straightforward...
 
 - In 1997, Edward Tufte famously published a visualization showing the relationship between temperature during launches of test shuttle flights (pre-*Challenger*) and incidents of damage to O-rings (image: Tufte, 1997 👇)
 
-![](./images/01_tufte_1997.png)
+![height:10cm](./images/01_tufte_1997.png)
 
 --- 
 
@@ -80,7 +132,7 @@ But data visualization is not always so straightforward...
 - Tufte’s graph seems to show that as launch temperatures decreased, O-ring incident rate increased; thus, by launching at temperatures lower than those tested, NASA unnecessarily endangered _Challenger_ (image: Tufte, 1997 👇)
 
 
-![](./images/01_tufte_1997_arrow.png)
+![90%](./images/01_tufte_1997_arrow.png)
 
 --- 
 
@@ -99,7 +151,7 @@ But data visualization is not always so straightforward...
 - The accuracy of Tufte’s visualization has [been](https://link.springer.com/content/pdf/10.1007/978-3-319-45193-0_12.pdf) [debated](https://link.springer.com/content/pdf/10.1007/s11948-002-0033-2.pdf), with Robison identifying several errors in Tufte’s use of data.
 - Robison suggests that only one test launch had actually produced relevant O-ring temperature data, producing this visual instead: (image: Robison, 1997, 2002 👇)
 
-![](./images/01_robinson_1997_2002.png)
+![height:10cm](./images/01_robinson_1997_2002.png)
 
 --- 
 
@@ -109,12 +161,18 @@ But data visualization is not always so straightforward...
 
 - Per Robison, Tufte’s work is a case of bad data visualization unfairly placing blame and leading the audience to a faulty conclusion.
 
-**The choices we make about visualizing our data have consequences - so how do we make better ones?**
-
-
-
 --- 
 
+# Other Challenges of Visualizing Information
+
+<!--Tamara Munzner. 2014. Chapter 1.13: Why Are There Resource Limitations? In Visualization Analysis and Design. CRC Press.-->
+- Computational capacity
+- Human perceptual and cognitive capacity
+- Display capacity 
+
+---
+
+**The choices we make about visualizing our data have consequences - so how do we make better ones?**
 ### Activity: What is ‘good’ data visualization?
 
 --- 
@@ -189,8 +247,6 @@ But data visualization is not always so straightforward...
 
 - Hard and fast rules for every situation → **visualizing data means making decisions**
 
-
-
 --- 
 
 ### What tools are used for data visualization?
@@ -205,7 +261,11 @@ But data visualization is not always so straightforward...
 --- 
 
 # Microsoft Excel (LibreOffice Calc, Google Sheets, etc)
-
+<style scoped>
+table {
+  font-size: 20px;
+}
+</style>
 ![bg left:30% w:300](./images/01_tools_for_data_visualization_2.png)
 
 | | |
@@ -226,7 +286,11 @@ But data visualization is not always so straightforward...
 ---
 
 # Tableau, Tableau Public
-
+<style scoped>
+table {
+  font-size: 20px;
+}
+</style>
 ![bg left:30% w:300](./images/01_tool_for_data_visualization/tool_for_data_visualization_4.png)
 
 | | |
@@ -250,7 +314,11 @@ of the Day’:
 --- 
 
 # Microsoft Power BI
-
+<style scoped>
+table {
+  font-size: 24px;
+}
+</style>
 ![bg left:30% w:300](./images/01_tool_for_data_visualization/tool_for_data_visualization_6.png)
 
 |                              |                                                                                                                |
@@ -272,7 +340,11 @@ of the Day’:
 --- 
 
 # R
-
+<style scoped>
+table {
+  font-size: 24px;
+}
+</style>
 ![bg left:30% w:300](./images/01_tool_for_data_visualization/tool_for_data_visualization_5.png)
 
 |                              |                                                                                                                |
@@ -286,12 +358,16 @@ of the Day’:
 --- 
 
 # R
-![](./images/01_R_demo.png)
+![w:800](./images/01_R_demo.png)
 
 --- 
 
 # Python
-
+<style scoped>
+table {
+  font-size: 24px;
+}
+</style>
 ![bg left:30% w:300](./images/01_tool_for_data_visualization/tool_for_data_visualization_7.png)
 
 |                              |                                                                                                                |
@@ -323,11 +399,14 @@ of the Day’:
 
 - General design principles will apply to creating data visualizations in whichever software you decide to use
 
-
-
 --- 
 
-### What will we cover in this course?
+# Some admin
+
+- Github overview
+- Schedule & What will we cover in this course?
+- Assignment 1
+- LLMS vs Stack Overflow 
 
 --- 
 
