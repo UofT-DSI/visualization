@@ -13,7 +13,19 @@ $ echo "Data Science Institute"
 
 ---
 
-# Today we’re going to...
+# Agenda for today
+
+- Go through slide deck #3: reproducibility
+- Go through slide deck #5: customizing our plots
+- Discuss assignment 2
+
+---
+
+# Review feedback from last time
+
+---
+
+# Overview of this slide deck
 
 - Explore why reproducibility in data visualization matters
 - Understand why reproducible data visualization practices are both ethical and practical
@@ -229,6 +241,86 @@ Steidl, D., Hummel, B., & Juergens, E. (2013). Quality analysis of source code c
 
 ---
 
+# Reproducibility in Research → FAIR Principles
+- The FAIR (findability, accessibility, interoperability, reusability) principles were first produced to improve the stewardship and management of research datasets.
+    - They have since been adopted into numerous disciplines.
+- There are various checklists that can help you assess whether your dataset is ‘FAIR’; the original can be found [here](https://www.go-fair.org/fair-principles/). 
+    - [https://zenodo.org/records/5111307#.Yj3Vi5rMI-Q](https://zenodo.org/records/5111307#.Yj3Vi5rMI-Q)
+    - [https://ardc.edu.au/resource/fair-data-self-assessment-tool/](https://ardc.edu.au/resource/fair-data-self-assessment-tool/)
+    - [https://fairaware.dans.knaw.nl/](https://fairaware.dans.knaw.nl/)
+
+<!--Mark D. Wilkinson, Michel Dumontier, Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, Jildau Bouwman, Anthony J. Brookes, Tim Clark, Mercè Crosas, Ingrid Dillo, Olivier Dumon, Scott Edmunds, Chris T. Evelo, Richard Finkers, Alejandra Gonzalez-Beltran, Alasdair J. G. Gray, Paul Groth, Carole Goble, Jeffrey S. Grethe, Jaap Heringa, Peter A. C. ’t Hoen, Rob Hooft, Tobias Kuhn, Ruben Kok, Joost Kok, Scott J. Lusher, Maryann E. Martone, Albert Mons, Abel L. Packer, Bengt Persson, Philippe Rocca-Serra, Marco Roos, Rene van Schaik, Susanna-Assunta Sansone, Erik Schultes, Thierry Sengstag, Ted Slater, George Strawn, Morris A. Swertz, Mark Thompson, Johan van der Lei, Erik van Mulligen, Jan Velterop, Andra Waagmeester, Peter Wittenburg, Katherine Wolstencroft, Jun Zhao, and Barend Mons. 2016. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 1 (2016), 160018. https://doi.org/10.1038/sdata.2016.18
+-->
+
+---
+
+# Findability
+
+- Findable
+    - A globally unique (cannot be reused by someone else) and persistent (valid over time) ID (like DOI) is assigned to the data.
+    - The dataset is described by metadata (PID, license, description, provenance, etc.). Further guidelines and definitions of provenance can be found from the [DCMI](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/provenance/).
+    - The metadata and data is stored in a searchable repository. 
+
+    \* *Remember to <u>cite</u> your datasets!*
+    
+---
+
+# Accessibility
+
+- Accessible
+    - The identifier navigates to the metadata and data. 
+    - The communications protocol specifies the authentication and authorization procedure, if needed (i.e., if the dataset is not open and free-to-access, the protocol specifies how access would be granted). 
+    - The metadata record is available even if the data is not. 
+
+---
+
+# Interoperability
+
+- Interoperable
+    - Metadata and data are in principle readable by humans and machines (i.e., has a structured format, open standard).
+
+---
+
+# Reusability
+
+- Reusable
+    - Metadata and data are well-described as per domain-relevant standards, have detailed provenance (where did the data come from, who collected it, when, etc.), and clear and accessible license and usage information. 
+
+---
+
+## What does FAIR have to do with visualization?
+- The datasets *and* the visualizations should be ‘FAIR’ 
+- This increases transparency which enables *appropriate* reuse
+
+---
+
+## Reproducibility vs Replicability vs Reusability
+- Terms are often used inconsistently or as synonyms
+- Reproducibility and reusability are complementary
+    - For someone to be able to reproduce your work, it needs to be FAIR (i.e., they have to be able to find it, access it, ‘read’ it, and reuse it)
+- Reproducibility vs reusability 
+    - “Reproducibility is obtaining **consistent results using the same input data**; computational steps, methods, and code; and conditions of analysis.”
+    - “Replicability is obtaining **consistent results** across studies aimed at answering the same scientific question, each of which has **obtained its own data**.”
+    
+<!-- 
+Referenced: National Academies Press. (2019). Understanding Reproducibility and Replicability. In Reproducibility and Replicability in Science. National Academies Press (US). https://www.ncbi.nlm.nih.gov/books/NBK547546/ -->
+
+---
+
+# Data Practices & Context Documents​
+
+- **Data practices** are “…what and how data are collected, managed, used, interpreted, reused, deposited, curated, and so on…”​. (Borgman, 2016)
+- “**Context documents** are interventions designed to accompany a dataset or ML model, allowing builders to communicate with users.”​ (Boyd, 2021)
+- Our data design and *visualization design decisions* can be captured in context documents
+
+<!-- 
+Referenced: 
+Christine L. Borgman. 2016. Big Data, Little Data, No Data: Scholarship in the Networked World. MIT Press.​
+Karen L. Boyd. 2021. Datasheets for Datasets help ML Engineers Notice and Understand Ethical Issues in Training Data. Proc. ACM Hum.-Comput. Interact. 5, CSCW, 1–27. https://doi.org/10.1145/3479582​
+-->
+
+---
+
 # Datasheets for datasets
 
 - Gebru et al. ( [2020](http://arxiv.org/abs/1803.09010) ) propose that datasets be accompanied by a datasheet that “documents its motivation, composition, collection process, recommended uses”, etc
@@ -244,7 +336,7 @@ Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumé I
 
 # Datasheets for datasets - Sample datasheet
 
-![w:900](./images/03_movie_review_polarity.png)
+![w:800](./images/03_movie_review_polarity.png)
 
 <!-- 
 NOTES: 
@@ -256,6 +348,16 @@ Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumé I
 
 ---
 
+# Activity: Your Research
+- Consider the following:
+    - What is the relevance of the FAIR principles in your research? 
+        - When is it relevant to make your work FAIR and reproducible? (Is it always possible?)
+    - Do you use datasets in your research that you would fill a context document for? 
+        - How does this change the work of ‘builders’ – i.e., you?
+        - How does this change the work of ‘users’ – i.e., the people who will read the context document?
+
+---
+
 # Next...
 
 - Customizing our plots
@@ -263,5 +365,4 @@ Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumé I
     - Annotating our plots
     - Working with colour
     - Pre-made styles
-- Choosing the right graph for a given situation (Professional skills)
 
