@@ -19,7 +19,7 @@ You have installed the numpy, matplotlib, pandas, scipy, PIL, and requests libra
 
 ---
 
-# Today we will...
+# Overview of this slide deck, we will:
 
 - Learn about matplotlib
 - Produce our first data viz in Python
@@ -330,8 +330,13 @@ ax.plot(x,y,marker='*',
 
 ---
 
-# Next...
+# Feedback! 
 
+---
+# In the next session, we'll continue with...
+
+- The responses from the polls 
 - What is reproducible data visualization?
 - How can we incorporate ideas about reproducibility into our data visualization practices? (Ethics)
+- More matplotlib!
 

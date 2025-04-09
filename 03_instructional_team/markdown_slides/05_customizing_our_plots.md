@@ -13,7 +13,7 @@ $ echo "Data Science Institute"
 
 ---
 
-# Today we will...
+# Overview of this slide deck, we will:
 
 - Make more modifications to our plots using Matplotlib, including
     - Legends
@@ -330,7 +330,11 @@ fig.show()
 
 ---
 
-# Next...
+# Feedback!
+
+---
+
+# Next session:
 
 - How do we choose the right data visualization for a given situation?
 - What does it mean for data visualization to be ‘objective’?
