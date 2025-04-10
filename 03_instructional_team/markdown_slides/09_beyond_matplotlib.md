@@ -12,7 +12,7 @@ $ echo "Data Science Institute"
 ```
 ---
 
-# Today we will...
+# Overview of this slide deck, we will:
 
 - Learn about other packages to use for data visualization in Python, such as:
     - Seaborn
@@ -377,7 +377,11 @@ Cottam, J. A., Lumsdaine, A., & Weaver, C. (2012). Watch this: A taxonomy for dy
 ---
 
 # Types of changes
-
+<style scoped>
+table {
+  font-size: 24px;
+}
+</style>
 |||
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Identity-preserving | - Maintain associations between visual elements and underlying data<br />- Some part of a representation stays constant (e.g., keeping the relative position of data points constant)<br />- Important for comparing across time/snapshots |
