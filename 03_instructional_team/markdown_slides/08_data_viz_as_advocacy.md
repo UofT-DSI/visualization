@@ -12,7 +12,17 @@ $ echo "Data Science Institute"
 ```
 ---
 
-# In this class we will...
+# Agenda for today
+- Go through slide deck #8: Data viz as advocacy
+- Go through slide deck #9: Beyond matplotlib
+
+---
+
+# Review feedback from last time
+
+---
+
+# Overview of this slide deck, we will...
 
 - Explore examples and ideas behind data visualization as used for advocacy
 
