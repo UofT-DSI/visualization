@@ -12,7 +12,20 @@ $ echo "Data Science Institute"
 ```
 
 ---
+
+# Agenda for today 
+- Go through slide deck #4: Choosing the right visualization
+- Start on slide deck #6: Subplots and combining visualizations
+
+--- 
+
+# Review feedback from last time
+
+---
+
 # We’re going to…
+
+- Explore how to choose the right data visualization for a given situation
 
 - Explore  [Chapter 3 (](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)  [On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)  [) of D’Ignazio and Klein (2020). Data Feminism. MIT Press.](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
 
@@ -37,7 +50,247 @@ D’Ignazio, C., & Klein, L. (2020). 3. On Rational, Scientific, Objective Viewp
 
 ---
 
-# Activity: Searching for objectivity in data visualization
+# How do we choose the 'right' visualization? 
+
+---
+
+# The Visualization Process
+![](./images/04_visualization_process.png)
+<!--
+Adapted from Prince, Enamul. “2. Data and Tasks.” ITEC 6170: Information Visualization, 21 Jan. 2021, York University. Lecture.
+-->
+
+---
+
+What data is the user seeing? 
+
+Why are people using the visualization (what is their goal?)  
+
+How is the visualization being designed?  
+
+![bg right:50% w:300](./images/04_analysis_framework.png)
+
+<!--Tamara Munzner. 2014. Chapter 1.14: Why Analyze? In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+![bg right:70% w:600](./images/04_analysis_framework_what.png)
+
+### This figure shows *what* can be visualized. 
+### Let's review it one-by-one
+
+<!--Tamara Munzner. 2014. Chapter 2 What: Data Abstraction. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+- In order to analyze the kind of dataset you're using, you must be familiar with data types. 
+
+![bg right:70% w:600](./images/04_analysis_framework_what_circled.png)
+
+
+<!--Tamara Munzner. 2014. Chapter 2 What: Data Abstraction. In Visualization Analysis and Design. CRC Press.-->
+---
+<style scoped>
+section {
+  font-size: 18px;
+}
+</style>
+![align-top-centered](./images/04_analysis_framework_what_dataset_types.png)
+
+- Tables, networks, fields, and geometries are four basic dataset types. 
+- For any of these dataset types, the full dataset could be available immediately as a static file or it might be dynamic data processed gradually in the form of a stream. 
+
+<!--Tamara Munzner. 2014. Chapter 2 What: Data Abstraction. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+![bg right:60% w:600](./images/04_analysis_framework_what_attributes.png)
+
+- Identifying the attribute types for our data will help us make choices about how to visualize it. 
+- (We’ll get to that in a few slides) 
+
+<!--Tamara Munzner. 2014. Chapter 2 What: Data Abstraction. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+![bg right:60% w:600](./images/04_analysis_framework_why.png)
+
+### This figure helps us decompose different reasons *why* a person may use a visualization (i.e., what task they perform). 
+
+<!--Tamara Munzner. 2014. Chapter 3 Why: Task Abstraction. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+![bg right:50% h:700](./images/04_analysis_framework_why_actions.png)
+
+- There are 3 levels of action
+- Analyze is high level, search is medium level, and query is low level
+
+<!--Tamara Munzner. 2014. Chapter 3 Why: Task Abstraction. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+![bg right:60% w:500](./images/04_analysis_framework_why_targets.png)
+
+- Targets are “some aspect of the data that is of interest to the user”. 
+- For some tasks, this is more explicit than with others (but still relevant!).
+
+<!--Tamara Munzner. 2014. Chapter 3 Why: Task Abstraction. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+![bg right:60% w:700](./images/04_analysis_framework_how.png)
+
+- Last part of the framework is 'how' the visualization is designed
+- We will focus on 'encode'
+
+<!--Tamara Munzner. 2014. Chapter 3.6 How: A Preview. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+# How do we visualize?
+
+---
+
+# Activity: How much bigger is a?
+
+![](./images/04_activity_howmuchbigger.png)
+
+<!--
+Slide idea from: Prince, Enamul. “3a. Marks, Channels, Colours”. ITEC 6170: Information Visualization, 25 Jan. 2021, York University. Lecture.
+-->
+
+---
+
+# How to visualize: Marks
+
+![](./images/04_marks.png)
+
+**MARKS**: Geometric objects, basic graphical elements (dot, circle, etc.)
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+# How to visualize: Channels
+
+![h:350](./images/04_channels.png)
+
+**CHANNELS**: Way to control appearance of marks
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+# How to visualize: Encodings
+
+![h:350](./images/04_encodings.png)
+
+**ENCODINGS**: Mapping between data and visual attributes. For example, the bar chart maps frequency (data) with height (visual attribute).
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+![h:600](./images/04_channels_effectiveness_expressiveness.png)
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+# Remember this activity?
+
+![](./images/04_activity_howmuchbigger.png)
+
+<!--
+Slide idea from: Prince, Enamul. “3a. Marks, Channels, Colours”. ITEC 6170: Information Visualization, 25 Jan. 2021, York University. Lecture.
+-->
+
+---
+
+# How did the channel effectiveness ranking get established?
+
+- Channels can be analyzed according to these criteria:
+    - Accuracy
+    - Discriminability
+    - Separability
+    - Ability to provide visual popout
+    - Ability to provide perceptual groupings
+    
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+# Channels have dependencies & interactions
+
+![](./images/04_channel_interactions.png)
+
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+---
+
+# Channels have dependencies & interactions
+
+![bg right h:700](./images/04_channel_separability.png)
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+---
+
+# Some channels provide visual popout
+
+![](./images/04_popout_example1.png)
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+# Some channels provide visual popout
+
+![h:400](./images/04_popout_example2.png)
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+# Best Practices
+- 3 of 8 shown
+
+---
+
+# No 3D without Cause
+
+![](./images/04_3d_example.png)
+
+<!--Right image: [Image-Based Streamline Generation and Rendering. Li and Shen. IEEE Trans. Visualization and Computer Graphics (TVCG) 13:3 (2007), 630–640.]
+-->
+
+---
+
+# Cognition over Memory
+- Working memory is limited!
+- It’s better to show side-by-side views than using our memory
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+---
+
+# Overview then zoom then details 
+- **Overview:** see overall patterns, trends
+- **Zoom:** see a smaller subset of the data
+- **Filter:** see a subset based on values, etc.
+- **Details on demand:** see values of objects when interactively selected
+
+<!--Slide adapted from: Aragon, Cecilia. "Interactive Visualization". I247. 15 Mar. 2010, UC Berkeley. Lecture.  -->
+
+---
+
+![bg right:70% h:700](./images/04_visualization_idioms.png)
+
+## Visualization Idioms
+
+<!--Tamara Munzner. 2014. Chapter 7 Arrange Tables. In Visualization Analysis and Design. CRC Press.
+Slide idea from: Prince, Enamul. “4. Multivariate Tables”. ITEC 6170: Information Visualization, 30 Jan. 2021, York University. Lecture.
+-->
 
 ---
 
@@ -68,7 +321,7 @@ https://guns.periscopic.com/
 
 ---
 
-# Visualization #2: Washington Post Active Shooters graphic
+# Visualization #2: Washington Post Active Shooters
 ![](./images/04_the_era_of_active_shooters.png)
 
 <!--
@@ -91,7 +344,7 @@ For after discussion
 
 ---
 
-# Visualization #2: Washington Post Active Shooters graphic
+# Visualization #2: Washington Post Active Shooters 
 ![w:400](./images/04_the_era_of_active_shooters.png)
 
 - The next visualization shows a related dataset (about gun violence in the United States)
@@ -260,6 +513,17 @@ Poster (size? In person or virtual? Only visualization or are there many?)
 Presentation (slide show? In person or pandemic-Zoom call style?)
 -->
 
+---
+
+# Effective Visualization
+
+- Depends on purpose, audience, and medium!
+- A good goal is to satisfy: “to find one of the many possible good solutions rather than one of the even larger number of bad ones”
+
+![h:350](./images/04_design_space.png)
+
+<!--Tamara Munzner. 2014. Chapter 1.11. Why Are Most Designs Ineffective? In Visualization Analysis and Design. CRC Press.
+-->
 ---
 
 # Different purpose, different results

@@ -12,7 +12,7 @@ $ echo "Data Science Institute"
 ```
 ---
 
-# Today, we will...
+# Overview of this slide deck, we will...
 
 - Discuss the real-world impacts of inaccessible data visualization
 - Explore practical tips and resources that we can use to improve the accessibility of our data visualizations, especially relating to:
@@ -115,7 +115,7 @@ REFERENCES:
 
 # ‘Flattening the Curve’
 
-![w:900](./images/07_lower_and_delay_the_epidemic_peak.png)
+![h:500](./images/07_lower_and_delay_the_epidemic_peak.png)
 
 <!-- 
 NOTES: 
@@ -209,6 +209,45 @@ Treasury Board of Canada. (2020, October 23). Making communications accessible i
 
 ---
 
+# Using colour
+
+- Think of colour in terms of 3 channels
+    - Magnitude of these two channels is suitable for ordered data
+        - Luminance: how bright
+        - Saturation: how colourful
+    - Hue is an identity channel, suitable for categorical data
+        - Hue: pure colours
+
+![align-bottom-centered h:200](./images/07_colours_as_channels.png)
+
+<!--Tamara Munzner. 2014. Chapter 10.2.3 Luminance, Saturation, and Hue. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+### 
+
+![](./images/07_colours_text.png)
+![bg right:60% w:600](./images/07_colours_hues.png)
+
+<!-- 
+Recommended hues for representing categories
+
+Slide from: Prince, Enamul. “3b. Colours, rules”. ITEC 6170: Information Visualization, 25 Jan. 2021, York University. Lecture.
+-->
+---
+
+# Mark Size & Colour
+ 
+- Small objects with colour should have more saturation
+- Larger area = easier colour distinction
+
+![align-bottom-centered](./images/07_colours_mark_size.png)
+
+<!--
+Slide from: Prince, Enamul. “3b. Colours, rules”. ITEC 6170: Information Visualization, 25 Jan. 2021, York University. Lecture.
+-->
+---
+
 # Resource: Colour Blindness Simulator
 
 - The [Colour Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/) allows you to upload an image and apply various filters to check how its colours would be perceived by people with various types of colourblindness
@@ -269,7 +308,7 @@ Rudis, B., Ross, N., & Garnier, S. (2021). Viridis color maps [R]. https://cran.
 
 # Viridis package - Example
 
-![w:800](./images/07_viridis_package_example.png)
+![h:500](./images/07_viridis_package_example.png)
 
 <!--
 REFERENCES:
@@ -415,8 +454,6 @@ University of Toronto. (2021). Accessible Images and Multimedia | Information & 
     - **If the focus is on specific individuals**:  “From left-to-right: Eugenia Duodu and Patrick Gunning”
     - **If the focus is on the actual events or contents of an image**:  “Professor Patrick Gunning and doctoral student Eugenia Duodo talking by a chemistry fume hood”
 
-    ![w:300](./images/07_two_scientists_in_discussion.png)
-
 <!--
 REFERENCES:
 University of Toronto. (2021). Accessible Images and Multimedia | Information & Instructional Technology. https://www.utm.utoronto.ca/iits/documentation/drupal-user-guide/accessible-images-and-multimedia 
@@ -549,14 +586,19 @@ REFERENCES:
 REFERENCES:
 https://www.rgd.ca/resources/accessibility/access 
 
-
-
-
 -->
 
 ---
 
-# Next...
+# Assignment 3 
+
+---
+
+# Feedback!
+
+---
+
+# Next session
 
 - Data Visualization as Advocacy
 - Examples of data visualization used for advocacy, and best practices

@@ -12,7 +12,7 @@ $ echo "Data Science Institute"
 ```
 ---
 
-# Today we will...
+# Overview of this slide deck, we will: 
 
 - Learn about subplot notation in matplotlib
 - Put multiple visualizations on the same axes objects
@@ -149,6 +149,21 @@ ax.text(0.5, 0.5, f'This is {label!r}',
     plt.show()
     ```
 
+
+---
+
+# Feedback!
+
+---
+
+# Agenda for today
+- Finish working through slide deck #6: Subplots and combining visualizations
+- Go through slide deck #7: Accessible data visualization
+- Discuss assignment 3
+
+---
+
+# Review feedback from last session
 
 ---
 
@@ -399,6 +414,23 @@ You know enough at this point to do this! It’s not ~necessary~ but it’s a ni
 
 ---
 
+# Saving our visualizations
+
+---
+- First, let's define where we want to save our visualization
+    ```
+    path = 'C:/Users/...'
+    # can be full path or relative path
+    filename = '/fig1a.png'
+    ```
+- Then save the visualization
+    ```
+    plt.savefig(path+filename, dpi=300)
+    # note that path shouldn't end with / since filename starts with it
+    ```
+<!--Other possible parameters for this can be found in the documentation: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html-->
+
+---
 # Next...
 
 - Accessible data visualization, including
