@@ -54,7 +54,7 @@ Participants are encouraged to engage actively during the learning module. They 
 * Class 2: Choosing the right visualization (slide 04)
 * Class 3: Reproducible data visualization (slide 03), Customizing our plots (slide 05)
 * Class 4: Subplots and combining visualizations (slide 06), Accessible data visualization (slide 07)
-* Class 5: Data viz as advocacy (slide 08), Beyond matplotlib (slide 09)
+* Class 5: Data viz as advocacy (slide 08), Beyond matplotlib (slide 09) 
 
 ## Requirements
 * Participants are expected to have completed Shell, Git, and Python learning modules.
