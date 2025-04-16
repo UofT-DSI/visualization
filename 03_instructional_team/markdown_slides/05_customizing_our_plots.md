@@ -46,13 +46,13 @@ $ echo "Data Science Institute"
 
 # Activity: Recall
 
-- Using what we learned in lesson 2, can you make a line plot with both of our y variables on the same axes?
+- Using what we learned in lesson 1, can you make a line plot with both of our y variables on the same axes?
 ![](./images/05_a_line_plot_with_both_y_variables.png)
 
 ---
 # Activity: Recall
 
-- Using what we learned in lesson 2, can you make a line plot with both of our y variables on the same axes?
+- Using what we learned in lesson 1, can you make a line plot with both of our y variables on the same axes?
     ```
     fig, ax = plt.subplots(figsize=(5, 3))
     ax.plot(x,y1)
@@ -326,16 +326,11 @@ fig.show()
 
 ---
 
-# Assignment 2
-
----
-
 # Feedback!
 
 ---
 
 # Next session:
 
-- How do we choose the right data visualization for a given situation?
-- What does it mean for data visualization to be ‘objective’?
-- Perceptual qualities of data viz
+- Subplots, multiple axes, and combining elements in matplotlib
+- Accessible data visualization

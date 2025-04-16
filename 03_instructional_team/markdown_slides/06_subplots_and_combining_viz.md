@@ -148,23 +148,7 @@ ax.text(0.5, 0.5, f'This is {label!r}',
     someaxes["ax3"].plot(x1,y1)
     plt.show()
     ```
-
-
----
-
-# Feedback!
-
----
-
-# Agenda for today
-- Finish working through slide deck #6: Subplots and combining visualizations
-- Go through slide deck #7: Accessible data visualization
-- Discuss assignment 3
-
----
-
-# Review feedback from last session
-
+    
 ---
 
 # Modify figure layout
@@ -431,10 +415,18 @@ You know enough at this point to do this! It’s not ~necessary~ but it’s a ni
 <!--Other possible parameters for this can be found in the documentation: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html-->
 
 ---
-# Next...
 
-- Accessible data visualization, including
-  - Colour
-  - Text
-  - Image description and alt. text
+# Assignment 3 
 
+---
+
+# Feedback!
+
+---
+
+# Next session
+
+- Data Visualization as Advocacy
+- Examples of data visualization used for advocacy, and best practices
+- Form, representation, and giving credit as means of incorporating advocacy into our own data visualization practices
+- Moving beyond matplotlib – other data viz libraries in Python

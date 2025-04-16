@@ -12,6 +12,17 @@ $ echo "Data Science Institute"
 ```
 ---
 
+# Agenda for today
+- Go through slide deck #7: Subplots and combining visualizations
+- Go through slide deck #6: Accessible data visualization
+- Discuss assignment 3
+
+---
+
+# Review feedback from last session
+
+---
+
 # Overview of this slide deck, we will...
 
 - Discuss the real-world impacts of inaccessible data visualization
@@ -588,19 +599,3 @@ https://www.rgd.ca/resources/accessibility/access
 
 -->
 
----
-
-# Assignment 3 
-
----
-
-# Feedback!
-
----
-
-# Next session
-
-- Data Visualization as Advocacy
-- Examples of data visualization used for advocacy, and best practices
-- Form, representation, and giving credit as means of incorporating advocacy into our own data visualization practices
-- Moving beyond matplotlib – other data viz libraries in Python
