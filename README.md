@@ -50,11 +50,11 @@ This module will include live learning sessions and optional, asynchronous work 
 Participants are encouraged to engage actively during the learning module. They key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify. 
 
 ## Schedule
-* Class 1: Intro and overview, getting started with matplotlib
-* Class 2: Reproducible data visualization, customizing our plots
-* Class 3: Choosing the right visualization, subplots and combining visualizations
-* Class 4: (continue) Subplots and combining visualizations, Accessible data visualization
-* Class 5: Data viz as advocacy, Beyond matplotlib
+* Class 1: Intro and overview (slide 01), Getting started with matplotlib (slide 02)
+* Class 2: Choosing the right visualization (slide 04)
+* Class 3: Reproducible data visualization (slide 03), Customizing our plots (slide 05)
+* Class 4: Subplots and combining visualizations (slide 06), Accessible data visualization (slide 07)
+* Class 5: Data viz as advocacy (slide 08), Beyond matplotlib (slide 09)
 
 ## Requirements
 * Participants are expected to have completed Shell, Git, and Python learning modules.
