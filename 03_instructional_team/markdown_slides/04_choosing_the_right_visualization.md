@@ -15,7 +15,7 @@ $ echo "Data Science Institute"
 
 # Agenda for today 
 - Go through slide deck #4: Choosing the right visualization
-- Start on slide deck #6: Subplots and combining visualizations
+- Discuss assignment 2
 
 --- 
 
@@ -701,7 +701,17 @@ REFERENCES:
 
 ---
 
-# Next...
+# Assignment 2
 
-Subplots, multiple axes, and combining elements in matplotlib
+---
+
+# Feedback!
+
+---
+
+# Next session, we'll discuss: 
+
+- What is reproducible data visualization?
+- How can we incorporate ideas about reproducibility into our data visualization practices? (Ethics)
+- More matplotlib!
 

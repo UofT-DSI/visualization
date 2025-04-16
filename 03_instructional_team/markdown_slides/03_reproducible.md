@@ -17,7 +17,6 @@ $ echo "Data Science Institute"
 
 - Go through slide deck #3: reproducibility
 - Go through slide deck #5: customizing our plots
-- Discuss assignment 2
 
 ---
 

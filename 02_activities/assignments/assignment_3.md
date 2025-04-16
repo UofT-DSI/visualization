@@ -13,7 +13,7 @@
     
     > What information or message are you trying to convey with your visualization? 
     
-    > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
     

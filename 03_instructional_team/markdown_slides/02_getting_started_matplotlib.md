@@ -27,7 +27,6 @@ You have installed the numpy, matplotlib, pandas, scipy, PIL, and requests libra
     - Colour
     - Line type
     - Marker size
-- Apply our visualization evaluation skills to matplotlib images
 
 ---
 
@@ -336,7 +335,8 @@ ax.plot(x,y,marker='*',
 # In the next session, we'll continue with...
 
 - The responses from the polls 
-- What is reproducible data visualization?
-- How can we incorporate ideas about reproducibility into our data visualization practices? (Ethics)
-- More matplotlib!
+- How do we choose the right data visualization for a given situation?
+- What does it mean for data visualization to be ‘objective’?
+- Perceptual qualities of data viz
+
 
