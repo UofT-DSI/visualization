@@ -113,6 +113,18 @@ section {
 
 ---
 
+### Quick Check-in
+
+If we had to abstract our data and translate from domain-specific language to generic visualization language, we would ask: 
+
+- A) **What** are the data types? 
+- B) How are the data types structured (i.e, **what** is the dataset type?)
+- C) **What** are my attribute types? 
+- D) All of the above
+- E) None of the above
+
+---
+
 ![bg right:60% w:600](./images/04_analysis_framework_why.png)
 
 ### This figure helps us decompose different reasons *why* a person may use a visualization (i.e., what task they perform). 
@@ -130,12 +142,50 @@ section {
 
 ---
 
+![bg right:60% w:700](./images/04_analysis_framework_why_actions_analyze.png)
+
+- Action → Analyze
+- Task is either to consume data or produce additional data
+- Consume or produce tasks can be performed to achieve different goals.
+
+---
+
+<style scoped>
+section {
+  font-size: 22px;
+}
+</style>
+![align-top-centered](./images/04_analysis_framework_why_actions_search.png)
+- Action → Search
+- Task (lookup, browse, locate, explore) will depend on whether location and target are unknown or known
+
+---
+
+<style scoped>
+section {
+  font-size: 22px;
+}
+</style>
+![align-top-centered](./images/04_analysis_framework_why_actions_query.png)
+- Action → Query
+- Task (identify, compare, summarize) will depend on **how much of the data** matters for you to do a particular task
+
+---
+
+![h:610](./images/04_analysis_framework_why_actions.png)
+
+---
+
 ![bg right:60% w:500](./images/04_analysis_framework_why_targets.png)
 
 - Targets are “some aspect of the data that is of interest to the user”. 
 - For some tasks, this is more explicit than with others (but still relevant!).
 
 <!--Tamara Munzner. 2014. Chapter 3 Why: Task Abstraction. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+![align-top-centered](./images/04_analysis_framework_why_actions_activity.png)
 
 ---
 
