@@ -10,19 +10,20 @@
 - For each visualization (good and bad):  
     - GOOD
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
+
+    - Original Visualization
+    <img src="./MoE_goodviz.png" width="500">
+    - My Version
+    <img src="./MyVersion_goodviz.png" width="500">
       ```
-      Original Visualization
-      <img src="./MoE_goodviz.png" width="500">
+      
+      
       Your answer... This visualization comes from a study I also really liked (Celniker et al., 2023; doi: 
       https://doi.org/10.1037/xge0001259). In fact, I ran into the lead author at a conference recently and 
       asked to semi-replicate the figure in my own (recently) published study (Campbell et al., 2025; doi: 
       https://doi.org/10.1016/j.cognition.2025.106065).
       
-      My Version
-      
-      
-      <img src="./MyVersion_goodviz.png" width="500">
-      
+          
       Explanation: I'm going to speak to the first graph I pointed to and not my own version. Purely in 
       terms of the aesthetic qualities, I really like the organization and colouring of the content in this 
       visual. I think the colours are pleasant and intuitive (e.g., darker colours matched to "high effort" 
@@ -65,8 +66,13 @@
       ```
     - BAD
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
+    - Bad viz I submitted
+    <img src="./EffortLeisure_badviz.png" width="500">
+
+    - My recent adjustments
+    <img src="./EffortLeisure_revised.png" width="500">
       ```
-      <img src="./EffortLeisure_badviz.png" width="500">
+      
       Your answer... If I may slightly roast my own decisions, this was/is a graph in a paper I submitted
        to a journal just before the DSI course. I thankfully got a revise and resubmit recently and will be
        changing the figure ASAP to be easily digestible. Surprisingly, reviewers took no issue with it, but 
@@ -93,7 +99,7 @@
     - How could this data visualization have been improved?  
       ```
       Your answer... I intend on changing this from a scatter plot to a bar plot (I attached a draft 
-      version below that I'm working on). I'm willingly sacrificing some "honesty" in terms of presenting 
+      version above that I'm working on). I'm willingly sacrificing some "honesty" in terms of presenting 
       averages because I think aggregated information is just as valuable here anyways. In addition, I 
       would want to keep error bars to still show variability. I also made the decision to bin the bar 
       plots a little more aggressively as I have limited data at the very high effort levels and my goal is 
@@ -108,7 +114,7 @@
       remove the line plot as it doessn't feel like it adds a lot, but here I like it as black to contrast 
       it against the bar plot's colour scale.
 
-      <img src="./EffortLeisure_revised.png" width="500">
+  
 
 
 
