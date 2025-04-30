@@ -113,7 +113,7 @@
       (low to high effort ratings). Removing the group-based colour format made the graph immediately more 
       clear. I also think the scatterplot provided far too much useless information. This graph, albeit not 
       perfect, much more clearly communicates the extent to which effort and meaning might relate in a 
-      curvilinear way. It's no longer a matrix of dots and, instead, gives  sense of how meaningful 
+      curvilinear way. It's no longer a matrix of dots and, instead, gives a sense of how meaningful 
       different levels of exertion tends to feel. Overall, I think this greatly improved the aesthetics and 
       perceptual aspects with limited sacrifice to the substantive piece. I still will likely tweak or 
       remove the line plot as it doessn't feel like it adds a lot, but here I like it as black to contrast 
