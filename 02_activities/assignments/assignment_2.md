@@ -55,7 +55,8 @@
       relevant constructs use green and red - problematic colours for the most common form of 
       colourblindness. It does get around this a little bit as the figure is tuned to be viewed in 
       greyscale (e.g., colour AND labeling differentiate groups). Still, better colours could be used. I 
-      also believe having the "high effort" to the left of "low effort" is counter-intuitive for the sake of expecting lower values to the left and high values to the right (I ended up changing this in my 
+      also believe having the "high effort" to the left of "low effort" is counter-intuitive for the sake 
+      of expecting lower values to the left and high values to the right (I ended up changing this in my 
       verion). The final smaller thing is that I prefer a more clearer region for displaying error 
       variance. This figure used a blurred region, we opted for a clearly outlined box plot on the graph. I 
       think the blurred approach with matching colours makes it a little trickier to see the value for mean 
