@@ -51,7 +51,7 @@
       information to parse, but at the same time - it seems to handle a lot of information really well. I 
       ended up adapting it as we had about 6 or 7 studies at the time and I wanted a strong summative 
       figure which demonstrated a consistent finding across a lot of contexts and samples. I will note, the 
-      colour choice, while I like it, leaves me with some accessibility concerns and the two "less" 
+      colour choice, while I like it, leaves me with some accessibility concerns as the two "less" 
       relevant constructs use green and red - problematic colours for the most common form of 
       colourblindness. It does get around this a little bit as the figure is tuned to be viewed in 
       greyscale (e.g., colour AND labeling differentiate groups). Still, better colours could be used. I 
