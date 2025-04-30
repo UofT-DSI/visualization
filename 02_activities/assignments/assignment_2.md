@@ -13,6 +13,7 @@
 
     - Original Visualization
     <img src="./MoE_goodviz.png" width="500">
+    
     - My Version
     <img src="./MyVersion_goodviz.png" width="500">
       ```
