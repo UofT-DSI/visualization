@@ -36,7 +36,7 @@
       of information in a really honest way. The full likert range (1-7) for each construct is shown, along 
       with means and SE around the means. The use of scatterplots within each group gives an additional 
       view of the variability across goups (and samples). Each sample was recruited in a separate nation, 
-      so visually eparating these out is both more transparent and shows meaningful variability or 
+      so visually separating these out is both more transparent and shows meaningful variability or 
       differences across countries (as opposed to simply combining all samples). Regarding the perceptual 
       component, I think the message was immediately clear to me when first reading (of course, a very 
       basic understanding of the design is important). In terms of judgments of others, across countries 
