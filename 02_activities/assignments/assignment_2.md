@@ -22,8 +22,8 @@
       Your answer... This visualization comes from a study I also really liked (Celniker et al., 2023; doi: 
       https://doi.org/10.1037/xge0001259). In fact, I ran into the lead author at a conference recently and 
       asked to semi-replicate the figure in my own (recently) published study (Campbell et al., 2025; doi: 
-      https://doi.org/10.1016/j.cognition.2025.106065). He did not have to code available online, but I was 
-      able to recreate the spirit of it through several hours of trial and error.
+      https://doi.org/10.1016/j.cognition.2025.106065). He did not have the code available online, but I 
+      was able to recreate the spirit of it through several hours of trial and error.
       
           
       Explanation: I'm going to speak to the first graph I pointed to and not my own version. Purely in 
