@@ -11,10 +11,11 @@
     - GOOD
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      <img src="02_activities\assignments\MoE_goodviz.png" width="500">
+      Original Visualization
+      <img src="MoE_goodviz.png" width="500">
       Your answer... This visualization comes from a study I also really liked (Celniker et al., 2023; doi: https://doi.org/10.1037/xge0001259). In fact, I ran into the lead author at a conference recently and asked to semi-replicate the figure in my own (recently) published study (Campbell et al., 2025; doi: https://doi.org/10.1016/j.cognition.2025.106065).
       My Version
-      <img src="02_activities\assignments\MyVersion_goodviz.png" width="500">
+      <img src="MyVersion_goodviz.png" width="500">
       Explanation: I'm going to speak to the first graph I pointed to and not my own version. Purely in terms of the aesthetic qualities, I really like the organization and colouring of the content in this visual. I think the colours are pleasant and intuitive (e.g., darker colours matched to "high effort" groups on a white background; Franconeri et al., 2021; doi: https://doi.org/10.1177/15291006211051956). The colours also "feel right" for the constructs they represent (e.g., red-ish for warmth, the others being more ambiguous but still look good). However, I'll comment again on the colouring in the improvement part. In terms of substantiveness, the graph clearly communicates a lot of information in a really honest way. The full likert range (1-7) for each construct is shown, along with means and SE around the means. The use of scatterplots within each group gives an additional view of the variability across goups (and samples). Each sample was recruited in a separate nation, so visually eparating these out is both more transparent and shows meaningful variability or differences across countries (as opposed to simply combining all samples). Regarding the perceptual component, I think the message was immediately clear to me when first reading (of course, a very basic understanding of the design is important). In terms of judgments of others, across countries people commonly view those who exert more effort as being more morally virtuous, but this level of cross-national findings doesn't extend to judgments of competency or warmth.
 
       Aesthetic: is it pleasing to look at?
@@ -36,7 +37,7 @@
     - BAD
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      <img src="02_activities\assignments\EffortLeisure_badviz.png" width="500">
+      <img src="EffortLeisure_badviz.png" width="500">
       Your answer... If I may slightly roast my own decisions, this was/is a graph in a paper I submitted to a journal just before the DSI course. I thankfully got a revise and resubmit recently and will be changing the figure ASAP to be easily digestible. Surprisingly, reviewers took no issue with it, but in terms of the three qualities we reviewed, I think it at best does an okay job at one (substantive). In terms of aesthetics, the colouring doesn't match the manipulation/groups (Low effort - Video, Medium effort puzzle - high effort puzzle). The colours aren't clearly related here and could've easily been a gradient. Because of this, the scatterplot looks really wonky with colours everywhere. The black curvilinear fitted plot could also better match the colour scheme (if there were one). Related to the prior points, the perceptual piece is not good. The colours being all over the places makes it hard to parse group differences - honestly this information isn't even that helpful anyways as the main point was correlating self-reported effort with meaning. The distribution of the data leads to the entire scatter plot being almost a matrix of dots (again, really hard to parse through). My only "saving grace" is that the data is accurately presented if you have the patience to parse it. I used the full scale and included all points of data from our sample. 
 
 
@@ -50,7 +51,7 @@
       ```
       Your answer... I intend on changing this from a scatter plot to a bar plot (I attached a draft version below that I'm working on). I'm willingly sacrificing some "honesty" in terms of presenting averages because I think aggregated information is just as valuable here anyways. In addition, I would want to keep error bars to still show variability. I also made the decision to bin the bar plots a little more aggressively as I have limited data at the very high effort levels and my goal is to just show an overall trend with this plot. In this revised version I made (the day prior to the due date), I've switched up the colouring to be a gradient scale moving from pale red to dark blue (low to high effort ratings). Removing the group-based colour format made the graph immediately more clear. I also think the scatterplot provided far too much useless information. This graph, albeit not perfect, much more clearly communicates the extent to which effort and meaning might relate in a curvilinear way. It's no longer a matrix of dots and, instead, gives  sense of how meaningful different levels of exertion tends to feel. Overall, I think this greatly improved the aesthetics and perceptual aspects with limited sacrifice to the substantive piece. I still will likely tweak or remove the line plot as it doessn't feel like it adds a lot, but here I like it as black to contrast it against the bar plot's colour scale.
 
-      <img src="02_activities\assignments\EffortLeisure_revised.png" width="500">
+      <img src="EffortLeisure_revised.png" width="500">
 
 
 
