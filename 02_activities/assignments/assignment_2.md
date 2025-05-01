@@ -10,7 +10,8 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      Your answer... https://public.tableau.com/app/profile/yvette/viz/JobApplicationProcess_15520359515640/JobApplicationFlow
+      This is an effective visualization—the job application process is clearly illustrated using the Sankey diagram. However, the numerical data on the left side could be more intuitively compared if presented as a donut chart, which would better highlight the highest and lowest values.
 
 
 
@@ -22,6 +23,11 @@
     - How could this data visualization have been improved?  
       ```
       Your answer...
+      This visualization is an example of poor design. It attempts to show changes in electricity prices in Spain up to 2012, categorized by the terms of two prime ministers—José Luis Rodríguez Zapatero and Mariano Rajoy. However, the figure lacks clarity in both presentation and messaging. Data for 2013 is incomplete, covering only five months, and the overall trend is difficult to interpret. Moreover, the x- and y-axes are not labeled, and the x-axis displays only two ambiguous values. The color scheme, using similar shades of light and dark gray, makes it hard to distinguish between data groups.
+      Suggestions for improvement:
+      1.	Use a single bar plot with the x-axis labeled by year and the y-axis showing the percentage change in electricity prices.
+      2.	Differentiate the periods by using blue bars for data under Zapatero (up to 2011) and red bars for data under Rajoy (2012 and 2013). Include a clear legend to indicate which color corresponds to each prime minister.
+      
 
 
 
