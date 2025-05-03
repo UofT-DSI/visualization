@@ -297,7 +297,7 @@ Steidl, D., Hummel, B., & Juergens, E. (2013). Quality analysis of source code c
 - Terms are often used inconsistently or as synonyms
 - Reproducibility and reusability are complementary
     - For someone to be able to reproduce your work, it needs to be FAIR (i.e., they have to be able to find it, access it, ‘read’ it, and reuse it)
-- Reproducibility vs reusability 
+- Reproducibility vs replicability 
     - “Reproducibility is obtaining **consistent results using the same input data**; computational steps, methods, and code; and conditions of analysis.”
     - “Replicability is obtaining **consistent results** across studies aimed at answering the same scientific question, each of which has **obtained its own data**.”
     

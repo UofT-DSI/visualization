@@ -13,8 +13,8 @@ $ echo "Data Science Institute"
 ---
 
 # Agenda for today
-- Go through slide deck #7: Subplots and combining visualizations
-- Go through slide deck #6: Accessible data visualization
+- Go through slide deck #7: Accessible data visualization
+- Go through slide deck #6: Subplots and combining visualizations
 - Discuss assignment 3
 
 ---

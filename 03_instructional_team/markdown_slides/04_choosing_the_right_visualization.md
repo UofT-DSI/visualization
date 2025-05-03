@@ -242,6 +242,39 @@ Slide idea from: Prince, Enamul. “3a. Marks, Channels, Colours”. ITEC 6170: 
 
 ---
 
+### Check-in: Marks, Channels, and Encodings
+<style scoped>
+section {
+  font-size: 16px;
+}
+</style>
+![bg left:30% h:300](./images/04_activity_channels.png)
+
+**Question 1**: What mark(s) are being used?
+- a) Points/dots
+- b) Lines
+- c)  Areas
+- d) All of the above
+- e) None of the above
+
+**Question 2:** What channel(s) are being used?
+- a) Horizontal position
+- b) Vertical position
+- c) Colour
+- d) Area
+- e) All of the above
+
+**Question 3:** How many attributes are encoded?
+- a) 1
+- b) 2
+- c) 3
+- d) 4
+- e) 5
+
+<!--Slide adapted from https://www.khoury.northeastern.edu/home/cody/courses/cs7250-s20/slides/2020.02.03%20Marks%20and%20Channels,%20Data.pdf  (slide 14).-->
+
+---
+
 ![h:600](./images/04_channels_effectiveness_expressiveness.png)
 
 <!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
