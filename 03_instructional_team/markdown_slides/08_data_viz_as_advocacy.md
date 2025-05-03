@@ -22,6 +22,86 @@ $ echo "Data Science Institute"
 
 ---
 
+# Feedback: Examples of accessible viz
+
+- Conveying mean with shape differences: 
+
+![h:600](./images/08_feedback_accessibility_shapes.png)
+
+<!--
+REFERENCES:
+- Images and content from: https://accessibility.huit.harvard.edu/data-viz-charts-graphs
+- Original source: https://arkansascrops.uada.edu/posts/marketing/soybean-market-february-11-2022.aspx 
+-->
+
+---
+
+# Feedback: Examples of accessible viz
+
+- Convey meaning with patterns:
+
+![h:450](./images/08_feedback_accessibility_patterns.png)
+
+<!--
+REFERENCES:
+- Images and content from: https://accessibility.huit.harvard.edu/data-viz-charts-graphs
+- Original source: https://zachgrosser.medium.com/accessible-colors-for-data-visualization-2ad64ac4ee7e 
+-->
+
+---
+
+# Feedback: Examples of accessible viz
+
+- Convey meaning with direct labelling  
+
+![h:450](./images/08_feedback_accessibility_label.png)
+
+<!--
+REFERENCES:
+- Images and content from: https://accessibility.huit.harvard.edu/data-viz-charts-graphs
+- Original source: https://www.storytellingwithdata.com/blog/2018/6/26/accessible-data-viz-is-better-data-viz 
+-->
+
+---
+
+
+# Feedback: Examples of accessible viz
+<style scoped>
+section {
+  font-size: 22px;
+}
+</style>
+- Example of vis with chart descriptions
+
+![h:350](./images/08_feedback_accessibility_desc.png)
+- Weekly Activities for 1st and 2nd Year Students measured in hours.
+    - Social Events - First Year 6 hours, Second Year 2 hours.
+    - Volunteer Activities - First Year 4 hours, Second Year 2 hours.
+    - Coursework - First Year 9 hours, Second Year 9 hours.
+
+<!--
+REFERENCES:
+- Images and content from: https://accessibility.huit.harvard.edu/data-viz-charts-graphs
+-->
+---
+
+# Feedback: Demo of making accessible viz
+
+- Adding patterns with matplotlib (see code pushed for this under: 04_cohort_dc\live_code on github)
+
+![](./images/08_feedback_accessibility_demo_patterns.png)
+
+---
+
+# Feedback: Demo of making accessible viz
+
+- Setting styles and markers (see code pushed for this under: 04_cohort_dc\live_code on github)
+
+![h:210](./images/08_feedback_accessibility_demo_colorandmarker.png)
+![h:210](./images/08_feedback_accessibility_demo_defaultcolorpng.png)
+
+---
+
 # Overview of this slide deck, we will...
 
 - Explore examples and ideas behind data visualization as used for advocacy
