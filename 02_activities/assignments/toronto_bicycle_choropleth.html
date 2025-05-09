@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0c23cf5659e2d9de646e487ac86bc0fb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0c23cf5659e2d9de646e487ac86bc0fb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0c23cf5659e2d9de646e487ac86bc0fb = L.map(
+                "map_0c23cf5659e2d9de646e487ac86bc0fb",
+                {
+                    center: [43.653963, -79.387207],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3d19c6f73007a6b9ab5fcdd414486ce3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3d19c6f73007a6b9ab5fcdd414486ce3.addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+
+        function geo_json_410a7bb2a8e5988f2014253722caee5e_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_410a7bb2a8e5988f2014253722caee5e = L.geoJson(null, {
+                onEachFeature: geo_json_410a7bb2a8e5988f2014253722caee5e_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_410a7bb2a8e5988f2014253722caee5e_add (data) {
+            geo_json_410a7bb2a8e5988f2014253722caee5e
+                .addData(data);
+        }
+            geo_json_410a7bb2a8e5988f2014253722caee5e_add({"features": [{"geometry": {"coordinates": [-79.4625696, 43.6541459], "type": "Point"}, "id": 3, "properties": {"bin_size": "00:15:00", "centreline_id": 30042273, "date_decommissioned": null, "direction": "Eastbound", "first_active": "2023-06-16", "last_active": "2025-03-17", "latest_calibration_study": "2023-10-18", "linear_name_full": "Bloor St W", "location_dir_id": 3, "location_name": "Bloor St W at Oakmount Rd, Display Counter", "side_street": "Oakmount Rd", "technology": "Induction - Eco-Counter"}, "type": "Feature"}, {"geometry": {"coordinates": [-79.375044, 43.6679708], "type": "Point"}, "id": 22, "properties": {"bin_size": "00:15:00", "centreline_id": 10923449, "date_decommissioned": null, "direction": "Northbound", "first_active": "2022-11-15", "last_active": "2025-04-01", "latest_calibration_study": "2024-10-02", "linear_name_full": "Sherbourne St", "location_dir_id": 22, "location_name": "Sherbourne St, North of Wellesley St E", "side_street": "Wellesley St E", "technology": "Induction - Eco-Counter"}, "type": "Feature"}, {"geometry": {"coordinates": [-79.3868925, 43.6705587], "type": "Point"}, "id": 26, "properties": {"bin_size": "00:15:00", "centreline_id": 11034877, "date_decommissioned": null, "direction": "Northbound", "first_active": "2022-10-27", "last_active": "2025-04-01", "latest_calibration_study": "2024-10-02", "linear_name_full": "Yonge St", "location_dir_id": 26, "location_name": "Yonge St, North of Bloor St", "side_street": "Bloor St", "technology": "Induction - Eco-Counter"}, "type": "Feature"}, {"geometry": {"coordinates": [-79.3880628, 43.6734429], "type": "Point"}, "id": 28, "properties": {"bin_size": "00:15:00", "centreline_id": 8680067, "date_decommissioned": null, "direction": "Northbound", "first_active": "2024-01-15", "last_active": "2025-04-01", "latest_calibration_study": "2024-10-02", "linear_name_full": "Yonge St", "location_dir_id": 28, "location_name": "Yonge St, North of Davenport Rd", "side_street": "Davenport Rd", "technology": "Induction - Eco-Counter"}, "type": "Feature"}, {"geometry": {"coordinates": [-79.3905663, 43.6795414], "type": "Point"}, "id": 30, "properties": {"bin_size": "00:15:00", "centreline_id": 1140465, "date_decommissioned": null, "direction": "Northbound", "first_active": "2022-11-14", "last_active": "2025-04-01", "latest_calibration_study": "2024-10-03", "linear_name_full": "Yonge St", "location_dir_id": 30, "location_name": "Yonge St, North of Macpherson Ave", "side_street": "Macpherson Ave", "technology": "Induction - Eco-Counter"}, "type": "Feature"}, {"geometry": {"coordinates": [-79.3944265, 43.6888532], "type": "Point"}, "id": 32, "properties": {"bin_size": "00:15:00", "centreline_id": 7262532, "date_decommissioned": null, "direction": "Northbound", "first_active": "2022-11-14", "last_active": "2025-04-01", "latest_calibration_study": "2024-10-02", "linear_name_full": "Yonge St", "location_dir_id": 32, "location_name": "Yonge St, North of St Clair Ave", "side_street": "St Clair Ave", "technology": "Induction - Eco-Counter"}, "type": "Feature"}, {"geometry": {"coordinates": [-79.413093, 43.6647258], "type": "Point"}, "id": 8, "properties": {"bin_size": "00:15:00", "centreline_id": 8353520, "date_decommissioned": null, "direction": "Eastbound", "first_active": "2023-03-31", "last_active": "2025-04-01", "latest_calibration_study": "2024-10-02", "linear_name_full": "Bloor St W", "location_dir_id": 8, "location_name": "Bloor St W, between Palmerston \u0026 Markham", "side_street": "Palmerston Blvd", "technology": "Induction - Eco-Counter"}, "type": "Feature"}, {"geometry": {"coordinates": [-79.4942429, 43.6490912], "type": "Point"}, "id": 12, "properties": {"bin_size": "00:15:00", "centreline_id": 30081325, "date_decommissioned": null, "direction": "Eastbound", "first_active": "2024-07-31", "last_active": "2025-04-01", "latest_calibration_study": "2024-10-02", "linear_name_full": "Bloor St W", "location_dir_id": 12, "location_name": "Bloor St W, East of Old Mill Trail", "side_street": "Old Mill Trail", "technology": "Induction - Eco-Counter"}, "type": "Feature"}, {"geometry": {"coordinates": [-79.4861368, 43.7444884], "type": "Point"}, "id": 14, "properties": {"bin_size": "00:15:00", "centreline_id": 10133019, "date_decommissioned": null, "direction": "Northbound", "first_active": "2022-08-06", "last_active": "2025-04-01", "latest_calibration_study": "2023-10-18", "linear_name_full": "Keele St", "location_dir_id": 14, "location_name": "Multi-use path south-east of Keele \u0026 Sheppard", "side_street": "Sheppard Ave W", "technology": "Induction - Eco-Counter"}, "type": "Feature"}, {"geometry": {"coordinates": [-79.4921287, 43.743467], "type": "Point"}, "id": 16, "properties": {"bin_size": "00:15:00", "centreline_id": 6002161, "date_decommissioned": null, "direction": "Eastbound", "first_active": "2023-03-28", "last_active": "2025-04-01", "latest_calibration_study": "2023-10-18", "linear_name_full": "Sheppard Ave W", "location_dir_id": 16, "location_name": "Multi-use path south of Sheppard Ave at Sentinel Rd", "side_street": "Sentinel Rd", "technology": "Induction - Eco-Counter"}, "type": "Feature"}, {"geometry": {"coordinates": [-79.3725671, 43.662038], "type": "Point"}, "id": 18, "properties": {"bin_size": "00:15:00", "centreline_id": 1143580, "date_decommissioned": null, "direction": "Northbound", "first_active": "2022-11-14", "last_active": "2025-03-30", "latest_calibration_study": "2023-10-18", "linear_name_full": "Sherbourne St", "location_dir_id": 18, "location_name": "Sherbourne St, North of Gerrard St", "side_street": "Gerrard St", "technology": "Induction - Eco-Counter"}, "type": "Feature"}], "type": "FeatureCollection"});
+        geo_json_410a7bb2a8e5988f2014253722caee5e.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_410a7bb2a8e5988f2014253722caee5e.addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+            var circle_marker_d083f4262a353bf3e8a13c6a6662f54d = L.circleMarker(
+                [43.6541459, -79.4625696],
+                {"bubblingMouseEvents": true, "color": "#fe0001ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fe0001ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.986301369863014, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_e7363c19c398069fe6aeb7c032b0905b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76f23561d50ada4f65730c117c4d38c5 = $(`<div id="html_76f23561d50ada4f65730c117c4d38c5" style="width: 100.0%; height: 100.0%;">Bloor St W at Oakmount Rd, Display Counter: 34944 cyclists, going Eastbound </div>`)[0];
+                popup_e7363c19c398069fe6aeb7c032b0905b.setContent(html_76f23561d50ada4f65730c117c4d38c5);
+            
+        
+
+        circle_marker_d083f4262a353bf3e8a13c6a6662f54d.bindPopup(popup_e7363c19c398069fe6aeb7c032b0905b)
+        ;
+
+        
+    
+    
+            var circle_marker_d1f398e54ed37ad7af8429559d17caba = L.circleMarker(
+                [43.6647258, -79.413093],
+                {"bubblingMouseEvents": true, "color": "#ac0053ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ac0053ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.054794520547945, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_18817b330d36fb2ff0710d4d21f313be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43f82e6f2d6f9bfca984b51f70966377 = $(`<div id="html_43f82e6f2d6f9bfca984b51f70966377" style="width: 100.0%; height: 100.0%;">Bloor St W, between Palmerston & Markham: 28416 cyclists, going Eastbound </div>`)[0];
+                popup_18817b330d36fb2ff0710d4d21f313be.setContent(html_43f82e6f2d6f9bfca984b51f70966377);
+            
+        
+
+        circle_marker_d1f398e54ed37ad7af8429559d17caba.bindPopup(popup_18817b330d36fb2ff0710d4d21f313be)
+        ;
+
+        
+    
+    
+            var circle_marker_15557a5e0851dd32dae3bf230e4bb737 = L.circleMarker(
+                [43.6490912, -79.4942429],
+                {"bubblingMouseEvents": true, "color": "#0000ffff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ffff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.109589041095891, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_387321f8955dfe3a7947c3c1ef5e940f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b85d32f73970a4944c07a2db1e513c3 = $(`<div id="html_0b85d32f73970a4944c07a2db1e513c3" style="width: 100.0%; height: 100.0%;">Bloor St W, East of Old Mill Trail: 14784 cyclists, going Eastbound </div>`)[0];
+                popup_387321f8955dfe3a7947c3c1ef5e940f.setContent(html_0b85d32f73970a4944c07a2db1e513c3);
+            
+        
+
+        circle_marker_15557a5e0851dd32dae3bf230e4bb737.bindPopup(popup_387321f8955dfe3a7947c3c1ef5e940f)
+        ;
+
+        
+    
+    
+            var circle_marker_7a972b218ec96ddedb90452dbd6a2b8a = L.circleMarker(
+                [43.7444884, -79.4861368],
+                {"bubblingMouseEvents": true, "color": "#fc0003ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc0003ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.958904109589042, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_e0840a3879235a9ecef7109a24ddfd27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d31816f24f5b4b83d89bb17728c9ddc2 = $(`<div id="html_d31816f24f5b4b83d89bb17728c9ddc2" style="width: 100.0%; height: 100.0%;">Multi-use path south-east of Keele & Sheppard: 34752 cyclists, going Northbound </div>`)[0];
+                popup_e0840a3879235a9ecef7109a24ddfd27.setContent(html_d31816f24f5b4b83d89bb17728c9ddc2);
+            
+        
+
+        circle_marker_7a972b218ec96ddedb90452dbd6a2b8a.bindPopup(popup_e0840a3879235a9ecef7109a24ddfd27)
+        ;
+
+        
+    
+    
+            var circle_marker_d3bb97a00d8aab894ff7910a3b79917b = L.circleMarker(
+                [43.743467, -79.4921287],
+                {"bubblingMouseEvents": true, "color": "#e0001fff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e0001fff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.643835616438356, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_621ac104c951a907d8944feac95d0b57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_931db5efa1e8ef4f6d1f396917379b3a = $(`<div id="html_931db5efa1e8ef4f6d1f396917379b3a" style="width: 100.0%; height: 100.0%;">Multi-use path south of Sheppard Ave at Sentinel Rd: 32544 cyclists, going Eastbound </div>`)[0];
+                popup_621ac104c951a907d8944feac95d0b57.setContent(html_931db5efa1e8ef4f6d1f396917379b3a);
+            
+        
+
+        circle_marker_d3bb97a00d8aab894ff7910a3b79917b.bindPopup(popup_621ac104c951a907d8944feac95d0b57)
+        ;
+
+        
+    
+    
+            var circle_marker_373cc000d33cf3c75be7ce1844499991 = L.circleMarker(
+                [43.662038, -79.3725671],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_4964c810e2cb112b6fb281b89f4dcb6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08bebb3d40ce4dab9c2c3dfa367dc4a0 = $(`<div id="html_08bebb3d40ce4dab9c2c3dfa367dc4a0" style="width: 100.0%; height: 100.0%;">Sherbourne St, North of Gerrard St: 35040 cyclists, going Northbound </div>`)[0];
+                popup_4964c810e2cb112b6fb281b89f4dcb6a.setContent(html_08bebb3d40ce4dab9c2c3dfa367dc4a0);
+            
+        
+
+        circle_marker_373cc000d33cf3c75be7ce1844499991.bindPopup(popup_4964c810e2cb112b6fb281b89f4dcb6a)
+        ;
+
+        
+    
+    
+            var circle_marker_ef2c0c013f32b314f9b6aa49fc3f0bd5 = L.circleMarker(
+                [43.6679708, -79.375044],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_a31f4aa42d4161d0389fd2293dbeca26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b76e6c2e0a42d9cb349196326bf22aed = $(`<div id="html_b76e6c2e0a42d9cb349196326bf22aed" style="width: 100.0%; height: 100.0%;">Sherbourne St, North of Wellesley St E: 35040 cyclists, going Northbound </div>`)[0];
+                popup_a31f4aa42d4161d0389fd2293dbeca26.setContent(html_b76e6c2e0a42d9cb349196326bf22aed);
+            
+        
+
+        circle_marker_ef2c0c013f32b314f9b6aa49fc3f0bd5.bindPopup(popup_a31f4aa42d4161d0389fd2293dbeca26)
+        ;
+
+        
+    
+    
+            var circle_marker_8a53edd1f4afc72eb88194f3dcc65edf = L.circleMarker(
+                [43.6705587, -79.3868925],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_f5a2f0e7967ac17bfd6084012e6609b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9e7e81e7c836e5ff4e3f18fcad067d5 = $(`<div id="html_b9e7e81e7c836e5ff4e3f18fcad067d5" style="width: 100.0%; height: 100.0%;">Yonge St, North of Bloor St: 35040 cyclists, going Northbound </div>`)[0];
+                popup_f5a2f0e7967ac17bfd6084012e6609b7.setContent(html_b9e7e81e7c836e5ff4e3f18fcad067d5);
+            
+        
+
+        circle_marker_8a53edd1f4afc72eb88194f3dcc65edf.bindPopup(popup_f5a2f0e7967ac17bfd6084012e6609b7)
+        ;
+
+        
+    
+    
+            var circle_marker_e00b6fa1c0aee7edf2c4a6399f9f5dfa = L.circleMarker(
+                [43.6734429, -79.3880628],
+                {"bubblingMouseEvents": true, "color": "#ef0010ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ef0010ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.808219178082192, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_c80e5a77349afbd867408d6f6e827452 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92884edbc36538564f1c48788054aec8 = $(`<div id="html_92884edbc36538564f1c48788054aec8" style="width: 100.0%; height: 100.0%;">Yonge St, North of Davenport Rd: 33696 cyclists, going Northbound </div>`)[0];
+                popup_c80e5a77349afbd867408d6f6e827452.setContent(html_92884edbc36538564f1c48788054aec8);
+            
+        
+
+        circle_marker_e00b6fa1c0aee7edf2c4a6399f9f5dfa.bindPopup(popup_c80e5a77349afbd867408d6f6e827452)
+        ;
+
+        
+    
+    
+            var circle_marker_03338be3fcaa8701cc0ec5ef91bd643b = L.circleMarker(
+                [43.6795414, -79.3905663],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_6fa00f27b663ba6d3f50d5a8b1c8f797 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c06b309a84f4ea696a5c475436ad81a5 = $(`<div id="html_c06b309a84f4ea696a5c475436ad81a5" style="width: 100.0%; height: 100.0%;">Yonge St, North of Macpherson Ave: 35040 cyclists, going Northbound </div>`)[0];
+                popup_6fa00f27b663ba6d3f50d5a8b1c8f797.setContent(html_c06b309a84f4ea696a5c475436ad81a5);
+            
+        
+
+        circle_marker_03338be3fcaa8701cc0ec5ef91bd643b.bindPopup(popup_6fa00f27b663ba6d3f50d5a8b1c8f797)
+        ;
+
+        
+    
+    
+            var circle_marker_cd6dcaf748a284c1a0dd42eb0bd764bc = L.circleMarker(
+                [43.6888532, -79.3944265],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+        var popup_f22adb122415a5953a9f8f5f262c14c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53a87bb3a2bd861903acbd8b1ae71f35 = $(`<div id="html_53a87bb3a2bd861903acbd8b1ae71f35" style="width: 100.0%; height: 100.0%;">Yonge St, North of St Clair Ave: 35040 cyclists, going Northbound </div>`)[0];
+                popup_f22adb122415a5953a9f8f5f262c14c1.setContent(html_53a87bb3a2bd861903acbd8b1ae71f35);
+            
+        
+
+        circle_marker_cd6dcaf748a284c1a0dd42eb0bd764bc.bindPopup(popup_f22adb122415a5953a9f8f5f262c14c1)
+        ;
+
+        
+    
+    
+    var color_map_33b888ce0d57cff3af164b8902779435 = {};
+
+    
+    color_map_33b888ce0d57cff3af164b8902779435.color = d3.scale.threshold()
+              .domain([14784.0, 14824.593186372746, 14865.186372745491, 14905.779559118237, 14946.372745490982, 14986.965931863728, 15027.559118236473, 15068.152304609219, 15108.745490981964, 15149.33867735471, 15189.931863727455, 15230.525050100201, 15271.118236472947, 15311.711422845692, 15352.304609218438, 15392.897795591183, 15433.490981963929, 15474.084168336673, 15514.677354709418, 15555.270541082164, 15595.86372745491, 15636.456913827655, 15677.0501002004, 15717.643286573146, 15758.236472945891, 15798.829659318637, 15839.422845691382, 15880.016032064128, 15920.609218436874, 15961.20240480962, 16001.795591182365, 16042.38877755511, 16082.981963927856, 16123.575150300601, 16164.168336673347, 16204.761523046092, 16245.354709418838, 16285.947895791584, 16326.541082164329, 16367.134268537075, 16407.72745490982, 16448.320641282564, 16488.91382765531, 16529.507014028055, 16570.1002004008, 16610.693386773546, 16651.28657314629, 16691.879759519037, 16732.472945891783, 16773.06613226453, 16813.659318637274, 16854.25250501002, 16894.845691382765, 16935.43887775551, 16976.032064128256, 17016.625250501, 17057.218436873747, 17097.811623246493, 17138.40480961924, 17178.997995991984, 17219.59118236473, 17260.184368737475, 17300.77755511022, 17341.370741482966, 17381.96392785571, 17422.557114228457, 17463.150300601203, 17503.743486973948, 17544.336673346694, 17584.92985971944, 17625.523046092185, 17666.11623246493, 17706.709418837676, 17747.30260521042, 17787.895791583167, 17828.488977955913, 17869.082164328658, 17909.675350701404, 17950.26853707415, 17990.861723446895, 18031.45490981964, 18072.048096192386, 18112.64128256513, 18153.234468937877, 18193.827655310623, 18234.420841683368, 18275.014028056114, 18315.60721442886, 18356.200400801605, 18396.79358717435, 18437.386773547092, 18477.979959919838, 18518.573146292583, 18559.16633266533, 18599.759519038074, 18640.35270541082, 18680.945891783565, 18721.53907815631, 18762.132264529057, 18802.725450901802, 18843.318637274548, 18883.911823647293, 18924.50501002004, 18965.098196392784, 19005.69138276553, 19046.284569138275, 19086.87775551102, 19127.470941883766, 19168.064128256512, 19208.657314629258, 19249.250501002003, 19289.84368737475, 19330.436873747494, 19371.03006012024, 19411.623246492985, 19452.21643286573, 19492.809619238476, 19533.402805611222, 19573.995991983968, 19614.589178356713, 19655.18236472946, 19695.775551102204, 19736.36873747495, 19776.961923847695, 19817.55511022044, 19858.148296593186, 19898.741482965932, 19939.334669338677, 19979.927855711423, 20020.52104208417, 20061.114228456914, 20101.70741482966, 20142.300601202405, 20182.89378757515, 20223.486973947896, 20264.080160320642, 20304.673346693387, 20345.266533066133, 20385.85971943888, 20426.452905811624, 20467.04609218437, 20507.639278557115, 20548.23246492986, 20588.825651302606, 20629.418837675352, 20670.012024048097, 20710.605210420843, 20751.19839679359, 20791.791583166334, 20832.38476953908, 20872.977955911825, 20913.57114228457, 20954.164328657316, 20994.75751503006, 21035.350701402807, 21075.943887775553, 21116.5370741483, 21157.130260521044, 21197.72344689379, 21238.316633266535, 21278.90981963928, 21319.503006012026, 21360.09619238477, 21400.689378757517, 21441.28256513026, 21481.875751503005, 21522.46893787575, 21563.062124248496, 21603.65531062124, 21644.248496993987, 21684.841683366732, 21725.434869739478, 21766.028056112224, 21806.62124248497, 21847.214428857715, 21887.80761523046, 21928.400801603206, 21968.99398797595, 22009.587174348697, 22050.180360721442, 22090.773547094188, 22131.366733466934, 22171.95991983968, 22212.553106212425, 22253.14629258517, 22293.739478957916, 22334.33266533066, 22374.925851703407, 22415.519038076152, 22456.112224448898, 22496.705410821643, 22537.29859719439, 22577.891783567135, 22618.48496993988, 22659.078156312626, 22699.67134268537, 22740.264529058117, 22780.857715430862, 22821.450901803608, 22862.044088176353, 22902.6372745491, 22943.230460921844, 22983.82364729459, 23024.416833667332, 23065.010020040078, 23105.603206412823, 23146.19639278557, 23186.789579158314, 23227.38276553106, 23267.975951903805, 23308.56913827655, 23349.162324649296, 23389.755511022042, 23430.348697394787, 23470.941883767533, 23511.53507014028, 23552.128256513024, 23592.72144288577, 23633.314629258515, 23673.90781563126, 23714.501002004006, 23755.094188376752, 23795.687374749497, 23836.280561122243, 23876.87374749499, 23917.466933867734, 23958.06012024048, 23998.653306613225, 24039.24649298597, 24079.839679358716, 24120.43286573146, 24161.026052104207, 24201.619238476953, 24242.2124248497, 24282.805611222444, 24323.39879759519, 24363.991983967935, 24404.58517034068, 24445.178356713426, 24485.77154308617, 24526.364729458917, 24566.957915831663, 24607.55110220441, 24648.144288577154, 24688.7374749499, 24729.330661322645, 24769.92384769539, 24810.517034068136, 24851.11022044088, 24891.703406813627, 24932.296593186373, 24972.88977955912, 25013.482965931864, 25054.07615230461, 25094.669338677355, 25135.2625250501, 25175.855711422846, 25216.44889779559, 25257.042084168337, 25297.635270541083, 25338.22845691383, 25378.821643286574, 25419.41482965932, 25460.008016032065, 25500.60120240481, 25541.194388777556, 25581.7875751503, 25622.380761523047, 25662.973947895793, 25703.56713426854, 25744.160320641284, 25784.75350701403, 25825.346693386775, 25865.93987975952, 25906.533066132266, 25947.12625250501, 25987.719438877757, 26028.312625250503, 26068.905811623248, 26109.498997995994, 26150.09218436874, 26190.685370741485, 26231.27855711423, 26271.871743486976, 26312.46492985972, 26353.058116232467, 26393.651302605213, 26434.244488977958, 26474.837675350704, 26515.43086172345, 26556.024048096195, 26596.61723446894, 26637.210420841686, 26677.80360721443, 26718.396793587177, 26758.989979959922, 26799.583166332668, 26840.17635270541, 26880.769539078156, 26921.3627254509, 26961.955911823647, 27002.549098196392, 27043.142284569138, 27083.735470941883, 27124.32865731463, 27164.921843687374, 27205.51503006012, 27246.108216432865, 27286.70140280561, 27327.294589178357, 27367.887775551102, 27408.480961923848, 27449.074148296593, 27489.66733466934, 27530.260521042084, 27570.85370741483, 27611.446893787575, 27652.04008016032, 27692.633266533066, 27733.226452905812, 27773.819639278558, 27814.412825651303, 27855.00601202405, 27895.599198396794, 27936.19238476954, 27976.785571142285, 28017.37875751503, 28057.971943887776, 28098.56513026052, 28139.158316633264, 28179.75150300601, 28220.344689378755, 28260.9378757515, 28301.531062124246, 28342.12424849699, 28382.717434869737, 28423.310621242483, 28463.90380761523, 28504.496993987974, 28545.09018036072, 28585.683366733465, 28626.27655310621, 28666.869739478956, 28707.4629258517, 28748.056112224447, 28788.649298597193, 28829.24248496994, 28869.835671342684, 28910.42885771543, 28951.022044088175, 28991.61523046092, 29032.208416833666, 29072.80160320641, 29113.394789579157, 29153.987975951903, 29194.581162324648, 29235.174348697394, 29275.76753507014, 29316.360721442885, 29356.95390781563, 29397.547094188376, 29438.14028056112, 29478.733466933867, 29519.326653306613, 29559.919839679358, 29600.513026052104, 29641.10621242485, 29681.699398797595, 29722.29258517034, 29762.885771543086, 29803.47895791583, 29844.072144288577, 29884.665330661323, 29925.258517034068, 29965.851703406814, 30006.44488977956, 30047.038076152305, 30087.63126252505, 30128.224448897796, 30168.81763527054, 30209.410821643287, 30250.004008016032, 30290.597194388778, 30331.190380761524, 30371.78356713427, 30412.376753507015, 30452.96993987976, 30493.563126252506, 30534.15631262525, 30574.749498997997, 30615.342685370742, 30655.935871743488, 30696.529058116234, 30737.12224448898, 30777.715430861725, 30818.30861723447, 30858.901803607216, 30899.49498997996, 30940.088176352707, 30980.681362725452, 31021.274549098198, 31061.867735470943, 31102.46092184369, 31143.054108216435, 31183.64729458918, 31224.240480961926, 31264.833667334668, 31305.426853707413, 31346.02004008016, 31386.613226452904, 31427.20641282565, 31467.799599198395, 31508.39278557114, 31548.985971943886, 31589.579158316632, 31630.172344689377, 31670.765531062123, 31711.35871743487, 31751.951903807614, 31792.54509018036, 31833.138276553105, 31873.73146292585, 31914.324649298596, 31954.917835671342, 31995.511022044087, 32036.104208416833, 32076.69739478958, 32117.290581162324, 32157.88376753507, 32198.476953907815, 32239.07014028056, 32279.663326653306, 32320.256513026052, 32360.849699398797, 32401.442885771543, 32442.03607214429, 32482.629258517034, 32523.22244488978, 32563.815631262525, 32604.40881763527, 32645.002004008016, 32685.59519038076, 32726.188376753507, 32766.781563126253, 32807.374749498995, 32847.96793587174, 32888.561122244486, 32929.15430861723, 32969.74749498998, 33010.34068136272, 33050.93386773547, 33091.52705410821, 33132.12024048096, 33172.713426853705, 33213.30661322645, 33253.899799599196, 33294.49298597194, 33335.08617234469, 33375.67935871743, 33416.27254509018, 33456.86573146292, 33497.45891783567, 33538.052104208415, 33578.64529058116, 33619.238476953906, 33659.83166332665, 33700.4248496994, 33741.01803607214, 33781.61122244489, 33822.20440881763, 33862.79759519038, 33903.390781563125, 33943.98396793587, 33984.577154308616, 34025.17034068136, 34065.76352705411, 34106.35671342685, 34146.9498997996, 34187.54308617234, 34228.13627254509, 34268.729458917835, 34309.32264529058, 34349.915831663326, 34390.50901803607, 34431.10220440882, 34471.69539078156, 34512.28857715431, 34552.88176352705, 34593.4749498998, 34634.068136272545, 34674.66132264529, 34715.254509018036, 34755.84769539078, 34796.44088176353, 34837.03406813627, 34877.62725450902, 34918.22044088176, 34958.81362725451, 34999.406813627254, 35040.0])
+              .range(['#0000ffff', '#0000ffff', '#0100feff', '#0100feff', '#0200fdff', '#0200fdff', '#0300fcff', '#0300fcff', '#0400fbff', '#0400fbff', '#0500faff', '#0500faff', '#0600f9ff', '#0600f9ff', '#0700f8ff', '#0700f8ff', '#0800f7ff', '#0800f7ff', '#0900f6ff', '#0900f6ff', '#0a00f5ff', '#0a00f5ff', '#0b00f4ff', '#0b00f4ff', '#0c00f3ff', '#0c00f3ff', '#0d00f2ff', '#0d00f2ff', '#0e00f1ff', '#0e00f1ff', '#0f00f0ff', '#0f00f0ff', '#1000efff', '#1000efff', '#1100eeff', '#1100eeff', '#1200edff', '#1200edff', '#1300ecff', '#1400ebff', '#1400ebff', '#1500eaff', '#1500eaff', '#1600e9ff', '#1600e9ff', '#1700e8ff', '#1700e8ff', '#1800e7ff', '#1800e7ff', '#1900e6ff', '#1900e6ff', '#1a00e5ff', '#1a00e5ff', '#1b00e4ff', '#1b00e4ff', '#1c00e3ff', '#1c00e3ff', '#1d00e2ff', '#1d00e2ff', '#1e00e1ff', '#1e00e1ff', '#1f00e0ff', '#1f00e0ff', '#2000dfff', '#2000dfff', '#2100deff', '#2100deff', '#2200ddff', '#2200ddff', '#2300dcff', '#2300dcff', '#2400dbff', '#2400dbff', '#2500daff', '#2500daff', '#2600d9ff', '#2600d9ff', '#2700d8ff', '#2800d7ff', '#2800d7ff', '#2900d6ff', '#2900d6ff', '#2a00d5ff', '#2a00d5ff', '#2b00d4ff', '#2b00d4ff', '#2c00d3ff', '#2c00d3ff', '#2d00d2ff', '#2d00d2ff', '#2e00d1ff', '#2e00d1ff', '#2f00d0ff', '#2f00d0ff', '#3000cfff', '#3000cfff', '#3100ceff', '#3100ceff', '#3200cdff', '#3200cdff', '#3300ccff', '#3300ccff', '#3400cbff', '#3400cbff', '#3500caff', '#3500caff', '#3600c9ff', '#3600c9ff', '#3700c8ff', '#3700c8ff', '#3800c7ff', '#3800c7ff', '#3900c6ff', '#3900c6ff', '#3a00c5ff', '#3a00c5ff', '#3b00c4ff', '#3c00c3ff', '#3c00c3ff', '#3d00c2ff', '#3d00c2ff', '#3e00c1ff', '#3e00c1ff', '#3f00c0ff', '#3f00c0ff', '#4000bfff', '#4000bfff', '#4100beff', '#4100beff', '#4200bdff', '#4200bdff', '#4300bcff', '#4300bcff', '#4400bbff', '#4400bbff', '#4500baff', '#4500baff', '#4600b9ff', '#4600b9ff', '#4700b8ff', '#4700b8ff', '#4800b7ff', '#4800b7ff', '#4900b6ff', '#4900b6ff', '#4a00b5ff', '#4a00b5ff', '#4b00b4ff', '#4b00b4ff', '#4c00b3ff', '#4c00b3ff', '#4d00b2ff', '#4d00b2ff', '#4e00b1ff', '#4f00b0ff', '#4f00b0ff', '#5000afff', '#5000afff', '#5100aeff', '#5100aeff', '#5200adff', '#5200adff', '#5300acff', '#5300acff', '#5400abff', '#5400abff', '#5500aaff', '#5500aaff', '#5600a9ff', '#5600a9ff', '#5700a8ff', '#5700a8ff', '#5800a7ff', '#5800a7ff', '#5900a6ff', '#5900a6ff', '#5a00a5ff', '#5a00a5ff', '#5b00a4ff', '#5b00a4ff', '#5c00a3ff', '#5c00a3ff', '#5d00a2ff', '#5d00a2ff', '#5e00a1ff', '#5e00a1ff', '#5f00a0ff', '#5f00a0ff', '#60009fff', '#60009fff', '#61009eff', '#61009eff', '#62009dff', '#63009cff', '#63009cff', '#64009bff', '#64009bff', '#65009aff', '#65009aff', '#660099ff', '#660099ff', '#670098ff', '#670098ff', '#680097ff', '#680097ff', '#690096ff', '#690096ff', '#6a0095ff', '#6a0095ff', '#6b0094ff', '#6b0094ff', '#6c0093ff', '#6c0093ff', '#6d0092ff', '#6d0092ff', '#6e0091ff', '#6e0091ff', '#6f0090ff', '#6f0090ff', '#70008fff', '#70008fff', '#71008eff', '#71008eff', '#72008dff', '#72008dff', '#73008cff', '#73008cff', '#74008bff', '#74008bff', '#75008aff', '#75008aff', '#760089ff', '#770088ff', '#770088ff', '#780087ff', '#780087ff', '#790086ff', '#790086ff', '#7a0085ff', '#7a0085ff', '#7b0084ff', '#7b0084ff', '#7c0083ff', '#7c0083ff', '#7d0082ff', '#7d0082ff', '#7e0081ff', '#7e0081ff', '#7f0080ff', '#7f0080ff', '#80007fff', '#80007fff', '#81007eff', '#81007eff', '#82007dff', '#82007dff', '#83007cff', '#83007cff', '#84007bff', '#84007bff', '#85007aff', '#85007aff', '#860079ff', '#860079ff', '#870078ff', '#870078ff', '#880077ff', '#880077ff', '#890076ff', '#8a0075ff', '#8a0075ff', '#8b0074ff', '#8b0074ff', '#8c0073ff', '#8c0073ff', '#8d0072ff', '#8d0072ff', '#8e0071ff', '#8e0071ff', '#8f0070ff', '#8f0070ff', '#90006fff', '#90006fff', '#91006eff', '#91006eff', '#92006dff', '#92006dff', '#93006cff', '#93006cff', '#94006bff', '#94006bff', '#95006aff', '#95006aff', '#960069ff', '#960069ff', '#970068ff', '#970068ff', '#980067ff', '#980067ff', '#990066ff', '#990066ff', '#9a0065ff', '#9a0065ff', '#9b0064ff', '#9b0064ff', '#9c0063ff', '#9c0063ff', '#9d0062ff', '#9e0061ff', '#9e0061ff', '#9f0060ff', '#9f0060ff', '#a0005fff', '#a0005fff', '#a1005eff', '#a1005eff', '#a2005dff', '#a2005dff', '#a3005cff', '#a3005cff', '#a4005bff', '#a4005bff', '#a5005aff', '#a5005aff', '#a60059ff', '#a60059ff', '#a70058ff', '#a70058ff', '#a80057ff', '#a80057ff', '#a90056ff', '#a90056ff', '#aa0055ff', '#aa0055ff', '#ab0054ff', '#ab0054ff', '#ac0053ff', '#ac0053ff', '#ad0052ff', '#ad0052ff', '#ae0051ff', '#ae0051ff', '#af0050ff', '#af0050ff', '#b0004fff', '#b0004fff', '#b1004eff', '#b2004dff', '#b2004dff', '#b3004cff', '#b3004cff', '#b4004bff', '#b4004bff', '#b5004aff', '#b5004aff', '#b60049ff', '#b60049ff', '#b70048ff', '#b70048ff', '#b80047ff', '#b80047ff', '#b90046ff', '#b90046ff', '#ba0045ff', '#ba0045ff', '#bb0044ff', '#bb0044ff', '#bc0043ff', '#bc0043ff', '#bd0042ff', '#bd0042ff', '#be0041ff', '#be0041ff', '#bf0040ff', '#bf0040ff', '#c0003fff', '#c0003fff', '#c1003eff', '#c1003eff', '#c2003dff', '#c2003dff', '#c3003cff', '#c3003cff', '#c4003bff', '#c5003aff', '#c5003aff', '#c60039ff', '#c60039ff', '#c70038ff', '#c70038ff', '#c80037ff', '#c80037ff', '#c90036ff', '#c90036ff', '#ca0035ff', '#ca0035ff', '#cb0034ff', '#cb0034ff', '#cc0033ff', '#cc0033ff', '#cd0032ff', '#cd0032ff', '#ce0031ff', '#ce0031ff', '#cf0030ff', '#cf0030ff', '#d0002fff', '#d0002fff', '#d1002eff', '#d1002eff', '#d2002dff', '#d2002dff', '#d3002cff', '#d3002cff', '#d4002bff', '#d4002bff', '#d5002aff', '#d5002aff', '#d60029ff', '#d60029ff', '#d70028ff', '#d70028ff', '#d80027ff', '#d90026ff', '#d90026ff', '#da0025ff', '#da0025ff', '#db0024ff', '#db0024ff', '#dc0023ff', '#dc0023ff', '#dd0022ff', '#dd0022ff', '#de0021ff', '#de0021ff', '#df0020ff', '#df0020ff', '#e0001fff', '#e0001fff', '#e1001eff', '#e1001eff', '#e2001dff', '#e2001dff', '#e3001cff', '#e3001cff', '#e4001bff', '#e4001bff', '#e5001aff', '#e5001aff', '#e60019ff', '#e60019ff', '#e70018ff', '#e70018ff', '#e80017ff', '#e80017ff', '#e90016ff', '#e90016ff', '#ea0015ff', '#ea0015ff', '#eb0014ff', '#eb0014ff', '#ec0013ff', '#ed0012ff', '#ed0012ff', '#ee0011ff', '#ee0011ff', '#ef0010ff', '#ef0010ff', '#f0000fff', '#f0000fff', '#f1000eff', '#f1000eff', '#f2000dff', '#f2000dff', '#f3000cff', '#f3000cff', '#f4000bff', '#f4000bff', '#f5000aff', '#f5000aff', '#f60009ff', '#f60009ff', '#f70008ff', '#f70008ff', '#f80007ff', '#f80007ff', '#f90006ff', '#f90006ff', '#fa0005ff', '#fa0005ff', '#fb0004ff', '#fb0004ff', '#fc0003ff', '#fc0003ff', '#fd0002ff', '#fd0002ff', '#fe0001ff', '#fe0001ff', '#ff0000ff', '#ff0000ff']);
+    
+
+    color_map_33b888ce0d57cff3af164b8902779435.x = d3.scale.linear()
+              .domain([14784.0, 35040.0])
+              .range([0, 450 - 50]);
+
+    color_map_33b888ce0d57cff3af164b8902779435.legend = L.control({position: 'topright'});
+    color_map_33b888ce0d57cff3af164b8902779435.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_33b888ce0d57cff3af164b8902779435.legend.addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+
+    color_map_33b888ce0d57cff3af164b8902779435.xAxis = d3.svg.axis()
+        .scale(color_map_33b888ce0d57cff3af164b8902779435.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([14784.0, 35040.0]);
+
+    color_map_33b888ce0d57cff3af164b8902779435.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_33b888ce0d57cff3af164b8902779435.g = color_map_33b888ce0d57cff3af164b8902779435.svg.append("g")
+        .attr("class", "key")
+        .attr("fill", "black")
+        .attr("transform", "translate(25,16)");
+
+    color_map_33b888ce0d57cff3af164b8902779435.g.selectAll("rect")
+        .data(color_map_33b888ce0d57cff3af164b8902779435.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_33b888ce0d57cff3af164b8902779435.x(color_map_33b888ce0d57cff3af164b8902779435.color.domain()[i - 1]) : color_map_33b888ce0d57cff3af164b8902779435.x.range()[0],
+            x1: i < color_map_33b888ce0d57cff3af164b8902779435.color.domain().length ? color_map_33b888ce0d57cff3af164b8902779435.x(color_map_33b888ce0d57cff3af164b8902779435.color.domain()[i]) : color_map_33b888ce0d57cff3af164b8902779435.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_33b888ce0d57cff3af164b8902779435.g.call(color_map_33b888ce0d57cff3af164b8902779435.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .attr("fill", "black")
+        .text("Cyclist Count");
+    
+            var layer_control_141059bf5ef93caa38720c5eea93905e_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3d19c6f73007a6b9ab5fcdd414486ce3,
+                },
+                overlays :  {
+                    "macro_element_410a7bb2a8e5988f2014253722caee5e" : geo_json_410a7bb2a8e5988f2014253722caee5e,
+                },
+            };
+            let layer_control_141059bf5ef93caa38720c5eea93905e = L.control.layers(
+                layer_control_141059bf5ef93caa38720c5eea93905e_layers.base_layers,
+                layer_control_141059bf5ef93caa38720c5eea93905e_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+
+        
+    
+            tile_layer_3d19c6f73007a6b9ab5fcdd414486ce3.addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+    
+            geo_json_410a7bb2a8e5988f2014253722caee5e.addTo(map_0c23cf5659e2d9de646e487ac86bc0fb);
+        
+</script>
+</html>
