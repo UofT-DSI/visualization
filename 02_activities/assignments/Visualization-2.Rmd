@@ -1,0 +1,99 @@
+---
+title: "Visualization -2"
+author: "Tianning Yu"
+date: "2025-05-09"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+Link: https://open.toronto.ca/dataset/non-regulated-lead-sample/
+
+Load tidyverse library and read the data
+```{r}
+library(tidyverse)
+data <- read_csv("Non Regulated Lead Samples.csv")
+
+```
+Convert sample data to date and filter only the data in 2024.Then count the entries in each month.
+```{r}
+data$`Sample Date` <- as.Date(data$`Sample Date`, format = "%Y-%m-%d")
+
+data_2024 <- data %>%
+  filter(format(`Sample Date`, "%Y") == "2024")
+
+monthly_counts <- data_2024 %>%
+  mutate(Month = format(`Sample Date`, "%m")) %>%
+  count(Month)
+
+```
+
+Plot the data
+```{r}
+ggplot(monthly_counts, aes(x = Month, y = n)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  labs(
+    title = "Number of Lead Sample Entries per Month in 2024",
+    x = "Month",
+    y = "Number of Samples"
+  ) +
+  theme_minimal()
+```
+
+Export the image
+
+```{r}
+png("Visualization 2.png", width = 800, height = 600)  
+dev.off()
+```
+
+    > What software did you use to create your data visualization?
+    Rstudio.
+    > Who is your intended audience? 
+    The supervisor of the City's Residential Lead Testing Program.
+    
+      The City's Residential Lead Testing Program is a non-regulated program provided free of charge to residents concerned about the possibility of lead in their tap drinking water.
+    Residents can pick up and drop off a water sample kit at one of six Toronto Public Health locations. While each kit contains detailed instructions on how to obtain an accurate tap water sample, the City of Toronto has no control over how or where a sample is obtained. Toronto Water provides lead test results to all residents who submit a test.
+
+    > What information or message are you trying to convey with your visualization? 
+    It shows how active the data collection process was across the year. Taller bars mean more samples taken; shorter bars mean fewer.
+    
+    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+    Since the data file has data spanning from 2014-01 to 2025, it is difficult to plot all the entries. Moreover, since in visualization 1, I found out that May is the month with the highest total lead amount, I wondered if the highest total amount is associated with the higher data entries. So I only ploted the sum of lead sample entries breaking down by each month in year 2024.
+    
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
+     Use another software to reproduce the data. If not reproducible, then plot is not reliable.
+    
+    > How did you ensure that your data visualization is accessible?  
+      By commenting on the code and writing down all codes used to create the plot.
+   
+    > Who are the individuals and communities who might be impacted by your visualization?
+     The supervisor of the City's Residential Lead Testing Program.
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    I chose the features because I am interested in knowing if the count of data entries in each month would affect the total amount of lead in each month.
+    
+    > What ‘underwater labour’ contributed to your final data visualization product?
+No.
