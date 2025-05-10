@@ -5,25 +5,53 @@
 ### Requirements:
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
+
+Data source: https://map.toronto.ca/wellbeing/#eyJ0b3Itd2lkZ2V0LWNsYXNzYnJlYWsiOsSAcGVyY2VudE9wYWNpdHnElzcwfSwiY3VzxIJtYcSTYcSXxIBuZWlnaGJvdXJob29kc8S2fcSrxIHEg8SFxIfEicSLdGFixYXEmCLEo3RpdmVUxZBJZMSXxYnEhMWPYi1pbmRpY2HEgnLFhcWIYWdzTWFwxLYiesWCbcSXMTPErHjEly04ODM3NzYzLjXGhDcyN8SsxKc6NTQxMjkzMS4yNMaDMjg1xYjFpMWmxajFqsWSxIDFmMWraW9uxJcyxKxzxaRnbGXFtMSucsSTxJ9UaW1lxZzEqMSsxZbGucajIjfFtMafxafFqcSDxZxzQcWlV8S5xLt0xZJbxIDEh8WexpQzIsSsd8eNaHTFucSsxJPGpXNlUG%2FEjnLEpcaOZmFsx6HEq8eSxZ06IjEwxbrHlyLHmcS6x5vHnSLHn8Sbx6HHo8elx6fEl8epx6tlfV3Fh8WIxr5lx6HHpsiLxYbErMazxrV0ScWlx4XFqk3Fg8axx7DGrW7Gr8axxYc%3D
+
+
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+        Python: I made two scatter plots in Python. One of them is an interactive graph, which is helpful for exploring neighborhood-level data, otherwise the legend is too long.
+        R: I made a linear regression plot that reveals the relationship between the two selected variables.
 
     > Who is your intended audience? 
-    
+        General residents living in Toronto, community advocates, and urban policy researchers 
+
     > What information or message are you trying to convey with your visualization? 
-    
+    The visualizations were designed to explore the research question of "Is there an association between access to healthy food and early development scores across Toronto neighborhoods?." 
+
+    The scatterplots were created more for an explortary purpose, wherase the linear regression plot actually reveal the relationship. In contrast, the linear regression plot provided a more formal and interpretable representation of the relationship by fitting a trend line, revealing both the direction and strength of the association.
+
+    Notes:
+    The healthy food index (also known as Modified Food Retail Environment Index) represents the closeness of the population to healthy food retail establishments across the City. 
+    Lower scores in healthy food index indicate higher healthiness of the retail food environment. Higher scores in healthy food index indicate a more unhealthy retail food environment. 
+
+    Early Development Instrument (EDI) indicates the proportion of participants who scored low on 2 or more domains (data for 3 years). 
+    Lower numbers in early development instrument indicate better results of children's ability to meet age-appropriate developmental expectations. 
+    Higher numbers for this indicator indicate worse results.  
+
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
-    
+    I focused on simpleness, color differentiation, and interactivitity when making visualization. 
+    For the first graph, each dot was given a unique color to visually distinguish neighborhoods.
+    For the second graph, I incorporated hover tooltips that display the neighborhood name, Healthy Food Index score, and Early Development Instrument score when pointing to a dot. This interactivity helps users explore neighborhood-level data more easily, especially when the number of neighborhood is large.
+
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+    The visualization is fully reproducible using the provided Python/R codes and open-access CSV data (link provided above). I used pandas for data wrangling and plotly.graph_objects for plotting scatterplot and ggplot for plotting the linear regression plot. The dataset has no missing data, requiring minial effort for data cleaning and preprocessing.
+
     > How did you ensure that your data visualization is accessible?  
-    
+    In scatterplots, I used large font sizes, clear axis labels, and different color, and interactivity to help avoid confusion caused by overlapping points.
+    In linear gression plot, I also showed the intercept and slop of the regression line on the plot. 
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+     The visualization may be useful for community organizations advocating for healthy food access and education resources. It may raise awareness among residents and policymakers about source disparities across neighborhoods.
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    I focused on two variables, Healthy Food Index and Early Development Instrument, based on my personal interest as well as their conceptual relevance. Other variables that are relevant to healthy food index could be income level and demographic factors. 
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Writing and debugging Python/R code.
+    Iteratively testing the visual layout, color scheme, font sizes, legend clarity, etc.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
