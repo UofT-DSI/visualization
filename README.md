@@ -35,14 +35,15 @@ By the end of this module, you will be able to:
 **Questions can be submitted to the #questions channel on Slack**
 
 * Technical Facilitator: 
-  * name and pronouns: `Eshta`, `She/Her` 
-  * email: `eshta.bhardwaj@mail.utoronto.ca`
-  * (Please reach out over email rather than Slack, if possible.)
+  * name and pronouns: `Ciara`, `She/Her` 
+  * email: `ciara.zogheib@mail.utoronto.ca`
 * Learning Support Staff: 
-  * name: `Fan`
-  * email: `fw2400@cumc.columbia.edu`
-  * name and pronouns: `Kasra`, 
-  * email: `k.vakiloroayaei@utoronto.ca`
+  * name: `Vishakh`
+  * email: `vishakh.patel@mail.utoronto.ca`
+  * name: `Xindi`
+  * email: `xindi.zhang@mail.utoronto.ca`
+  * name: `Shiraz`
+  * email: `engr_shiraz@hotmail.com`
 
 ## Delivery of the Learning Module
 This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
