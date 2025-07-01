@@ -169,7 +169,6 @@ ax.hist(y)
     ax.set_title('Total growth over time')
     ax.set_ylabel('Total growth')
     ax.set_xlabel('Years since start')
-    fig.tight_layout()
     ```
 ---
 
@@ -194,7 +193,6 @@ ax.hist(y)
     ax.set_title('Total growth over time', fontdict = font1)
     ax.set_ylabel('Total growth', fontdict = font2)
     ax.set_xlabel('Years since start', fontdict = font2)
-    fig.tight_layout()
     ```
 
 ----
@@ -209,7 +207,6 @@ ax.hist(y)
     ax.set_title('Total growth over time', fontdict = font1, loc = 'left')
     ax.set_ylabel('Total growth', fontdict = font2)
     ax.set_xlabel('Years since start', fontdict = font2)
-    fig.tight_layout()
     ```
 
 ---
@@ -329,12 +326,8 @@ ax.plot(x,y,marker='*',
 
 ---
 
-# Feedback! 
-
----
 # In the next session, we'll continue with...
 
-- The responses from the polls 
 - How do we choose the right data visualization for a given situation?
 - What does it mean for data visualization to be ‘objective’?
 - Perceptual qualities of data viz

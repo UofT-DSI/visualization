@@ -103,37 +103,14 @@ $ echo "Data Science Institute"
 # Subplots without a grid arrangement?
 
 - We can also arrange the subplots within our figure by using **plt.subplot_mosaic()** 
-- Each axes in our subplot_mosaic() function has a ‘label’
 
     ```
     fig, someaxes = plt.subplot_mosaic([['ax1', 'ax3'],
                                     ['ax2', 'ax3']],
                                     figsize=(7, 4))
-    for label, ax in someaxes.items():
-    ax.text(0.5, 0.5, f'This is {label!r}',
-            fontsize=14,
-            ha = 'center',
-            transform=ax.transAxes)
     ```
 ---
 
-# Subplots without a grid arrangement?
-
-![w:400](./images/06_subplots_without_a_grid_arrangement.png)
-
-```
-fig, someaxes = plt.subplot_mosaic([['ax1', 'ax3'],
-                                ['ax2', 'ax3']],
-                                figsize=(7, 4))
-for label, ax in someaxes.items():
-ax.text(0.5, 0.5, f'This is {label!r}',
-        fontsize=14,
-        ha = 'center',
-        transform=ax.transAxes)
-```
-
-
----
 
 # Subplots without a grid arrangement - Data
 
@@ -169,8 +146,6 @@ ax.text(0.5, 0.5, f'This is {label!r}',
     someaxes["ax1"].set_xlabel('A Big Label',fontsize=18)
     someaxes["ax2"].set_xlabel('Another Label',fontsize=18)
     someaxes["ax3"].set_xlabel('Label 2: 2 Fast 2 Furious',fontsize=18 )
-
-    plt.show()
     ```
 
 ---
@@ -208,7 +183,6 @@ ax.text(0.5, 0.5, f'This is {label!r}',
     someaxes["ax2"].set_xlabel('Another Label', fontsize=18)
     someaxes["ax3"].set_xlabel('Label 2: 2 Fast 2 Furious', fontsize=18)
 
-    plt.show()
     ```
 
 
@@ -381,7 +355,6 @@ You know enough at this point to do this! It’s not ~necessary~ but it’s a ni
 
     ax_image.imshow(image)
     ax_image.axis('off’)
-    plt.show()
     ```
 
 ---

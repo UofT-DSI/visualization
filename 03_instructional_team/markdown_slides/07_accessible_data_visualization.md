@@ -12,17 +12,6 @@ $ echo "Data Science Institute"
 ```
 ---
 
-# Agenda for today
-- Go through slide deck #7: Accessible data visualization
-- Go through slide deck #6: Subplots and combining visualizations
-- Discuss assignment 3
-
----
-
-# Review feedback from last session
-
----
-
 # Overview of this slide deck, we will...
 
 - Discuss the real-world impacts of inaccessible data visualization
@@ -235,21 +224,10 @@ Treasury Board of Canada. (2020, October 23). Making communications accessible i
 
 ---
 
-### 
-
-![](./images/07_colours_text.png)
-![bg right:60% w:600](./images/07_colours_hues.png)
-
-<!-- 
-Recommended hues for representing categories
-
-Slide from: Prince, Enamul. “3b. Colours, rules”. ITEC 6170: Information Visualization, 25 Jan. 2021, York University. Lecture.
--->
----
 
 # Mark Size & Colour
  
-- Small objects with colour should have more saturation
+- Small objects with colour should have more saturation 
 - Larger area = easier colour distinction
 
 ![align-bottom-centered](./images/07_colours_mark_size.png)

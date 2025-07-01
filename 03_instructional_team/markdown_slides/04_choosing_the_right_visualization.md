@@ -13,15 +13,6 @@ $ echo "Data Science Institute"
 
 ---
 
-# Agenda for today 
-- Go through slide deck #4: Choosing the right visualization
-- Discuss assignment 2
-
---- 
-
-# Review feedback from last time
-
----
 
 # We’re going to…
 
@@ -52,328 +43,6 @@ D’Ignazio, C., & Klein, L. (2020). 3. On Rational, Scientific, Objective Viewp
 
 # How do we choose the 'right' visualization? 
 
----
-
-# The Visualization Process
-![](./images/04_visualization_process.png)
-<!--
-Adapted from Prince, Enamul. “2. Data and Tasks.” ITEC 6170: Information Visualization, 21 Jan. 2021, York University. Lecture.
--->
-
----
-
-What data is the user seeing? 
-
-Why are people using the visualization (what is their goal?)  
-
-How is the visualization being designed?  
-
-![bg right:50% w:300](./images/04_analysis_framework.png)
-
-<!--Tamara Munzner. 2014. Chapter 1.14: Why Analyze? In Visualization Analysis and Design. CRC Press.-->
-
----
-
-![bg right:70% w:600](./images/04_analysis_framework_what.png)
-
-### This figure shows *what* can be visualized. 
-### Let's review it one-by-one
-
-<!--Tamara Munzner. 2014. Chapter 2 What: Data Abstraction. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-- In order to analyze the kind of dataset you're using, you must be familiar with data types. 
-
-![bg right:70% w:600](./images/04_analysis_framework_what_circled.png)
-
-
-<!--Tamara Munzner. 2014. Chapter 2 What: Data Abstraction. In Visualization Analysis and Design. CRC Press.-->
----
-<style scoped>
-section {
-  font-size: 18px;
-}
-</style>
-![align-top-centered](./images/04_analysis_framework_what_dataset_types.png)
-
-- Tables, networks, fields, and geometries are four basic dataset types. 
-- For any of these dataset types, the full dataset could be available immediately as a static file or it might be dynamic data processed gradually in the form of a stream. 
-
-<!--Tamara Munzner. 2014. Chapter 2 What: Data Abstraction. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-![bg right:60% w:600](./images/04_analysis_framework_what_attributes.png)
-
-- Identifying the attribute types for our data will help us make choices about how to visualize it. 
-- (We’ll get to that in a few slides) 
-
-<!--Tamara Munzner. 2014. Chapter 2 What: Data Abstraction. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-### Quick Check-in
-
-If we had to abstract our data and translate from domain-specific language to generic visualization language, we would ask: 
-
-- A) **What** are the data types? 
-- B) How are the data types structured (i.e, **what** is the dataset type?)
-- C) **What** are my attribute types? 
-- D) All of the above
-- E) None of the above
-
----
-
-![bg right:60% w:600](./images/04_analysis_framework_why.png)
-
-### This figure helps us decompose different reasons *why* a person may use a visualization (i.e., what task they perform). 
-
-<!--Tamara Munzner. 2014. Chapter 3 Why: Task Abstraction. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-![bg right:50% h:700](./images/04_analysis_framework_why_actions.png)
-
-- There are 3 levels of action
-- Analyze is high level, search is medium level, and query is low level
-
-<!--Tamara Munzner. 2014. Chapter 3 Why: Task Abstraction. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-![bg right:60% w:700](./images/04_analysis_framework_why_actions_analyze.png)
-
-- Action → Analyze
-- Task is either to consume data or produce additional data
-- Consume or produce tasks can be performed to achieve different goals.
-
----
-
-<style scoped>
-section {
-  font-size: 22px;
-}
-</style>
-![align-top-centered](./images/04_analysis_framework_why_actions_search.png)
-- Action → Search
-- Task (lookup, browse, locate, explore) will depend on whether location and target are unknown or known
-
----
-
-<style scoped>
-section {
-  font-size: 22px;
-}
-</style>
-![align-top-centered](./images/04_analysis_framework_why_actions_query.png)
-- Action → Query
-- Task (identify, compare, summarize) will depend on **how much of the data** matters for you to do a particular task
-
----
-
-![h:610](./images/04_analysis_framework_why_actions.png)
-
----
-
-![bg right:60% w:500](./images/04_analysis_framework_why_targets.png)
-
-- Targets are “some aspect of the data that is of interest to the user”. 
-- For some tasks, this is more explicit than with others (but still relevant!).
-
-<!--Tamara Munzner. 2014. Chapter 3 Why: Task Abstraction. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-![align-top-centered](./images/04_analysis_framework_why_actions_activity.png)
-
----
-
-![bg right:60% w:700](./images/04_analysis_framework_how.png)
-
-- Last part of the framework is 'how' the visualization is designed
-- We will focus on 'encode'
-
-<!--Tamara Munzner. 2014. Chapter 3.6 How: A Preview. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-# How do we visualize?
-
----
-
-# Activity: How much bigger is a?
-
-![](./images/04_activity_howmuchbigger.png)
-
-<!--
-Slide idea from: Prince, Enamul. “3a. Marks, Channels, Colours”. ITEC 6170: Information Visualization, 25 Jan. 2021, York University. Lecture.
--->
-
----
-
-# How to visualize: Marks
-
-![](./images/04_marks.png)
-
-**MARKS**: Geometric objects, basic graphical elements (dot, circle, etc.)
-
-<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-# How to visualize: Channels
-
-![h:350](./images/04_channels.png)
-
-**CHANNELS**: Way to control appearance of marks
-
-<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-# How to visualize: Encodings
-
-![h:350](./images/04_encodings.png)
-
-**ENCODINGS**: Mapping between data and visual attributes. For example, the bar chart maps frequency (data) with height (visual attribute).
-
-<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-### Check-in: Marks, Channels, and Encodings
-<style scoped>
-section {
-  font-size: 16px;
-}
-</style>
-![bg left:30% h:300](./images/04_activity_channels.png)
-
-**Question 1**: What mark(s) are being used?
-- a) Points/dots
-- b) Lines
-- c)  Areas
-- d) All of the above
-- e) None of the above
-
-**Question 2:** What channel(s) are being used?
-- a) Horizontal position
-- b) Vertical position
-- c) Colour
-- d) Area
-- e) All of the above
-
-**Question 3:** How many attributes are encoded?
-- a) 1
-- b) 2
-- c) 3
-- d) 4
-- e) 5
-
-<!--Slide adapted from https://www.khoury.northeastern.edu/home/cody/courses/cs7250-s20/slides/2020.02.03%20Marks%20and%20Channels,%20Data.pdf  (slide 14).-->
-
----
-
-![h:600](./images/04_channels_effectiveness_expressiveness.png)
-
-<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-# Remember this activity?
-
-![](./images/04_activity_howmuchbigger.png)
-
-<!--
-Slide idea from: Prince, Enamul. “3a. Marks, Channels, Colours”. ITEC 6170: Information Visualization, 25 Jan. 2021, York University. Lecture.
--->
-
----
-
-# How did the channel effectiveness ranking get established?
-
-- Channels can be analyzed according to these criteria:
-    - Accuracy
-    - Discriminability
-    - Separability
-    - Ability to provide visual popout
-    - Ability to provide perceptual groupings
-    
-
-<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-# Channels have dependencies & interactions
-
-![](./images/04_channel_interactions.png)
-
-
-<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
----
-
-# Channels have dependencies & interactions
-
-![bg right h:700](./images/04_channel_separability.png)
-
-<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
----
-
-# Some channels provide visual popout
-
-![](./images/04_popout_example1.png)
-
-<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-# Some channels provide visual popout
-
-![h:400](./images/04_popout_example2.png)
-
-<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
-
----
-
-# Best Practices
-- 3 of 8 shown
-
----
-
-# No 3D without Cause
-
-![](./images/04_3d_example.png)
-
-<!--Right image: [Image-Based Streamline Generation and Rendering. Li and Shen. IEEE Trans. Visualization and Computer Graphics (TVCG) 13:3 (2007), 630–640.]
--->
-
----
-
-# Cognition over Memory
-- Working memory is limited!
-- It’s better to show side-by-side views than using our memory
-
-<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
----
-
-# Overview then zoom then details 
-- **Overview:** see overall patterns, trends
-- **Zoom:** see a smaller subset of the data
-- **Filter:** see a subset based on values, etc.
-- **Details on demand:** see values of objects when interactively selected
-
-<!--Slide adapted from: Aragon, Cecilia. "Interactive Visualization". I247. 15 Mar. 2010, UC Berkeley. Lecture.  -->
-
----
-
-![bg right:70% h:700](./images/04_visualization_idioms.png)
-
-## Visualization Idioms
-
-<!--Tamara Munzner. 2014. Chapter 7 Arrange Tables. In Visualization Analysis and Design. CRC Press.
-Slide idea from: Prince, Enamul. “4. Multivariate Tables”. ITEC 6170: Information Visualization, 30 Jan. 2021, York University. Lecture.
--->
 
 ---
 
@@ -598,6 +267,28 @@ Presentation (slide show? In person or pandemic-Zoom call style?)
 
 ---
 
+<style scoped>
+section {
+  font-size: 18px;
+}
+</style>
+![align-top-centered](./images/04_analysis_framework_what_dataset_types.png)
+
+- Tables, networks, fields, and geometries are four basic dataset types. 
+- For any of these dataset types, the full dataset could be available immediately as a static file or it might be dynamic data processed gradually in the form of a stream. 
+
+<!--Tamara Munzner. 2014. Chapter 2 What: Data Abstraction. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+![bg right:60% w:600](./images/04_analysis_framework_what_attributes.png)
+
+- Identifying the attribute types for our data will help us make choices about how to visualize it. 
+
+<!--Tamara Munzner. 2014. Chapter 2 What: Data Abstraction. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
 # Effective Visualization
 
 - Depends on purpose, audience, and medium!
@@ -707,6 +398,23 @@ Sibinga, E., & Waldron, E. (2021, September 30). Cognitive Load as a Guide: 12 S
 
 ---
 
+# Cognition over Memory
+- Working memory is limited!
+- It’s better to show side-by-side views than using our memory
+
+<!--Tamara Munzner. 2014. Chapter 5 Marks and Channels. In Visualization Analysis and Design. CRC Press.-->
+
+---
+
+# No 3D without Cause
+
+![](./images/04_3d_example.png)
+
+<!--Right image: [Image-Based Streamline Generation and Rendering. Li and Shen. IEEE Trans. Visualization and Computer Graphics (TVCG) 13:3 (2007), 630–640.]
+-->
+
+---
+
 # Perceived factual basis
 
 - Sociologists Kennedy et al. (2016) find that adherence to **four conventions of data visualization** reinforces the perceived objectivity and factual basis of a visualization:
@@ -788,13 +496,7 @@ REFERENCES:
 
 ---
 
-# Feedback!
-
----
-
 # Next session, we'll discuss: 
 
-- What is reproducible data visualization?
-- How can we incorporate ideas about reproducibility into our data visualization practices? (Ethics)
 - More matplotlib!
 
