@@ -542,7 +542,6 @@ graph.update_layout(
     ax.imshow(wordcloud,                  # remember 'imshow' from when we added pictures to our matplotlib axes
             interpolation='bilinear')   # this line helps smooth our image
     ax.axis("off")
-    plt.show()
     ```
 
 ---

@@ -20,10 +20,6 @@ $ echo "Data Science Institute"
 
 ---
 
-# Review feedback from last time
-
----
-
 # Overview of this slide deck
 
 - Explore why reproducibility in data visualization matters
@@ -253,46 +249,6 @@ Steidl, D., Hummel, B., & Juergens, E. (2013). Quality analysis of source code c
 
 ---
 
-# Findability
-
-- Findable
-    - A globally unique (cannot be reused by someone else) and persistent (valid over time) ID (like DOI) is assigned to the data.
-    - The dataset is described by metadata (PID, license, description, provenance, etc.). Further guidelines and definitions of provenance can be found from the [DCMI](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/provenance/).
-    - The metadata and data is stored in a searchable repository. 
-
-    \* *Remember to <u>cite</u> your datasets!*
-    
----
-
-# Accessibility
-
-- Accessible
-    - The identifier navigates to the metadata and data. 
-    - The communications protocol specifies the authentication and authorization procedure, if needed (i.e., if the dataset is not open and free-to-access, the protocol specifies how access would be granted). 
-    - The metadata record is available even if the data is not. 
-
----
-
-# Interoperability
-
-- Interoperable
-    - Metadata and data are in principle readable by humans and machines (i.e., has a structured format, open standard).
-
----
-
-# Reusability
-
-- Reusable
-    - Metadata and data are well-described as per domain-relevant standards, have detailed provenance (where did the data come from, who collected it, when, etc.), and clear and accessible license and usage information. 
-
----
-
-## What does FAIR have to do with visualization?
-- The datasets *and* the visualizations should be ‘FAIR’ 
-- This increases transparency which enables *appropriate* reuse
-
----
-
 ## Reproducibility vs Replicability vs Reusability
 - Terms are often used inconsistently or as synonyms
 - Reproducibility and reusability are complementary
@@ -347,21 +303,7 @@ Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumé I
 
 ---
 
-# Activity: Your Research
-- Consider the following:
-    - What is the relevance of the FAIR principles in your research? 
-        - When is it relevant to make your work FAIR and reproducible? (Is it always possible?)
-    - Do you use datasets in your research that you would fill a context document for? 
-        - How does this change the work of ‘builders’ – i.e., you?
-        - How does this change the work of ‘users’ – i.e., the people who will read the context document?
-
----
 
 # Next...
 
-- Customizing our plots
-    - Adding legends
-    - Annotating our plots
-    - Working with colour
-    - Pre-made styles
-
+- Choosing the right visualization!

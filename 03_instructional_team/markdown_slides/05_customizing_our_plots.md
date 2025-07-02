@@ -185,7 +185,7 @@ ax.text(0.2, 0.2, ". Figure: (0.2, 0.2)", transform=fig.transFigure )
     ax.legend(loc='lower right')
 
     ax.annotate('This is important!', xy=(10, 95), xytext=(20, 94),
-              arrowprops=dict(facecolor='black', shrink=0.05))
+              arrowprops=dict(facecolor='black'))
 
     fig.show()
     ```
@@ -326,11 +326,6 @@ fig.show()
 
 ---
 
-# Feedback!
-
----
-
 # Next session:
 
 - Subplots, multiple axes, and combining elements in matplotlib
-- Accessible data visualization

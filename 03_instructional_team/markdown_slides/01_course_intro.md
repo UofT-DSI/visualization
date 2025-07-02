@@ -13,31 +13,9 @@ $ echo "Data Science Institute"
 
 ---
 
-## Acknowledgement
-
-We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
-
----
-
 # Welcome! 
 
-Introductions:
-- TF: Eshta Bhardwaj (she/her) eshta.bhardwaj@mail.utoronto.ca
-- LS: Fan fw2400@cumc.columbia.edu
-- LS: Kasra k.vakiloroayaei@utoronto.ca
-
----
-
-# Your introductions?
-
----
-
-# Today, we will...
-
-- Go through slide deck #1: intro and overview 
-- Admin / housekeeping
-- Discuss assignment 1 
-- Go through slide deck #2: getting started with matplotlib
+Introductions and housekeeping
 
 ---
 
@@ -50,22 +28,6 @@ Introductions:
 ---
 
 # Case Study: Why should we care about data visualization?
-
----
-
-<!--Tamara Munzner. 2014. Chapter 1.5: Why Depend on Vision? In Visualization Analysis and Design. CRC Press.-->
-- Vision is a powerful communication channel
-- Vision can easily pick up interesting patterns
-    - Pre-attentive processing is faster than eye movement
-- Just the data is not always enough 
-    - And summaries lose information
-
----
-
-## Anscombe's Quartet 
-
-<!--Images from: Rohan Alexander. 2023. Chapter 5: Static communication. In Telling stories with data: with applications in R. CRC Press.-->
-![align-bottom-centered](./images/01_anscombe.png)
 
 ---
 
@@ -162,15 +124,6 @@ But data visualization is not always so straightforward...
 - Per Robison, Tufte’s work is a case of bad data visualization unfairly placing blame and leading the audience to a faulty conclusion.
 
 --- 
-
-# Other Challenges of Visualizing Information
-
-<!--Tamara Munzner. 2014. Chapter 1.13: Why Are There Resource Limitations? In Visualization Analysis and Design. CRC Press.-->
-- Computational capacity
-- Human perceptual and cognitive capacity
-- Display capacity 
-
----
 
 **The choices we make about visualizing our data have consequences - so how do we make better ones?**
 ### Activity: What is ‘good’ data visualization?
@@ -401,15 +354,6 @@ table {
 
 --- 
 
-# Some admin
-
-- Github overview
-- Schedule & What will we cover in this course?
-- Assignment 1
-- LLMS vs Stack Overflow 
-
---- 
-
 # Coming Up in this Course - Topics
 
 - **First Steps**
@@ -432,8 +376,8 @@ table {
 
 - **Getting Fancy**
     - Beyond matplotlib (Seaborn)
-    - Drawing maps (geoplot)
     - Interactive data visualizations (Plotly)
+	- Qualitative data visualization
 
 --- 
 
