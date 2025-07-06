@@ -10,23 +10,25 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      Good: https://public.tableau.com/app/profile/adriano.sacchetti/viz/CanadaLabourMarket/CANADALABOURMARKET
+
+      The visualization shows unemployment rates, employment by industry, regional breakdowns, and trends over time.
+      This dashboard shows different information about employment and unemployment in Canada. It uses maps to show unemployment rates in each province, bar charts to show employment by industry, and line charts to display how things change over time. This matches the principle that the choice of chart type should fit the nature of the data (Few, 2009). I think all the charts are easy to understand and it is well-organized. On the left side of the dashboard, there is a filter to pick specific province/ full-time or part-time labour force and age group which is user-friendly. More, the main colour in the chart is yellow and blue, these contract colour make it easy to understand and clear. This follows good design practices that suggest using color purposefully to highlight differences without overwhelming the viewer (Ware, 2013). Overall, it does a great job showing Canadian labour data in a simple and engaging way. 
 
 
+      Bad: https://public.tableau.com/shared/QFG5WJ856?%3Adisplay_count=no&%3AshowVizHome=no
 
-
-
-
-
-      ```
+      The visualization shows why TTC train is late, and i think this is a poor date because it didnt provide effective visual
+      communication. First, the dashboard has a dropdown of all the subway station using many small and crowed chart. I cant see 
+      the important patterns. Second, it is lack of hierarchy as there is no filters to help us as a user to foucs on the most significant delay issue. As Few (2009) highlights, visualizations should guide viewers to key insights through effective use of color, layout, and interactivity. Lastly, the presentation is lack of clear axes making it not informative. For these reason, I classified this dashboard as bad becasue it could not help user understand the TTC delay data.
+      
+      
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      Good one: If it were improved, I would suggest adding some big event through each year, for example, COVID-19, 911, war to make it more engaging. It could also make it for a longer timeframe (5-10 years) to really show the differences. More, this chart can include summary statistics, such as the national average unemployment rate, would give users quick key insights. 
+      Still, this dashboard is a strong example of how to use data visualization to tell a clear and meaningful story about the job market in Canada.
 
-
-
-
-
+      Bad one: This data visualization could be improved in several ways to make it clearer and more useful. I would suggest to reduce the number of stations shown at once. For example, filer by the line/ top 5 stations with the most delay. Also, adding filters so users can select specific times of day, days of the week, or particular stations would allow them to explore the data more deeply and find patterns relevant to their needs. More, use colour to emphasie rush hour/normal hour to grab our attention.
 
       
       ```
