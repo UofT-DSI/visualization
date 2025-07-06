@@ -11,6 +11,9 @@
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
       Your answer...
+      I picked "Udemy Student Analysis Dashboard". This section focuses on analyzing courses studens subscription to uncover how students has invested in each courses.
+      I personaly strugle a lot to dientify the relasionhsip among graphs in the same view, specificaly if using same color for everything. However, when working with information showned by year, or by any other category, it is understandable that one coloer has alredy been used to differenciate one category from another. For this section, the layouts are super clean, and despite they use one color for all graphs, they also include different types of chart which help a lot to differenciate themes. They also include, in detail, all information from other categorys so that we can compare based on percentage. There is one specific section I liked a lot though, indicating with a high-low sign in green and red to make it more intuitive for us to quickly identify good from bad. To sum up, this work is aesthetic, it is welled ordered in my opinion. It is simple to understand for students or for profesional interested on the subject. People can easealy underrstand the message the maker is attempting to convey. 
+      
 
 
 
@@ -22,8 +25,10 @@
     - How could this data visualization have been improved?  
       ```
       Your answer...
-
-
+      The only thing I would change will be the size of marks that appear in the "what courses are students investing in". Which is the continuity of the williness to invest focussed on certain amount; It would be nice to see in a bigger size the marks that represent those courses students are more interested in.
+      Second observation is in the other two charts: students vs reviews, and students vs letures. I am having a hard time trying to understand the proportion with this type of chart. At a simple view, I did not catch the relationship between both values. There are two marks, one indicating 10K of students and 1,893 reviews, and that mark is poisitioned at the top, same level at the other which represent 12K of students and 1,883 reviews. The first one has 21% of revies whereas the second one has 15%. Obviosly the one at the left is the one indicating more reviews based on X and Y. So, it took me time to realize if I see a vertical rectangule from Y, then that is the one that has more reviews. In this one is where I would say that selecting a different type of chart, considering the point we saw in class related to the audience we are proyecting data, will help a lot; If the audience is not familiar with charts other than bars and pie, this one will be little challenging, in my opinion.
+      
+     
 
 
 
