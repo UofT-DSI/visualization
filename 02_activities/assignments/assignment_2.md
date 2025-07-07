@@ -10,26 +10,41 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      BAD VISUALIZATION 
+      A visualization that could use some inprovements is found here: https://public.tableau.com/app/profile/gurpreet.singh2669/viz/OceanHealth_16951858845800/OceahHealth 
 
-
-
-
-
-
-
-      ```
-    - How could this data visualization have been improved?  
-      ```
-      Your answer...
-
-
-
-
-
-
+      Tableau dashboard showing ocean health metrics.
+      It is confusing for several reasons 
       
-      ```
+      Complexity of Information Resulting in High Cognitive Load:
+        Multiple charts, maps, and data points are presented simultaneously without clear separation. Although the relationship between them is clear. 
+
+      Lack of Clear Labels and Legends:
+        The way the legend of "Debris Collected" is represented is confusing when reviewing the geographical location the samples were collected from because the colors do not match. Ambiguous labels make it hard to interpret what each visual element represents, leading to confusion about data meaning.
+
+        Also, legends for interactive units are not easily foundable. They are built in diresctly into the interactive units. 
+      
+    
+      A few ways to improve the visualization: 
+      - Simplify the layout by focusing on key metrics.
+      - Use consistent color schemes with explanatory legends.
+      - Provide clear labels and descriptions.
+      - Offer guidance or instructions for interactive features.
+
+    GOOD VISUALIZATION 
+
+    Source founs here: https://public.tableau.com/app/profile/health.care.cost.institute/viz/Opioid10YearTrendsBlogInteractiveTool070919/Figure210YearTrends
+
+    The dashboard provides an interactive overview of opioid trends in United States over a ten-year period. It include various charts and graphs that display data such as overdose rates, prescription trends and geographic breakdowns based on state.  
+
+    The design employs a clear layout, with visual distinctions between different data visyalization types, making it easy to navigate and interpret the information. The colors used are mostly logical and support differentiation between categories, aiding in quick overvieww. 
+
+    Interactive filters are very useful and allow users to normalize data, explore trends across different regions and focus on specific states.
+
+    A few ways to potenatilly improve: 
+    - Add demographic breakdown 
+    - Add timefrme filters 
+
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
