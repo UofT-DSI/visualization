@@ -8,28 +8,59 @@
 - To test your evaluation skills, locate two public data visualizations online, one good and one bad  
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
 - For each visualization (good and bad):  
-    - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
-      ```
-      Your answer...
 
 
+**Good Data Visualization Example**
 
-
-
-
-
-      ```
-    - How could this data visualization have been improved?  
-      ```
-      Your answer...
-
-
-
-
-
-
+**Q1**
+-Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       
-      ```
+**answer**
+
+Title: “World’s CO₂ Emissions by Country Over Time”
+Source: Our World in Data
+Link: https://ourworldindata.org/co2-emissions
+
+A clear and effective data visualization is the interactive chart from Our World in Data that shows CO₂ emissions by country over time. The line graph displays data from 1750 to today, with the x-axis showing the years and the y-axis showing total CO₂ emissions. Each country is shown in a different color, making it easy to compare trends.
+
+This chart is simple, clean, and easy to use. Viewers can click to show or hide countries, switch between total and per-person emissions, and see exact numbers by hovering over the lines. The colors are soft but different enough to separate each line. The chart is well-designed and follows good data practices by keeping the layout clear and focused on the data.
+
+One strong point is that the chart gives full data sources, like the Global Carbon Project. This helps build trust. It also shows long-term trends clearly, such as rising emissions in countries like China and India and falling emissions in some parts of Europe and North America.
+
+**Q2**
+- How could this data visualization have been improved?  
+
+**answer**
+
+To make the chart even better, the creators could add notes or labels to show major world events, like climate agreements or economic crises. This would help users understand why the trends change. Also, making the chart easier to use on mobile phones or adding a way to save and share summaries would be helpful.
+
+Overall, this is a great example of good data visualization. It is clear, interactive, and helps people understand climate change data in a simple way.
+
+
+**Bad Data Visualization Example**
+
+**Q1**
+-Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
+      
+**answer**
+
+Title: The fine line between confusion and deception
+Source: Visualising Data (blog by Andy Kirk)
+Link: https://visualisingdata.com/2014/04/the-fine-line-between-confusion-and-deception/
+
+A widely criticized example of poor data visualization is a chart published by Reuters, intended to show the number of gun deaths in Florida following the enactment of the “Stand Your Ground” law. The chart appeared to depict a dramatic decrease in gun-related deaths after the law passed. However, this impression was created through misleading design choices rather than the actual data trend. Most notably, the y-axis was inverted—meaning that higher numbers were placed at the bottom, and lower numbers at the top. This flipped the visual narrative, making what was actually an increase in gun deaths look like a decrease. As pointed out in a Medium article analyzing the chart, gun deaths in Florida rose from about 550 in 2005 to over 850 in 2007, yet the visualization made it appear as if they had dropped significantly. This violates a key principle in data visualization emphasized by Edward Tufte: graphical integrity. When a graph’s visual encoding does not match the data, it misleads viewers and compromises the visualization’s credibility.
+
+Beyond the inverted y-axis, the chart also lacked sufficient labeling and numerical detail. The axes had minimal tick marks and no clear units, making it hard to determine exact values. The use of a bright red, blood-like area fill further intensified the emotional tone of the graph, potentially biasing the viewer’s interpretation. The combination of emotional coloring, inverted scale, and lack of clarity resulted in a visualization that obscured the truth rather than illuminating it.
+
+**Q2**
+
+- How could this data visualization have been improved?  
+    
+**answer**
+
+To improve the chart, the y-axis should be oriented correctly, with zero at the bottom and increasing values moving upward. Clear, evenly spaced tick marks and labeled years would help ground the viewer in the timeline. Replacing the red area fill with a neutral line chart and adding annotations such as the year the law was enacted would provide needed context. Including a data source would also build trust. As it stands, this chart is a textbook example of how visual choices can distort reality, and it emphasizes the importance of maintaining ethical standards in data presentation.
+
+
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
