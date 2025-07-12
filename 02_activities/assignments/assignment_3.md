@@ -5,25 +5,35 @@
 ### Requirements:
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
-- Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
+- Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.
+
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+    I used RStudio to create my product.  
 
     > Who is your intended audience? 
-    
+    The intended audience for this product is policy analysts at the Ontario Ministry of Labor to inform their policy formation and decision-making. 
+
     > What information or message are you trying to convey with your visualization? 
+    The narrative change in the labor market is shifting from labor shortage to employee support.
     
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+    Deliver the labor market shift through data and evidence by leveraging the visual evidence instead of text description.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    The data product is reproducible because the main architecutre is embedded in the codes. Should the reproduction is required, then the dataset need to be replaced only.
     
     > How did you ensure that your data visualization is accessible?  
-    
+    I ensured the accessibility of this data product by making available in the ministry internal BI page. Also, color and other design principles were integrated into the product.
+
     > Who are the individuals and communities who might be impacted by your visualization?  
+    The internal stakeholders are policy makers in the ministry. The external stakeholders are interest groups among employee support organizations. The altimate target of this product is the employees in Ontario.
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    The dataset came from Statistics Canada. StatsCan datasets are common sources within my unit. 
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    I am not sure what this question mean. Please clarify.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
