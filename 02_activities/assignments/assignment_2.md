@@ -28,6 +28,7 @@ This chart is simple, clean, and easy to use. Viewers can click to show or hide 
 One strong point is that the chart gives full data sources, like the Global Carbon Project. This helps build trust. It also shows long-term trends clearly, such as rising emissions in countries like China and India and falling emissions in some parts of Europe and North America.
 
 **Q2**
+
 - How could this data visualization have been improved?  
 
 **answer**
@@ -40,6 +41,7 @@ Overall, this is a great example of good data visualization. It is clear, intera
 **Bad Data Visualization Example**
 
 **Q1**
+
 -Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       
 **answer**
