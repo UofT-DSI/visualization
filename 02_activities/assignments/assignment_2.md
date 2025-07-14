@@ -8,23 +8,24 @@
 - To test your evaluation skills, locate two public data visualizations online, one good and one bad
   - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like!
 - For each visualization (good and bad):
+
   - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
+
   ```
-  Your answer...
+
   A) Good Visualization: Gapminder Bubble Chart
   Link: https://public.tableau.com/app/profile/psemeniuk/viz/DashboardBuild-Gapminder/Gapminder
-  This is good visualization because:
+  This is good visualization because the text describes a tool that uses rich multi-dimensional encoding to display historical data, including GDP per capita, life expectancy, bubble size, and color. It uses pre-attentive cues to convey four variables without overwhelming the viewer. The tool also features interactive storytelling, with time sliders and "play" controls allowing users to see trends and outliers dynamically. The tool also has a high data-ink ratio, with clean gridlines, subtle axes, and restrained typography minimizing non-data ink. The tool is accessible and clear, with a colorblind-safe palette distinguishing regions and tooltips presenting exact numbers on hover.
+
+  B) Bad visualization: 3D Bar Plot of Virginia Mortality Rates (1940)
+  Link: https://clauswilke.com/dataviz/no-3d.html
+
+  This is bad visualization because the text highlights several issues with the current 3D bar chart, including misleading perspective, occlusion and clutter, distortion of axis and gridlines, low data-ink ratio, and poor use of space. The added third dimension violates graphical integrity and leads to biased comparisons. The bar charts overlap in 3D space, hiding entire faces of some columns, increasing cognitive load and error rates. The perspective skews the x- and z-axes, making it difficult to align bar tops with gridlines and read exact values. Tick marks are at oblique angles, reducing legibility. The low data-ink ratio and chartjunk add visual noise without conveying new information, detracting from the data itself. Depth encoding consumes large screen real estate while providing no analytic benefit. A simple 2D trellis layout would display the same data more compactly and clearly.
   ```
 
-The text describes a tool that uses rich multi-dimensional encoding to display historical data, including GDP per capita, life expectancy, bubble size, and color. It uses pre-attentive cues to convey four variables without overwhelming the viewer. The tool also features interactive storytelling, with time sliders and "play" controls allowing users to see trends and outliers dynamically. The tool also has a high data-ink ratio, with clean gridlines, subtle axes, and restrained typography minimizing non-data ink. The tool is accessible and clear, with a colorblind-safe palette distinguishing regions and tooltips presenting exact numbers on hover.
-
-B) Bad visualization: 3D Bar Plot of Virginia Mortality Rates (1940)
-Link: https://clauswilke.com/dataviz/no-3d.html
-
-The text highlights several issues with the current 3D bar chart, including misleading perspective, occlusion and clutter, distortion of axis and gridlines, low data-ink ratio, and poor use of space. The added third dimension violates graphical integrity and leads to biased comparisons. The bar charts overlap in 3D space, hiding entire faces of some columns, increasing cognitive load and error rates. The perspective skews the x- and z-axes, making it difficult to align bar tops with gridlines and read exact values. Tick marks are at oblique angles, reducing legibility. The low data-ink ratio and chartjunk add visual noise without conveying new information, detracting from the data itself. Depth encoding consumes large screen real estate while providing no analytic benefit. A simple 2D trellis layout would display the same data more compactly and clearly.
-
       ```
-    - How could this data visualization have been improved?
+
+  - How could this data visualization have been improved?
 
 ````
 A) Good visualization:
