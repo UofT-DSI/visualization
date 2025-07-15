@@ -10,24 +10,15 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      GOOD:https://public.tableau.com/app/profile/dillon.brady/viz/HealthShortageinUnitedStatesHPSA/Dashboard1
+      NOT-SO-GOOD: https://public.tableau.com/app/profile/robert.orr6104/viz/MappingHealthProfessionalShortageAreas/Sheet1
 
-
-
-
-
-
+    While both graphs show similar information, the "good" visualization used state-specific colours, which helps viewers easily identify state lines. In comparison, the "not-so-good" visualization uses a monochromatic (red) scale, which makes it difficult to differentiate between states, especially when zoomed out and looking at the entire map. Also, due to a few outliers in the dataset, the redness is largely skewed towards lighter red, which makes it difficult to differentiate between the dots. I am also not clear about what the score being visualized actually is, as it’s not stated on or around the viz. Additionally, the “good" viz includes filters to focus on a specific state or states, as well as sort by HPSA (Health Professional Shortage Area) Score and by average % of population below the poverty line, which allows for some context when browsing through the map. Also, the use of a dichromatic (red and green) scale for both filters reduces cognitive load, as these colours are easy to interpret and widely understood. On the map itself, size of the dot is proportional to the score, which is intuitive and makes it easy to see relative differences between different health centres without focusing too much the actual score.
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
-
-
-
-
-
-
+      For the “not-so-good” viz, I believe a non-linear (e.g.  logarithmic) colour scaling could have been applied to the dots to allow the audience to see greater resolution at the lower end of the scale, where most of the data appears to be clustered. Also, a dichromatic scale could  help make it more intuitive. Also, unless required by the intended audience, the coordinates of each city (that appear when hovering over a data point) might be a bit too much information for the average viewer. Adding some other data to contextualize the scores might add to the story – e.g. the % of pop below poverty line (as shown in the “good” viz), or some other measure of socioeconomic status. Also, when zooming out to see the entire map, it could be useful to collapse all the individual data points into one weighted average (e.g. based on population) to get a broad perspective of the entire country by state. There is not much that I would change about the “good” viz, other some of the colour choices, which make the map look somewhat busy.
       
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
