@@ -8,22 +8,49 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
-
+    I chose Power Bi since I am more familiarized with it
+    
     > Who is your intended audience? 
+    My main audience would be data analysts or reserchers
     
     > What information or message are you trying to convey with your visualization? 
+    Comparative Insights:
+    With Stratifier and Subgroup, you show how metrics differ across demographics, regions, or categories.
+    For example: "Completion rate of students by age group" or "Subscription growth by geographic zone"
+    Statistical Validity:
+    Including LL (Lower Limit) and UL (Upper Limit) shows awareness of uncertainty and variability.
+    This supports informed decision-making and highlights areas that may need further investigation.
+    Benchmarking and Flags:
+    The Flag and Comparison columns offer context for:
+    Whether metrics meet expected thresholds
+    Highlight anomalies or performance gaps
+    Suggest whether certain values are statistically significant or worth deeper attention
+
+
+
     
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+    Clarity, to ensure users grasp the message without decodig complexity, and Purpose Alignment
+    to match the visual to the type of question being asked (comparison, distribution, trend, etc.)
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    I linked the datasets clearly within Power BI. Included metadata (source name, version, refresh date).
+    I also used OneDrive to track evolution. I also used Power Query steps for data cleaning, and Set parameters for things like date ranges or filters.
     
     > How did you ensure that your data visualization is accessible?  
-    
+    I avoided renaming technical terms like "LL" or "UL" to “Lower Bound” and “Upper Bound.” As well as avoiding relying only on color to convey meaning. I used high-contrast text and background (dark on light or vice versa).Kept font sizes readable, Avoided cramming—space out visuals and used white space to guide focus.And I provided slicers for key dimensions (e.g. year, subgroup), but made them simple to use.
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+    Data Analysts and researchers as these graphs provide reproducible, statistically grounded evidence for studies or reports.They depend on accurate stratification, confidence intervals, and visual clarity to support further analysis.
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+    I prioritized features like Indicator Name, Measure, and Subgroup because they directly support the insight I'm trying to highlight—such as trends in performance, engagement, or disparities.
+
     > What ‘underwater labour’ contributed to your final data visualization product?
+    It was not easy that is for sure. I evaluated which fields would add analytical value and which might clutter or confuse the visuals. Before even building charts, I ran descriptive stats and quick visuals to understand trends, outliers, and patterns.This helped shape what stories the dashboard could tell and guided my chart selection. I didn’t just slap on charts—I fine-tuned colors, legends, tooltips, and layouts to improve readability and accessibility.
+
+
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
