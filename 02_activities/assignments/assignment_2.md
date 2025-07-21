@@ -12,7 +12,7 @@
       ```
       Your answer...
          
-![alt text](image.png) This is one example of a good data visualization from tableau
+![alt text](image.png) This is one example of a good data visualization from tableau.
 
       I picked "Udemy Student Analysis Dashboard". This section focuses on analyzing courses studens subscription to uncover how students has invested in each courses.
       I personaly strugle a lot to dientify the relasionhsip among graphs in the same view, specificaly if using same color for everything. However, when working with information showned by year, or by any other category, it is understandable that one coloer has alredy been used to differenciate one category from another. For this section, the layouts are super clean, and despite they use one color for all graphs, they also include different types of chart which help a lot to differenciate themes. They also include, in detail, all information from other categorys so that we can compare based on percentage. There is one specific section I liked a lot though, indicating with a high-low sign in green and red to make it more intuitive for us to quickly identify good from bad. To sum up, this work is aesthetic, it is welled ordered in my opinion. It is simple to understand for students or for profesional interested on the subject. People can easealy underrstand the message the maker is attempting to convey.
