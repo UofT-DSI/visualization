@@ -8,7 +8,7 @@ paginate: true
 # Data Visualization: Choosing the Right Visualization
 
 ```code
-$ echo "Data Science Institute"
+$ echo "Data Sciences Institute"
 ```
 
 ---
