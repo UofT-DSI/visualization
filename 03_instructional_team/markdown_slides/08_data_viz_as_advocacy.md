@@ -8,7 +8,7 @@ paginate: true
 # Data Visualization: Visualization with Purpose - Data Visualization as Advocacy
 
 ```code
-$ echo "Data Science Institute"
+$ echo "Data Sciences Institute"
 ```
 ---
 

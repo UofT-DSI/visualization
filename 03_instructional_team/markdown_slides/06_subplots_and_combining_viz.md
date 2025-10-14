@@ -8,7 +8,7 @@ paginate: true
 # Data Visualization: Subplots and Combining Visualizations
 
 ```code
-$ echo "Data Science Institute"
+$ echo "Data Sciences Institute"
 ```
 ---
 
