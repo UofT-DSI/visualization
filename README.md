@@ -38,12 +38,12 @@ By the end of this module, you will be able to:
   * name and pronouns: `Ciara`, `She/Her` 
   * email: `ciara.zogheib@mail.utoronto.ca`
 * Learning Support Staff: 
-  * name: `Vishakh`
-  * email: `vishakh.patel@mail.utoronto.ca`
+  * name: `Alex`
+  * email: `alexk.yu@mail.utoronto.ca`
   * name: `Xindi`
   * email: `xindi.zhang@mail.utoronto.ca`
-  * name: `Shiraz`
-  * email: `engr_shiraz@hotmail.com`
+  * name: `Gayathri`
+  * email: `gayathri.girishkumar@mail.utoronto.ca`
 
 ## Delivery of the Learning Module
 This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
