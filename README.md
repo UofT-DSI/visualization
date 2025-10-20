@@ -69,6 +69,9 @@ Participants are encouraged to engage actively during the learning module. They 
 ## Resources
 Feel free to use the following as resources:
 
+### Concept Map
+![visualization_conceptmap.png](https://github.com/UofT-DSI/visualization/blob/main/visualization_conceptmap.png)
+
 ### Documents
 - [Cheatsheet](https://matplotlib.org/cheatsheets/)
 - [DataCamp Cheatsheet](https://www.datacamp.com/cheat-sheet/matplotlib-cheat-sheet-plotting-in-python)
