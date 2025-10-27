@@ -12,6 +12,43 @@
       ```
       Your answer...
 
+      References used in this assignement: 
+        1. Slides used in introduction class
+        2. Slides used in choosing the right visualization
+
+    Bad Visualization reference:
+     https://public.tableau.com/app/profile/luke.abraham/viz/LifeExpectencyMakeoverMonday/LifeExpectency
+
+    Visualization Overview
+
+    The chart shows:
+    1. Life expectancy at birth by continent and country (2025 data).
+    2. A color gradient from red (younger life expectancy) to blue (older life expectancy).
+    3. A dot plot and world map combined.
+
+    Why I feel this visualization Is Considered Bad: 
+    1. Color Choice and Accessibility
+        The red-to-blue gradient looks appealing but is not uniform- it's difficult for users (especially those with vision issues) to interpret subtle differences.
+
+    2. Dark background + dark colors 
+        The dark colors and dark background reduces the readability, especially for smaller dots or text.
+
+    3. Poor Labeling and Context
+        Although the map and dot plot includes the numeric scales on scroll, viewers can't easily tell what specific life expectancy values the colors represent. 
+        The data doesn't include any overall information about the minimum, average and maximom life expectancy for the whole world.
+
+    4. Overcrowded and Redundant Information
+        The dot plot duplicates the information shown on the map but doesn't add much insight. The visualization tries to do too much at once- compare continents and show a global map - which splits viewer attention.
+
+    5. Map Ineffectiveness
+        The world map uses color saturation to show life expectancy, but this can be misleading: 
+            Small countries are nearly invisible.
+            Large landmasses (e.g., Russia, Canada) dominate visual attention even if their data isn't extreme.
+            The legend linking color intensity to numeric life expectancy is open ended, so the color meaning is ambiguous.
+
+    6. Lack of Data Clarity
+        The title Life Expectancy at Birth • 2025 • In Years • By Country gives context, but the visualization doesn't show actual numbers or ranges (e.g., 50 - 85 years).
+        Users can't extract quantitative insights, only a vague sense of younger vs. older.
 
 
 
@@ -23,12 +60,45 @@
       ```
       Your answer...
 
+        How It Could Be Improved
+
+        1. Use a consistent color palette (e.g., light-to-dark blue) that’s colorblind-safe.
+        2. Add numeric scales or legends for both plots.
+        3. Simplify to 1-2  visual (include a combination chart (bar chart + line graph)  by continent , a global map with the same interactive tooltips).
+        4. Use higher contrast and lighter background will help in enhancing readability.
 
 
 
+    Good visualization Reference:
+    https://public.tableau.com/app/profile/valerie.madojemu/viz/ShopifyOverviewRAWNutritionConcept/ShopifyOverview
 
+    Visualization overview:
+        1. This dashboard provides an overview of RAW Nutrition’s Shopify performance, highlighting key metrics like profit (£4.64M), revenue (£8.09M), and customer retention (66%).
+        2. It breaks down profit by product category and tracks trends over time, showing Protein as the top contributor.
+        3. Additional visuals display social media session data and the top five products by profit for 2025.
 
-      
+    What’s Good About This Visualization
+
+        1. Clear structure and hierarchy
+            The layout is well-organized: KPIs at the top, supporting charts below.
+            Each section answers a distinct business question (profit trends, product breakdowns, customer behavior).
+
+        2. Key Metrics are prominently displayed
+            Top summary tiles (Profit, Revenue, Orders Fulfilled, Returning Customer Rate) give a snapshot of performance with YoY changes.
+            Colors are consistent and professional- grey and black palette keeps the focus on data.
+        
+        3. Good use of interactivity
+            Parameter Control and Toggle Top/Bottom 5 options enhances user exploration.
+            Filters let users view data by product category and metric.
+
+        4. Effective chart types
+            Bar chart for product category profit comparison- clear and easy to read.
+            Line chart for profit trends over time- shows trend over the quaters and peak performance periods (e.g., December spike).
+            Combined chart for sessions and conversion rate- dual-axis presentation works well.
+
+        5. Consistent labeling and currency formatting
+            All values are properly labeled (e.g., 4.64M, 8.09M), which aids readability.  
+
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
