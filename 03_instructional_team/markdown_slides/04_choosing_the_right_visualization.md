@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -60,7 +59,7 @@ In small groups or as a class
 ---
 
 # Visualization #1: US Gun Killings in 2018
-![](./images/04_us_gun_killings_in_2018.png)
+![w:900](./images/04_us_gun_killings_in_2018.png)
 
 [🔗 source](https://guns.periscopic.com/)
 
@@ -74,7 +73,7 @@ https://guns.periscopic.com/
 ---
 
 # Visualization #2: Washington Post Active Shooters
-![](./images/04_the_era_of_active_shooters.png)
+![w:700](./images/04_the_era_of_active_shooters.png)
 
 <!--
 The source of the underlying data is shown underneath the graph
@@ -83,7 +82,7 @@ The source of the underlying data is shown underneath the graph
 ---
 
 # Visualization #1: US Gun Killings in 2018
-![w:400](./images/04_us_gun_killings_in_2018.png)
+![bg right:40% w:400](./images/04_us_gun_killings_in_2018.png)
 
 - Periscopic’s animated visualization shows the expected years of life lost to gun violence in the United States in 2018
 - It emphasizes an emotion: a sense of loss
@@ -97,7 +96,7 @@ For after discussion
 ---
 
 # Visualization #2: Washington Post Active Shooters 
-![w:400](./images/04_the_era_of_active_shooters.png)
+![bg right:40% w:400](./images/04_the_era_of_active_shooters.png)
 
 - The next visualization shows a related dataset (about gun violence in the United States)
 
@@ -134,7 +133,7 @@ For after discussion
 - Image A emphasizes the unemployment rate staying above 8%, while Image B emphasizes the rate’s decline
 - **Neither is technically dishonest!**
 
-![bg right:50% w:500](./images/04_jobs_report_graphic_vs_vertical.png)
+![bg right:50% w:450](./images/04_jobs_report_graphic_vs_vertical.png)
 
 ---
 
@@ -294,7 +293,7 @@ section {
 - Depends on purpose, audience, and medium!
 - A good goal is to satisfy: “to find one of the many possible good solutions rather than one of the even larger number of bad ones”
 
-![h:350](./images/04_design_space.png)
+![h:300](./images/04_design_space.png)
 
 <!--Tamara Munzner. 2014. Chapter 1.11. Why Are Most Designs Ineffective? In Visualization Analysis and Design. CRC Press.
 -->
@@ -337,7 +336,7 @@ Wong, B. (2010). Gestalt principles (Part 1). Nature Methods, 7(11), 863–863. 
 
 # Gestalt principles
 
-![](./images/04_gestalt_principles.png)
+![w:1000](./images/04_gestalt_principles.png)
 
 <!-- 
 REFERENCES:
@@ -347,7 +346,7 @@ Images from https://www.interaction-design.org/literature/book/the-encyclopedia-
 ---
 # Gestalt principles
 
-![](./images/04_gestalt_principles_2.png)
+![w:1000](./images/04_gestalt_principles_2.png)
 
 <!-- 
 REFERENCES:
@@ -457,7 +456,7 @@ REFERENCES:
 ---
 
 # The Data Visualization Catalogue
-![](./images/04_the_data_visualization_catalogue.png)
+![w:900](./images/04_the_data_visualization_catalogue.png)
 
 <!--
 For example, the data visualization catalogue by Severino Ribecca (http://www.severinoribecca.one/) offers a non-code based, point-and-click interface for exploring different kinds of graphs based on intended purpose
@@ -484,7 +483,7 @@ Stationary version https://github.com/Financial-Times/chart-doctor/blob/main/vis
 
 # Financial Times Visual Vocabulary
 
-![](./images/04_visual_vocabulary.png)
+![w:950](./images/04_visual_vocabulary.png)
 
 <!-- 
 REFERENCES:

@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -165,7 +164,7 @@ $ echo "Data Sciences Institute"
 ---
 # Positioning text annotations
 
-![](./images/05_positioning_text_annotations.png)
+![w:400](./images/05_positioning_text_annotations.png)
 
 ```
 ax.text(1, 5, ". Data: (1, 5)",           transform=ax.transData    )

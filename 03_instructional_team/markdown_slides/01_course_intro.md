@@ -1,7 +1,6 @@
 ﻿---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -113,7 +112,7 @@ But data visualization is not always so straightforward...
 - The accuracy of Tufte’s visualization has [been](https://link.springer.com/content/pdf/10.1007/978-3-319-45193-0_12.pdf) [debated](https://link.springer.com/content/pdf/10.1007/s11948-002-0033-2.pdf), with Robison identifying several errors in Tufte’s use of data.
 - Robison suggests that only one test launch had actually produced relevant O-ring temperature data, producing this visual instead: (image: Robison, 1997, 2002 👇)
 
-![height:10cm](./images/01_robinson_1997_2002.png)
+![w:800](./images/01_robinson_1997_2002.png)
 
 --- 
 
@@ -219,7 +218,7 @@ table {
   font-size: 20px;
 }
 </style>
-![bg left:30% w:300](./images/01_tools_for_data_visualization_2.png)
+![bg right:30% w:300](./images/01_tools_for_data_visualization_2.png)
 
 | | |
 |-----------------------------|---------------------------------------------------------------------------------|
@@ -262,7 +261,7 @@ Click each link to view and interact with public visualizations chosen as Tablea
 
 of the Day’:
 [🔗 left](https://public.tableau.com/app/profile/rahul7922/viz/Dinosaur2_16228076369930/Dinosaur), [🔗 middle](https://public.tableau.com/app/profile/arshad.ejaz/viz/Entry-leveljobsrequire3yearsofexperience_16304835725570/Dashboard), [🔗 right](https://public.tableau.com/app/profile/kasia.gasiewska.holc/viz/DwightSchrutesSurveillanceSystem/SurveillanceSystem)
-![w:1000](./images/01_tableau_demos.png)
+![w:900](./images/01_tableau_demos.png)
 
 --- 
 
@@ -272,7 +271,7 @@ table {
   font-size: 24px;
 }
 </style>
-![bg left:30% w:300](./images/01_tool_for_data_visualization/tool_for_data_visualization_6.png)
+![bg right:30% w:300](./images/01_tool_for_data_visualization/tool_for_data_visualization_6.png)
 
 |                              |                                                                                                                |
 |------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -286,7 +285,7 @@ table {
 
 # Microsoft Power BI
 
-![w:900](./images/01_microsoft_power_bi.png)
+![w:800](./images/01_microsoft_power_bi.png)
 
 
 

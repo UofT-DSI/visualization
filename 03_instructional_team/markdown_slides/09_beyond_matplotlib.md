@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -188,7 +187,7 @@ sns.pairplot(
     ```
 - **Activity**: Comment this snippet of code and describe what each new element is doing
 
-![bg left:50% w:500](./images/09_replot.png)
+![bg right:50% w:500](./images/09_replot.png)
 
 ---
 

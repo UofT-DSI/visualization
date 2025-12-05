@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -74,7 +73,7 @@ Fossheim, S. L. (2020, January). An intro to designing accessible data visualiza
 
 # A different picture
 
-![w:900](./images/07_creative_routines.png)
+![w:800](./images/07_creative_routines.png)
 
 <!-- 
 NOTES: 
