@@ -168,6 +168,7 @@ ax.hist(y)
     ax.set_title('Total growth over time')
     ax.set_ylabel('Total growth')
     ax.set_xlabel('Years since start')
+    fig.tight_layout()
     ```
 ---
 
@@ -192,6 +193,7 @@ ax.hist(y)
     ax.set_title('Total growth over time', fontdict = font1)
     ax.set_ylabel('Total growth', fontdict = font2)
     ax.set_xlabel('Years since start', fontdict = font2)
+    fig.tight_layout()
     ```
 
 ----
@@ -203,7 +205,6 @@ ax.hist(y)
     ```
     fig, ax = plt.subplots(figsize=(5, 3))
     ax.plot(x,y)
-    ax.set_title('Total growth over time', fontdict = font1, loc = 'left')
     ax.set_ylabel('Total growth', fontdict = font2)
     ax.set_xlabel('Years since start', fontdict = font2)
     ```
@@ -220,8 +221,8 @@ ax.hist(y)
     ```
     fig, ax = plt.subplots(figsize=(5, 3))
 
-    ax.scatter( x,
-              y,
+    ax.scatter(x,
+               y,
               marker='*',         # NEW ADDITIONS
               color = "indigo")   # NEW ADDITIONS
 
@@ -271,7 +272,7 @@ ax.plot(x,y,marker='*',
         linestyle = '--',
         linewidth = 2,
         markeredgecolor = '#fa9359',  # NEW ADDITIONS
-        markerfacecolor = '#fa9359' ) # NEW ADDITIONS
+        markerfacecolor = '#000000' ) # NEW ADDITIONS
 ```
 ---
 
@@ -324,6 +325,13 @@ ax.plot(x,y,marker='*',
     2. Recall the  **aesthetic** ,  **substantive** , and **perceptual** qualities of data visualizations. Does your visualization of choice succeed in each area?
 
 ---
+
+# Feedback!
+
+
+
+
+-----
 
 # In the next session, we'll continue with...
 
