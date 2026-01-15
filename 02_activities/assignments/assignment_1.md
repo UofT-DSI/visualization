@@ -5,6 +5,9 @@
 ### Requirements:
 
 - During every class, follow along with sample code from the slides. All code that you should be running in Python is formatted as follows:
+`
+For day 15 01 2026 check: "02_activities\assignments\participation\15_01_2026.ipynb"
+`
   
   > If code in a slide looks like this, you should be running it to generate results.
 

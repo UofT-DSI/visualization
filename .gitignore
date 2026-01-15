@@ -3,3 +3,4 @@
 uv.lock
 visualization-env
 .venv
+.venv_visualization
