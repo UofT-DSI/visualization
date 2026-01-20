@@ -12,6 +12,14 @@ For day 15 01 2026 check: "02_activities\assignments\participation\15_01_2026.ip
   > If code in a slide looks like this, you should be running it to generate results.
 
 - When there are individual or group activities in submodules, make notes of answers and key points from discussions
+  20 - 01 - 2026 
+A good visualization should contain the three following design considerations together: Aesthetic, Accurate and Honest, and easy to perceive
+The purpose of the visualization should be clear before the design process. 
+One has to be mindful about the audience before preparing the visual. 
+The medium where the visualization is going to be presented should be considered and the visualization should be designed accordingly. Grey scale for printing etc. 
+Different datasets can be visualized by using different plotting schema selections. Color bars can be selected according to different datasets and how these data relate with each other. 
+Gestalt principles can be used to visualize data. These principles are proximity, similarity, continuity, closure, enclosure and connection. 
+Don't make 3D plots without a cause. 
 - Following each lesson with code, submit a document (either .py or a Jupyter notebook) containing the functioning code from that day's lesson, along with any written notes or comments.
 
 ### Why am I doing this assignment?:
