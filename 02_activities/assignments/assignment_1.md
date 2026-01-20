@@ -34,7 +34,7 @@
 * You should make a commit after each session with that lesson's code and notes. Your PR should have the same number of commits as there are sessions. It is important to make the commits to your branch in a timely manner right after each class.
 
 ### Submission Parameters:
-* Submission Due Date: `ongoing`
+* Submission Due Date: 23:59 - 02/02/2026
 * The branch name for your repo should be: `assignment-1`
 * What to submit for this assignment:
     * The `participation` folder/directory should be populated with the above mentioned .py/.ipynb files along with any written notes or comments (preferably in .md or .txt format).

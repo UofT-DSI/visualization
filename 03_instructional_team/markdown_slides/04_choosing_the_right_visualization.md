@@ -32,7 +32,73 @@ REFERENCES
 D’Ignazio, C., & Klein, L. (2020). 3. On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints. In Data Feminism. MIT Press. https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5
 -->
 
----
+-----
+# Agenda for today
+
+- Go through slide deck #4: Choosing the right visualization
+- Discuss assignment 2
+
+------
+
+# Review - How does matplotlib work?
+
+- A **figure** is like a container that holds a set of  **axes**
+
+- The axes is our actual plot or graph
+
+- A figure can hold multiple axes (like subplots)
+
+- Every visual element of our plots – colour, legends, axis titles and scales, text – is called an **artist** and belongs to an axes (not to a figure)
+
+------
+
+# Review - Making a figure with matplotlib
+
+- Create a **Figure** container and one **Axes** (subplot) inside it; store them in fig and ax
+
+
+```
+    fig, ax = plt.subplots(figsize=(5, 3))
+```
+
+- If we color the `fig` object red and the `ax` object green, we get the following result:
+
+![w:500](./images/fig_axes.png)
+
+-------
+
+# Review - Making a figure with matplotlib
+
+- Make our basic scatterplot:
+
+```
+fig, ax = plt.subplots(figsize=(5, 3))
+ax.scatter(x,y)
+fig.show()
+
+```
+![w:450](./images/fig_axes.png)
+
+
+------
+
+# Review - Example
+
+![w:500](./images/fig_axes2.png)
+
+- Figure = the entire canvas (in red) that contains everything 
+
+- Axes = the plotting area inside a figure (the green boxes with x/y ticks where data is drawn).
+
+----
+
+# Assignment Deadlines
+
+- Assignment 2: January 26, 2026, 11:59 PM (Monday)
+- Assignments 1 and 3: February 2, 2026, 11:59 PM (Monday)
+
+-----
+
 
 ### - So far, we have learned how to make and modify different types of data visualizations
 ### - How do we decide which of these types of data visualization to use, and when?    
