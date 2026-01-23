@@ -12,7 +12,27 @@
       ```
       Your answer...
 
+## Good Data Visualization
+Life Expectancy – Our World in Data  
+https://ourworldindata.org/life-expectancy
 
+### Why this visualization is good
+Because it is clear, accurate, and easy to interpret. First, it uses appropriate chart types for the task (showing trends over time and comparisons across countries). Matching chart type to the question improves comprehension and reduces confusion.
+
+Second, the design supports readability: axes are labeled, scales are consistent and the layout avoids unnecessary decoration. This helps viewers interpret the data without being distracted by non-data ink.
+
+Third, it supports exploration and storytelling. Interactive controls let the viewer compare countries and time periods without overloading the screen. This “overview first, details on demand” approach helps users learn from the visualization without clutter.
+
+## Bad Data Visualization
+Nightmarish Pie Charts – Chandoo.org  
+https://chandoo.org/wp/nightmarish-pie-charts/
+
+### Why this visualization is bad
+Because it makes the data difficult to interpret and compare. First, the use of a pie chart with a very large number of categories creates extreme visual clutter. Many slices are too small to distinguish, making it impossible to accurately compare values.
+
+Second, the visualization relies heavily on color without clear structure. Similar colors are repeated across many slices, and there is no meaningful visual hierarchy. This increases cognitive load and forces the viewer to constantly shift attention between the chart and the legend.
+
+Third, pie charts are generally ineffective for precise comparison because humans struggle to judge angles accurately. When combined with a high number of categories, this limitation becomes more severe, increasing the risk of misinterpretation.
 
 
 
@@ -22,7 +42,14 @@
     - How could this data visualization have been improved?  
       ```
       Your answer...
+### How it could be improved (good one)
+Add clearer cues for first-time users about how to interact with the visualization, such as short instructions or highlighted controls to improve usability for less experienced users.
+Another improvement: ensure all color choices are fully accessible for users with color vision deficiencies by offering alternative color palettes.
 
+
+### How it could be improved (bad one)
+Replace the 3D pie chart with a bar chart, which supports accurate comparison using lengths on a common scale.
+Another improvement: Remove 3D effects and simplify the design. A flat chart with direct labels would improve clarity and reduce cognitive load.
 
 
 
