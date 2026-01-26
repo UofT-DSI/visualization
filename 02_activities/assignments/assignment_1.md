@@ -22,6 +22,9 @@ Gestalt principles can be used to visualize data. These principles are proximity
 Don't make 3D plots without a cause. 
 - Following each lesson with code, submit a document (either .py or a Jupyter notebook) containing the functioning code from that day's lesson, along with any written notes or comments.
 
+  22 - 01 - 2026 
+Visuals should be reproducible. 
+
 ### Why am I doing this assignment?:
 
 - This ongoing assignment ensures active participation in the course, and assesses the learning outcomes:
