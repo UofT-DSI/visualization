@@ -25,6 +25,10 @@ Don't make 3D plots without a cause.
   22 - 01 - 2026 
 Visuals should be reproducible. 
 
+  27 - 01 - 2026 
+Visuals should be accesible to color blind people. 
+Avoiding overwhelming users. Select the font and do the figure while being mindful for people suffering from dylexia. 
+
 ### Why am I doing this assignment?:
 
 - This ongoing assignment ensures active participation in the course, and assesses the learning outcomes:
