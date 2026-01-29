@@ -52,11 +52,9 @@
 * The branch name for your repo should be: `assignment-3`
 * What to submit for this assignment:
     * A folder/directory containing:
-        * This file (assignment_3.md)
-        * Two data visualizations 
-        * Two markdown files for each both visualizations with their written descriptions.
-        * Link to your dataset of choice.
-        * Complete and commented code as an appendix (for your visualization made with Python, and for the other, if relevant) 
+        * Two distinct data visualizations 
+        * Two markdown files to answer all questions for each visualization (adding the link to your dataset in both files)
+        * One python file contains the complete code and visualization, and another file (i.e. with/without code) contains the visualization
 * What the pull request link should look like for this assignment: `https://github.com/<your_github_username>/visualization/pull/<pr_id>`
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
