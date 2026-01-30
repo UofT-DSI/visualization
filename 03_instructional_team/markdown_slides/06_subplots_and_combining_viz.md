@@ -315,13 +315,17 @@ You know enough at this point to do this! It’s not ~necessary~ but it’s a ni
     ```
 
 - Then get our image from the internet
-    ```
-    response = requests.get('https://upload.wikimedia.org/wikipedia/en/c/cb/Monkey_D_Luffy.png')
-    image_file = BytesIO(response.content)
-    image = Image.open(image_file)
-    ```
 
----
+   ```
+   url = "https://upload.wikimedia.org/wikipedia/en/c/cb/Monkey_D_Luffy.png"
+   headers = {"User-Agent": "Mozilla/5.0","Accept": "image/*,*/*;q=0.8","Referer": "https://en.wikipedia.org/"}
+
+   response = requests.get(url, headers=headers)
+   image_file = BytesIO(response.content)
+   image = Image.open(image_file)
+   ```
+
+----
 
 # Adding an image to a plot
 
