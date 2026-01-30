@@ -592,13 +592,13 @@ graph.update_layout(
 
 ```
 diagram.get_label_by_id("10")
-    .set_text("n".join(A - B))
+    .set_text("\n".join(A - B))
 
 diagram.get_label_by_id("11")
-    .set_text("n".join(A & B))
+    .set_text("\n".join(A & B))
 
 diagram.get_label_by_id("01")
-    .set_text("n".join(B - A))
+    .set_text("\n".join(B - A))
 ```
 
 *The numbers in our brackets come from the [documentation](https://github.com/konstantint/matplotlib-venn/blob/master/matplotlib_venn/_common.py#L12)
