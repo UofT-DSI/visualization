@@ -10,22 +10,25 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
-
-
-
-
+      Bad example: Japanese Architectural Heritage https://public.tableau.com/app/profile/alexandervar/viz/JapaneseArchitecturalHeritage/Map 
+      This visualization is visually attractive but weak as a data visualization. It mainly encodes one variable: location. The illustrated buildings are placed near regions on a map, but their placement does not communicate additional information such as time period, type, scale, significance, or change over time. As a result, the design emphasizes decoration more than analysis.
+      Because there is no legend, scale, or annotation, the viewer is not guided toward comparison or inference. It reads more like an illustrated poster than a visualization designed to support sensemaking. In terms of course principles and common guidance in visualization scholarship, the graphic has low data density and limited rhetorical force: it shows objects but does not help the viewer learn something from the data.
+      
+      Good example: South Korea Demographics https://public.tableau.com/app/profile/marc.reid/viz/SouthKorea-Demographics/SouthKoreaPopulationDensityandDemographics 
+      This visualization is strong because it integrates multiple related datasets into one figure. It combines a population density map with coordinated plots for total population, fertility, life expectancy, and age and gender structure. This supports both overview and detail, helping viewers connect spatial patterns with long term demographic trends.
+      Structurally, the figure contains multiple axes, each showing a different aspect of the same topic. Within each axis, visual elements such as position, color, and scale are used consistently, which supports interpretation. The main limitation is cognitive load: the figure is information dense and may be hard to note an entry point for first time viewers.
 
 
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
-
-
-
-
+     Bad example: Japanese Architectural Heritage https://public.tableau.com/app/profile/alexandervar/viz/JapaneseArchitecturalHeritage/Map  
+     
+     It can be improved by adding more meaningful variables and a clearer narrative goal. For example, use color to encode historical period, size to represent significance, and symbols to distinguish categories such as religious, residential, and military. Add brief annotations or an interactive tooltip layer to explain why each site is included. This would shift the graphic from aesthetic display toward interpretable evidence.
+     
+     Good example: South Korea Demographics https://public.tableau.com/app/profile/marc.reid/viz/SouthKorea-Demographics/SouthKoreaPopulationDensityandDemographics  
+     It can be improved by strengthening visual hierarchy and reading guidance. Add clearer section headers, a suggested reading order, or light annotations that highlight key takeaways. If interactive, allow toggling layers so viewers can focus on one axis group at a time. These changes keep the richness while improving accessibility.
 
 
       
