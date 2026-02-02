@@ -8,11 +8,11 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 
 ### Database Selection: 
-- Killed and Seriously Injured (KSI) Collisions – Toronto Police Service Open Data: https://data.torontopolice.on.ca/datasets/TorontoPS%3A%3Akilled-and-seriously-injured/about
+- Killed and Seriously Injured (KSI) Collisions – City of Toronto’s Open Data Portal_Toronto Police Service Open Data: https://data.torontopolice.on.ca/datasets/TorontoPS%3A%3Akilled-and-seriously-injured/about
 
 ### Visualization Description: 
 - Visualization 1: Temporal Trend Analysis using Line chart for Annual number of KSI collisions in Toronto (2006–2024); 
-- Visualization 2:Spatial Inequality Map using Choropleth map for KSI collisions by neighbourhood normalized per 10,000 residents.
+- Visualization 2: Non-spatial comparison was used to accurately and transparently compare collision burden across Toronto neighbourhoods (2006–2024). Sorting and filtering were applied to highlight the top 15 neighbourhoods with the highest collision counts.
 
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization? Python (pandas + matplotlib);Tableau Public
@@ -36,7 +36,7 @@
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
 
     - I saved the fully reproducible Python script and generated the deterministic output from raw CSV. the environment is also version-controlled to ensure the generation of the same results based on the same code. With the raw data, one can re-produce the plot using other data visualization tool based on plot description. 
-    
+
     - For the visualization 2, I created Tableau public workbook shared publicly. However the interactive filters cannot be version-controlled like python code so it might be mitigated by static export and methodological description.
     
 
@@ -51,7 +51,7 @@
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
     - For Visualization 1: I included year + severity to supports causal reasoning. I excluded factors of weather and lighting since secondary confounders not central to narrative
 
-    - For visualization 2: I included neighbourhood, KSI count, and population to demonstrate the distribution of KSI based on spatial map, and exluded the exact coordinates to ensure the protection of privacy & ethical consideration.
+    - For visualization 2: I included neighbourhood, KSI count to demonstrate the distribution of KSI based on spatial map, and exluded the exact coordinates to ensure the protection of privacy & ethical consideration.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
     Data Cleaning & Validation: 
