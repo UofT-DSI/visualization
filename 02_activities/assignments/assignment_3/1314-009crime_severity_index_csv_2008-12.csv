@@ -1,0 +1,47 @@
+,Crime Severity Index � Baseline 2006 = 100,,,,
+Geography (Footnotes in parentheses�see bottom of spreadsheet),2008,2009,2010,2011,2012
+Canada (34),90.39,87.53,82.67,77.43,75
+Newfoundland and Labrador,71.82,72.54,80.22,73.56,69.62
+Prince Edward Island,68.29,65.82,65.72,66.47,72.62
+Nova Scotia,84.02,83.79,83.36,79.14,76.48
+New Brunswick,71.76,70.69,69.18,66.25,68.41
+Quebec (34),83.17,81.67,76.26,74.19,70.71
+Ontario (7),70.68,68.93,65.15,60.7,58.4
+"Ottawa-Gatineau, Ontario/Quebec (6)",70.19,68.75,62.8,59.88,59.24
+"Ottawa-Gatineau, Ontario part (6)",68.48,67.01,60.66,58.28,57.04
+"Kingston, Ontario (8)",68.02,64.78,62.56,59.75,58.29
+"Peterborough, Ontario (8)",66.83,66.54,68.03,63.78,63.4
+"Toronto, Ontario (25)",66.71,63.85,59.7,55.39,52.13
+"Hamilton, Ontario (25)",77.08,73.76,70.82,63.94,60.06
+"St.Catharines-Niagara, Ontario",80.07,75.92,69.95,61.09,63.85
+"Kitchener-Cambridge-Waterloo, Ontario",68.81,73.94,68.01,63.32,58.34
+"Brantford, Ontario (8)",104.34,105.87,99.59,91.62,92.23
+"Guelph, Ontario (8)",57.55,59.77,50.61,47.84,50.52
+"London, Ontario",84.31,87.56,82.61,78.8,74.49
+"Windsor, Ontario",75.38,71.31,65.85,62.31,66.53
+"Barrie, Ontario (8)",63.7,64.42,60,53.81,51.32
+"Sudbury, Ontario",73.45,81.14,84.7,79.46,71.66
+"Thunder Bay, Ontario",106.71,112.53,111.73,105.49,87.95
+Manitoba,129.04,136.4,125.8,114.34,112.41
+Saskatchewan (11),153.11,150.29,149.17,144.76,139
+Alberta,112.13,105.8,98.43,87.79,85.59
+British Columbia (32),120.86,110.63,102.68,95.15,93.35
+Yukon,182.76,180.81,170.85,154.78,156.69
+Northwest Territories (15),340.27,322.56,343.47,336.61,340.98
+Nunavut (15),329.44,337.15,348.68,321.18,325.57
+Footnotes:,,,,,
+1,"The crime severity index is calculated using Incident-based Uniform Crime Reporting Survey (UCR2) data. For the period from 1998 to 2008 Incident-based UCR2 data are not available for all respondents. In order to report this level of detail for police services still reporting to the Aggregate Uniform Crime Reporting Survey (UCR) over this time, a process of imputation was applied to derive counts for violations that do not exist on their own in the aggregate survey. For approximately 80% of the aggregate offence codes, there is a 1:1 mapping with a new incident-based violation code. For violations where this was not the case, such as the aggregate other Criminal Code category, it was necessary to estimate (impute) this figure using the distribution of other Criminal Code offences from existing Incident-based UCR2 respondents.",,,,
+2,"During the production of each year's crime statistics, data from the previous year are revised to reflect any updates or changes that have been received from the police services.",,,,
+3,"The methodology for calculating census metropolitan area (CMA) populations was modified in 2003. Starting in 1996, the populations for CMAs have been adjusted to reflect the actual policing boundaries within the CMA and do not reflect the official Statistics Canada population for these CMAs. CMA data are included within province-level data.",,,,
+35,"Police reported statistics may be affected by differences in the way police services deal with minor offences. In some instances, police or municipalities might chose to deal with some minor offences using municipal by-laws or provincial provisions rather than Criminal Code provisions. Counts are based on the most serious violation in the incident.",,,,
+34,"In 2012, it was discovered that the Montreal Police Service had been incorrectly applying the agreed upon definition for reporting child pornography incidents to the Uniform Crime Reporting Survey (UCR2). As such, the number of violations has been revised for the years 2008 to 2011.",,,,
+16,"The crime severity index includes all Criminal Code violations including traffic, as well as drug violations and all Federal Statutes.",,,,
+20,"The Police Reported Crime Severity Index (PRCSI) measures changes in the level of severity of crime in Canada from year to year. In the index, all crimes are assigned a weight based on their seriousness. The level of seriousness is based on actual sentences handed down by the courts in all provinces and territories. More serious crimes are assigned higher weights, less serious offences lower weights. As a result, more serious offences have a greater impact on changes in the index. The PRCSI is standardized to 100 in base year 2006.",,,,
+21,"The Crime Severity Index is not available for police services or detachments with populations less than 1,000. Data for police services or detachments with populations less than 5,000 should be used with caution.",,,,
+7,"During the revision of 2001 data for the province of Ontario, a discrepancy in methodology applied by the forces in the province using the Ontario Municipal and Provincial Police Automated Co-operative (OMPPAC) system was detected. These forces report approximately one-third of the total criminal incidents for the province and include the Ontario Provincial Police and about 60 small and mid-sized municipal forces. This discrepancy resulted in an over-count of less serious criminal incidents. During 2003 and 2004, the Canadian Centre for Justice Statistics (CCJS) consulted with affected police services and analyzed both historical Aggregate Uniform Crime Reporting Survey (UCR) data and more recent Incident-based Uniform Crime Reporting Survey (UCR2) microdata to determine the impact of this over-reporting. The effect at the Canada level was, on average, 1% per year from 1977 to 2000. This over-counting peaked in 1991, where it was estimated that the total crime rate for the country was over-estimated by approximately 1.8%. However, the overall historical trend changed very little. The impact in Ontario is more noticeable, but the overall trend is still very similar. On average, the effect was 2% to 3% per year, with the biggest change occurring in 1991, where the Ontario crime rate is 5% lower as a result of the adjustment. For further information, refer to the report: <A HREF=""http://www.statcan.gc.ca/imdb-bmdi/document/3302_D13_T9_V1-eng.pdf"">Summary of Historical Adjustments to Crime Data for Ontario 1977-2000</A>.",,,,
+6,The census metropolitan area (CMA) of Ottawa-Gatineau was formerly known as Ottawa-Hull.,,,,
+8,"Abbotsford-Mission, British Columbia and Kingston, Ontario became new census metropolitan areas (CMAs) as of the 2001 Census. Moncton, New Brunswick, Peterborough, Ontario, Brantford, Ontario, Guelph, Ontario, Barrie, Ontario, and Kelowna, British Columbia became new CMAs as of the 2006 Census",,,,
+25,"In 2009, slight changes were made to the respondent-to-CMA mapping for this census metropolitan area (CMA) which have resulted in minor revisions to previously published data.",,,,
+11,"Prior to 1999, a number of Royal Canadian Mounted Police (RCMP) detachments in Saskatchewan were double counting the number of actual offences of impaired driving. This over-counting was corrected in 1999, therefore, comparisons with previous years should be made with caution. It is recommended that the analysis of impaired driving be based on persons charged data rather than actual offences.",,,,
+32,"Youth crime in British Columbia may be somewhat undercounted due to the Crown charge-approval system in place whereby, even for minor offences, there must be approval by the Crown before charges are laid after police have made an arrest. This approval is based on the substantial likelihood of conviction.",,,,
+15,"1998 data in this table for Northwest Territories also includes Nunavut. In 1999, Nunavut, which comprises the eastern part of the old Northwest Territories, officially became a Canadian territory. Starting in 1999, data are displayed separately for the Northwest Territories and Nunavut.",,,,
