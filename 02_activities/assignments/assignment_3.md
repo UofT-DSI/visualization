@@ -8,6 +8,14 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+I am currently still reviewing the course materials and working through Assignments 1 and 3. I have also been carefully watching and digesting the final class recording. I had planned to complete both assignments this weekend, but due to unexpected family commitments related to moving houses, I am unfortunately unable to follow through with that plan.
+
+I realize this request comes quite late, but I was hoping to respectfully ask whether it might be possible to receive one additional week to complete Assignments 1 and 3. As these are the final components required for my DSI certificate, they are the last assignments I need to submit in order to complete the program. I would really like to give both assignments the level of care and seriousness they deserve.
+Thank you very much for your time and consideration. I truly appreciate your support throughout the courses.
+
+
+I will resubmit this assignment file later.
+
 
     > Who is your intended audience? 
     
