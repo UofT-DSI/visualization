@@ -10,26 +10,28 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+     Good Visualization: Polar area (rose/coxcomb) diagram: https://datavizproject.com/data-type/polar-area-chart/
 
+        Reasons:
+        1. Perceptual quality: Effectively uses proportional area (wedge size) to show relative contributions, allowing quick perception of dominant categories without distortion when proportions are accurate
+        2. Substantive quality: Can accurately and honestly represent categorical data with clear emphasis on key differences
+        3. Aesthetic quality: Innovative and visually pleasing layout with color differentiation draws attention to the main message without unnecessary clutter
+    
+        Improvements:  
+        1. Combine with modern interactivity (e.g., hover details) to enhance accessibility for detailed reading
+        2. Add patterns or high-contrast alternatives to colors for better equity and colorblind accessibility
 
+    Bad Visualization: Pie Chart: https://datavizproject.com/data-type/pie-chart
 
+        Reasons:
+        1. Perceptual quality — Difficult to accurately compare slice areas or angles, especially with many categories
+        2. Substantive quality — Easily misleads on proportions (e.g., small differences appear large or vice versa), violating data accuracy/honesty
+        3. Aesthetic quality — Can become cluttered and visually overwhelming with >5 slices, distracting from clear message conveyance
 
+        Improvements:  
+        1. Replace with bar chart (position/length for better comparison) to improve perceptual accuracy
+        2. Limit to ≤4 categories and add labels/percentages for clarity, or use donut variation with caution to reduce visual noise 
 
-
-
-      ```
-    - How could this data visualization have been improved?  
-      ```
-      Your answer...
-
-
-
-
-
-
-      
-      ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
