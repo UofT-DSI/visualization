@@ -10,24 +10,14 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
-
-
-
-
-
-
+      Bad visualization: https://www.flickr.com/photos/laurenmanning/5658951917/
+      For an example of a bad visualization, I picked a bar chart that is supposed to show how much French fries people consume for each month of the year 2010. The bars are represented as fries. The x-axis are the months and the y-axis is the consumption amount. Although it is creative to use fries as bars, this chart as several problems. First of all, it is unclear where this data comes from. There are no sources provided and it is not clear at all what the data is supposed to even represent. How was this data collected? Who is the population of interest? Secondly, the y-axis doesn't have any label. It is unclear what the numbers are supposed to represent. Do they represent the raw number or percentage of French fry packs? How was this calculated? Thirdly, the y-axis numbers are so sparse that it is hard to see which number the bars are at. Another issue is that the bars which are shown as french fries are of irregular shape, which makes it difficult to see which number they represent. Overall, this visualization is difficult to understand.
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
-
-
-
-
-
-
+      This is a good visualization: https://www.columnfivemedia.com/work/ncsa-how-far-do-college-athletes-travel-to-play/. 
+      For an example of a good visualization, I picked a bar chart that shows average miles traveled by sport. This visualization is good because it has a source that provides some information about the data (though more details are needed). Unlike the previous bar chart, it is unclear what numbers the bars represent and what these numbers mean (miles) because the exact numbers sit on top of each graph and the title specifies that we are looking at miles. The bars are also color-coded: purple represents males and orange represents females. This way the average mile traveled is shown separately between males and females for each sport. Some sports are dominated by women and other sports by men. This allows for a more accurate and fair assessment. 
       
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
