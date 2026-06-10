@@ -10,23 +10,20 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      Chosen visualization for a good figure:
+      https://www.visionofhumanity.org/maps/#/
 
-
-
-
-
-
+      This visualization is designed to show the Global Peace Index for each country around the world, a measure based on 23 indices. Lower scores indicate a more peaceful country. This is an effective figure because of the simplicity of the visualization. Scores are coded in colour from cool (dark blue, indicating high peacefulness) to warm (red, indicating low peacefulness), with beige as the middle colour. This colour scheme is logical because it parallels intuitive colour associations with warm vs cool colours, and is easily discriminated by people with colourblindness. In addition to visualizing the data in this way, countries are listed on the right with the exact corresponding GPI, meaning countries can be searched for people who want to real measurement. As an additional layer of accessibility, this figure is interactable. Hovering the cursor over countries displays the country name and GPI, meaning readers don't have to memorize where every country is on the map and then resort the legend. It also makes the figures more accessible to investigate the values for geographically small countries that can't be readily interpreted from the visualization alone.
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      Chosen visualization for one needing improvement:
+      https://public.tableau.com/app/profile/vivien.lee88/viz/Formula1ConstructorsRadialBumpChart/Dashboard1
 
+      This visualization is aimed at showing the standings of the constructors championship for Formula 1 racing from the years 2006 to 2025. This is a competition every year for which team can accumulate the most points over a racing season, where points are accumulated by the teams' drivers based on their positions at the end of each race. This visualization represents team standings radially, where years are represented as tick-marks rotated clockwise around the centre, and distance from the centre represents standing (farther from the centre indicates higher standing in that year). Teams are both colour coded and labeled. 
 
-
-
-
+      Although it visualizes the necessary information, I think it is inefficient and has several flaws that could be improved upon. First is the choice to make this image radial rather than linear. The represented data are team standing vs time, and it would be logical to just show this linearly with team standing on the y-axis and time on the x-axis, with years progressing from 2006 on the left towards 2025 on the right. This would solve two problems: 1) Team standings would become much easier to interpret, since the direction of higher standing is constant rather than changing; 2) It would reduce the amount of empty space, which is presently substantial. It would also allow the removal of the legend, which currently doesn't add anything meaningful. The present combination of colour-coding and labeling is a good one though, since it makes it engaging in appearance yet interpretable for people with colourblindness.
 
       
       ```
