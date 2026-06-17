@@ -9,21 +9,40 @@
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
 
+    I used python to create the graphs and power point for some more free annotations.
+
     > Who is your intended audience? 
+
+    The intended audience are people (specifically men and woman in comparison) who are considering doing a highschool vs university degree and are interested in how it changes their wages. 
     
     > What information or message are you trying to convey with your visualization? 
+
+    the graphic is showing the progression of wages (so iving a trendline in what to expect) and differences in wages between degrees and men and women. 
     
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+
+    I adjusted the color schemes to not be overbearing. I highlightd the average values both in black and bold to give a good idea of averge trends. I adjusted the number of tick labels so there are not too many details.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+    It is reproducible based on the code I used and how i referenced the data from the csv file.
     
     > How did you ensure that your data visualization is accessible?  
+
+    large fonts, not too many colors, black for the most important informaiton.
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+
+    All workers across canada.
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+    I wanted to focus on differences between men and women and degrees as well as give a time trends. Therefore I chose only that infromation (while one could have also added diferences by age class, immigration status etc as they were given in the dataset as well). before choosing this final information representation i also compared differences across data across all Canada vs only ontario, but as I havent seen big differences, I chose to ommit the ontario data and focus on across Canada.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+
+    - preprocessing and filtering what information of the file i want to show
+    - changes colorschemes (first i had women in pink in the bar chart and men in blue but it was too overwhelming)
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
