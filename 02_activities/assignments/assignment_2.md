@@ -10,24 +10,23 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      1. bad (https://public.tableau.com/app/profile/department.of.statistics.malaysia/viz/PopulationStatisticsPortal/PopulationStatistics):
 
+      The visualization of the Malaysian population suffers from high cognitive overload due to an overly complex presentation style despite the relatively limited intrinsic information content. Numerous seemingly arbitrary colors, such as bright green for births and grey for deaths, as well as the excessive use of human icons instead of simpler bar charts, increase the extraneous cognitive load without adding clarity. While some grouping follows the Gestalt principle of proximity, the absence of clear visual enclosure makes the layout appear cluttered and disjointed. Additionally, the information is presented largely in parallel, without an intuitive reading or information flow to guide the viewer through the graphic. The overall unclean layout also reduces the perceived factual reliability of the visualization. Finally, several numerical values are displayed with unnecessary precision, where rounded numbers would have improved readability and accessibility.
 
+      2. good (https://public.tableau.com/app/profile/sdma.oxford.university/viz/UniversityofOxford-StudentStatistics/AtaGlance):
 
-
-
-
+      The visualization of the University of Oxford student statistics is a strong example of effective information design, as it presents a high amount of information while maintaining clarity and readability. The graphic makes good use of Gestalt principles, particularly enclosure, by clearly grouping related data such as the world map and temporal trend analyses. A coherent and limited color scheme, together with familiar chart types, further supports a reduced cognitive load on the reader. The information flow is especially well designed, progressing hierarchically from broad overview statistics - such as total student numbers and percentages on the top - to more specific demographic categories including course type, domicile, and ethnicity, before finally introducing time-dependent trends for each category – on the bottom. This gradual increase in informational complexity guides the viewer naturally through the graphic while minimizing extraneous cognitive load. Rounded numbers (explicitly pointed out in the foot note) improve readability without sacrificing meaning. In addition, the visualization maintains a neutral and factual appearance, underscored by the clean layout and the effective presentation of high-dimensional data. For example, the temporal trend plots having a filled background makes it easy to visually compare it against the summarized percentages shown alongside.
+      
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
-
-
-
-
-
-
+      1. bad: 
+      The graphic could be improved by creating a clearer information hierarchy. Furthermore, replacing the human icons with conventional bar charts would reduce unnecessary visual complexity and allow for faster quantitative comparison. Additionally, applying the Gestalt principle of enclosure (instead of different colors) through the use of rectangles or clearly separated sections would help organize related information and create a cleaner overall layout. The visualization would also benefit from a more intentional reading flow, for example by using numbering, alignment, or continuity cues to guide the viewer through the information in a logical sequence rather than presenting all elements in parallel. Together, these changes would reduce cognitive load and improve both readability and perceived clarity of the data presentation.
+      
+      2. good 
+      Improvements would mainly be focused on the map representation: annotating some number on the map would make quantification of student origin easier. Numbering of each section would help effective referencing of the specific information content.
       
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
