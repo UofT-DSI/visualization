@@ -10,7 +10,7 @@
 
 Visualization #1
 > What software did you use to create your data visualization?
-        I used VS Code to create this visualization: ![python_visualization](image-3.png)
+        I used VS Code to create this visualization (the file name is "Python_Line_Graph").
 > Who is your intended audience? 
         My intended audience is people in healthcare including government workers. 
 > What information or message are you trying to convey with your visualization? 
@@ -31,7 +31,7 @@ Visualization #1
 
 Visualization #2
 > What software did you use to create your data visualization?
-        I used JASP to create this visualization: ![JASP_Visualization](image-4.png)
+        I used JASP to create this visualization (the file name is "JASP_Boxplots"). 
 > Who is your intended audience? 
         My intended audience is people in healthcare including government workers.
 > What information or message are you trying to convey with your visualization? 
